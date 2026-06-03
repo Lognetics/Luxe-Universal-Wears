@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "jeans",
+    "name": "Jeans",
+    "group": "Clothing",
+    "subcategories": [
+      "Slim Fit",
+      "Regular Fit",
+      "Skinny Fit",
+      "Luxury Denim"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "chinos",
+    "name": "Chinos",
+    "group": "Clothing",
+    "subcategories": [
+      "Formal Chinos",
+      "Casual Chinos",
+      "Wide Leg"
+    ],
+    "count": 3,
+    "image": "/products/turin-herringbone-wide-leg-trousers.jpeg"
+  },
+  {
+    "slug": "t-shirts",
+    "name": "T-Shirts",
+    "group": "Clothing",
+    "subcategories": [
+      "Round Neck",
+      "V Neck",
+      "Graphic Tee",
+      "Premium Tees"
+    ],
+    "count": 1,
+    "image": "/products/heritage-89-graphic-tee.jpeg"
+  },
+  {
+    "slug": "polo-shirts",
+    "name": "Polo Shirts",
+    "group": "Clothing",
+    "subcategories": [
+      "Luxury Polo",
+      "Corporate Polo",
+      "Quarter-Zip",
+      "Striped"
+    ],
+    "count": 5,
+    "image": "/products/aspen-sage-quarter-zip-knit-polo.jpeg"
+  },
+  {
+    "slug": "shirts",
+    "name": "Shirts",
+    "group": "Clothing",
+    "subcategories": [
+      "Corporate Shirts",
+      "Casual Shirts",
+      "Pattern Shirts",
+      "Luxury Shirts"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "jackets",
+    "name": "Jackets",
+    "group": "Clothing",
+    "subcategories": [
+      "Shirt Jacket",
+      "Trucker Jacket",
+      "Harrington",
+      "Corduroy",
+      "Chore Jacket"
+    ],
+    "count": 12,
+    "image": "/products/monaco-houndstooth-overshirt.jpeg"
+  },
+  {
+    "slug": "suits",
+    "name": "Suits",
+    "group": "Suits",
+    "subcategories": [
+      "Single Breasted",
+      "Two-Piece",
+      "Three Piece",
+      "Business Suits"
+    ],
+    "count": 2,
+    "image": "/products/windsor-black-two-piece-suit.jpeg"
+  },
+  {
+    "slug": "blazers",
+    "name": "Blazers",
+    "group": "Suits",
+    "subcategories": [
+      "Corporate Blazers",
+      "Smart Casual Blazers",
+      "Single Breasted"
+    ],
+    "count": 4,
+    "image": "/products/belgravia-gingham-check-blazer.jpeg"
+  },
+  {
+    "slug": "double-breasted-suits",
+    "name": "Double Breasted Suits",
+    "group": "Suits",
+    "subcategories": [
+      "Classic",
+      "Modern"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "tuxedos",
+    "name": "Tuxedos",
+    "group": "Suits",
+    "subcategories": [
+      "Classic",
+      "Double Breasted",
+      "Jacquard"
+    ],
+    "count": 1,
+    "image": "/products/noir-floral-jacquard-tuxedo.jpeg"
+  },
+  {
+    "slug": "sneakers",
+    "name": "Sneakers",
+    "group": "Footwear",
+    "subcategories": [
+      "Luxury Sneakers",
+      "Casual Sneakers"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "corporate-shoes",
+    "name": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategories": [
+      "Oxford",
+      "Derby",
+      "Monk Strap",
+      "Loafers",
+      "Tassel Loafer"
+    ],
+    "count": 4,
+    "image": "/products/versailles-black-tassel-loafers.jpeg"
+  },
+  {
+    "slug": "casual-shoes",
+    "name": "Casual Shoes",
+    "group": "Footwear",
+    "subcategories": [
+      "Suede Loafer",
+      "Suede Boot",
+      "Slip-On"
+    ],
+    "count": 4,
+    "image": "/products/zermatt-black-suede-zip-boots.jpeg"
+  },
+  {
+    "slug": "slides",
+    "name": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategories": [
+      "Cross-Strap",
+      "Buckle Strap",
+      "Sandals",
+      "Mules"
+    ],
+    "count": 8,
+    "image": "/products/capri-black-leather-cross-strap-slides.jpeg"
+  },
+  {
+    "slug": "caps",
+    "name": "Caps",
+    "group": "Accessories",
+    "subcategories": [
+      "Baseball",
+      "Flat Cap"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "watches",
+    "name": "Watches",
+    "group": "Accessories",
+    "subcategories": [
+      "Luxury",
+      "Classic"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "bangles",
+    "name": "Bangles",
+    "group": "Accessories",
+    "subcategories": [
+      "Gold",
+      "Silver"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "ties",
+    "name": "Ties",
+    "group": "Accessories",
+    "subcategories": [
+      "Silk",
+      "Knit"
+    ],
+    "count": 0,
+    "image": null
+  },
+  {
+    "slug": "belts",
+    "name": "Belts",
+    "group": "Accessories",
+    "subcategories": [
+      "Leather",
+      "Reversible"
+    ],
+    "count": 0,
+    "image": null
+  }
+]

@@ -1,0 +1,2003 @@
+[
+  {
+    "id": "monaco-houndstooth-overshirt",
+    "slug": "monaco-houndstooth-overshirt",
+    "name": "Monaco Houndstooth Overshirt",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Shirt Jacket",
+    "brand": "Luxe Universal",
+    "price": 65000,
+    "comparePrice": 81000,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A refined black-and-white houndstooth overshirt cut for effortless layering over a crisp tee. Tailored for the modern gentleman who values relaxed sophistication.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "overshirt",
+      "layering",
+      "houndstooth",
+      "casual",
+      "autumn"
+    ],
+    "images": [
+      "/products/monaco-houndstooth-overshirt.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 68,
+    "stock": 4,
+    "sku": "LUW-JAC-001",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 1
+  },
+  {
+    "id": "belgravia-gingham-check-blazer",
+    "slug": "belgravia-gingham-check-blazer",
+    "name": "Belgravia Gingham Check Blazer",
+    "category": "blazers",
+    "categoryName": "Blazers",
+    "group": "Suits",
+    "subcategory": "Single Breasted",
+    "brand": "Luxe Universal",
+    "price": 99500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "navy",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sharp navy-and-white gingham check blazer with notch lapels and a single-button closure. The perfect statement piece for smart-casual occasions.",
+    "fabric": "Wool-rich tweed blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "gingham",
+      "check",
+      "smart-casual",
+      "tailored"
+    ],
+    "images": [
+      "/products/belgravia-gingham-check-blazer.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 85,
+    "stock": 21,
+    "sku": "LUW-BLA-002",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 2
+  },
+  {
+    "id": "turin-herringbone-wide-leg-trousers",
+    "slug": "turin-herringbone-wide-leg-trousers",
+    "name": "Turin Herringbone Wide-Leg Trousers",
+    "category": "chinos",
+    "categoryName": "Chinos",
+    "group": "Clothing",
+    "subcategory": "Wide Leg",
+    "brand": "Luxe Universal",
+    "price": 44000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Pleated wide-leg trousers in a textured grey herringbone weave for a commanding, contemporary silhouette. Elegant drape from waist to hem.",
+    "fabric": "Stretch cotton twill",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "wide-leg",
+      "herringbone",
+      "pleated",
+      "tailored"
+    ],
+    "images": [
+      "/products/turin-herringbone-wide-leg-trousers.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 81,
+    "stock": 17,
+    "sku": "LUW-CHI-003",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 3
+  },
+  {
+    "id": "geneva-tweed-overshirt-co-ord",
+    "slug": "geneva-tweed-overshirt-co-ord",
+    "name": "Geneva Tweed Overshirt Co-Ord",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Two-Piece Set",
+    "brand": "Luxe Universal",
+    "price": 69500,
+    "comparePrice": 87000,
+    "currency": "NGN",
+    "colors": [
+      "grey",
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A coordinated tweed overshirt and matching wide-leg trousers in a fine grey check. A polished co-ord set that pairs ease with refinement.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "co-ord",
+      "overshirt",
+      "tweed",
+      "matching-set",
+      "layering"
+    ],
+    "images": [
+      "/products/geneva-tweed-overshirt-co-ord.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 8,
+    "stock": 4,
+    "sku": "LUW-JAC-004",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 4
+  },
+  {
+    "id": "aspen-grey-wool-harrington-jacket",
+    "slug": "aspen-grey-wool-harrington-jacket",
+    "name": "Aspen Grey Wool Harrington Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Harrington",
+    "brand": "Luxe Universal",
+    "price": 68000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A clean light-grey wool Harrington jacket with a sport collar and chest pocket detail. Effortlessly elevates tailored trousers and a tie.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "harrington",
+      "wool",
+      "smart-casual",
+      "layering"
+    ],
+    "images": [
+      "/products/aspen-grey-wool-harrington-jacket.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 81,
+    "stock": 17,
+    "sku": "LUW-JAC-005",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 5
+  },
+  {
+    "id": "capri-black-leather-cross-strap-slides",
+    "slug": "capri-black-leather-cross-strap-slides",
+    "name": "Capri Black Leather Cross-Strap Slides",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Cross-Strap",
+    "brand": "Luxe Universal",
+    "price": 45000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Minimalist black leather slides with a sculpted cross-strap upper and cushioned footbed. Understated luxury for warm-weather ease.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "slides",
+      "leather",
+      "summer",
+      "casual"
+    ],
+    "images": [
+      "/products/capri-black-leather-cross-strap-slides.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 42,
+    "stock": 8,
+    "sku": "LUW-SLI-006",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 6
+  },
+  {
+    "id": "highland-olive-corduroy-jacket",
+    "slug": "highland-olive-corduroy-jacket",
+    "name": "Highland Olive Corduroy Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Corduroy",
+    "brand": "Luxe Universal",
+    "price": 72500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "olive"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A rugged olive-brown corduroy zip jacket with a stand collar and structured pockets. Built for layered, off-duty styling.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "corduroy",
+      "zip",
+      "casual",
+      "layering",
+      "autumn"
+    ],
+    "images": [
+      "/products/highland-olive-corduroy-jacket.jpeg"
+    ],
+    "rating": 4.2,
+    "reviews": 30,
+    "stock": 26,
+    "sku": "LUW-JAC-007",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 7
+  },
+  {
+    "id": "oslo-cream-wool-overshirt",
+    "slug": "oslo-cream-wool-overshirt",
+    "name": "Oslo Cream Wool Overshirt",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Shirt Jacket",
+    "brand": "Luxe Universal",
+    "price": 74000,
+    "comparePrice": 93000,
+    "currency": "NGN",
+    "colors": [
+      "cream",
+      "beige"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A soft cream wool-blend overshirt layered over a forest-green knit for cool, considered styling. Refined warmth with a relaxed fit.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "overshirt",
+      "wool",
+      "layering",
+      "autumn",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/oslo-cream-wool-overshirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 35,
+    "stock": 31,
+    "sku": "LUW-JAC-008",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 8
+  },
+  {
+    "id": "santa-fe-aztec-print-overshirt",
+    "slug": "santa-fe-aztec-print-overshirt",
+    "name": "Santa Fe Aztec Print Overshirt",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Shirt Jacket",
+    "brand": "Luxe Universal",
+    "price": 72500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "orange",
+      "multicolor"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A boldly patterned Aztec-print overshirt in rich blues and warm accents, styled over flared denim. A standout layering piece with global flair.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "aztec",
+      "print",
+      "overshirt",
+      "statement",
+      "layering"
+    ],
+    "images": [
+      "/products/santa-fe-aztec-print-overshirt.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 16,
+    "stock": 12,
+    "sku": "LUW-JAC-009",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 9
+  },
+  {
+    "id": "versailles-black-tassel-loafers",
+    "slug": "versailles-black-tassel-loafers",
+    "name": "Versailles Black Tassel Loafers",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "Tassel Loafer",
+    "brand": "Louis Vuitton",
+    "price": 94000,
+    "comparePrice": 118000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Sleek black leather tassel loafers with a perforated vamp and polished finish. The definitive choice for the discerning dresser.",
+    "fabric": "Full-grain leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "loafers",
+      "tassel",
+      "leather",
+      "formal"
+    ],
+    "images": [
+      "/products/versailles-black-tassel-loafers.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 14,
+    "stock": 10,
+    "sku": "LUW-COR-010",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 10
+  },
+  {
+    "id": "zermatt-black-suede-zip-boots",
+    "slug": "zermatt-black-suede-zip-boots",
+    "name": "Zermatt Black Suede Zip Boots",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "Suede Boot",
+    "brand": "Hugo Boss",
+    "price": 78000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black suede ankle boots with a side-zip closure and contrast welt sole. A versatile boot that bridges smart and casual wardrobes.",
+    "fabric": "Premium suede",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "boots",
+      "suede",
+      "zip",
+      "autumn"
+    ],
+    "images": [
+      "/products/zermatt-black-suede-zip-boots.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 16,
+    "stock": 12,
+    "sku": "LUW-CAS-011",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 11
+  },
+  {
+    "id": "portofino-black-suede-walk-loafers",
+    "slug": "portofino-black-suede-walk-loafers",
+    "name": "Portofino Black Suede Walk Loafers",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "Suede Loafer",
+    "brand": "Loro Piana",
+    "price": 81000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black suede slip-on loafers with a clean white cup sole for relaxed luxury. Designed for easy, elegant everyday wear.",
+    "fabric": "Premium suede",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "loafers",
+      "suede",
+      "slip-on",
+      "casual"
+    ],
+    "images": [
+      "/products/portofino-black-suede-walk-loafers.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 42,
+    "stock": 8,
+    "sku": "LUW-CAS-012",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 12
+  },
+  {
+    "id": "cotswold-camel-houndstooth-blazer",
+    "slug": "cotswold-camel-houndstooth-blazer",
+    "name": "Cotswold Camel Houndstooth Blazer",
+    "category": "blazers",
+    "categoryName": "Blazers",
+    "group": "Suits",
+    "subcategory": "Single Breasted",
+    "brand": "Luxe Universal",
+    "price": 98000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "camel"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A warm camel houndstooth blazer with peaked lapels and patch pockets in a classic check. Timeless tailoring with countryside charm.",
+    "fabric": "Wool-rich tweed blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "houndstooth",
+      "check",
+      "tweed",
+      "tailored",
+      "autumn"
+    ],
+    "images": [
+      "/products/cotswold-camel-houndstooth-blazer.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 31,
+    "stock": 27,
+    "sku": "LUW-BLA-013",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 13
+  },
+  {
+    "id": "windsor-black-two-piece-suit",
+    "slug": "windsor-black-two-piece-suit",
+    "name": "Windsor Black Two-Piece Suit",
+    "category": "suits",
+    "categoryName": "Suits",
+    "group": "Suits",
+    "subcategory": "Two-Piece",
+    "brand": "Luxe Universal",
+    "price": 186500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sleek black two-piece suit with notch lapels, styled with a burgundy tie and lapel chain. Impeccable formal elegance for any occasion.",
+    "fabric": "Italian wool blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "suit",
+      "formal",
+      "tailored",
+      "two-piece",
+      "business"
+    ],
+    "images": [
+      "/products/windsor-black-two-piece-suit.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 28,
+    "stock": 24,
+    "sku": "LUW-SUI-014",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 14
+  },
+  {
+    "id": "florence-black-double-monk-shoes",
+    "slug": "florence-black-double-monk-shoes",
+    "name": "Florence Black Double Monk Shoes",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "Double Monk Strap",
+    "brand": "Louis Vuitton",
+    "price": 92500,
+    "comparePrice": 116000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather double monk-strap shoes with a textured vamp and cap toe. Sophisticated buckled detailing for the boardroom and beyond.",
+    "fabric": "Full-grain leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "monk-strap",
+      "leather",
+      "formal",
+      "double-monk"
+    ],
+    "images": [
+      "/products/florence-black-double-monk-shoes.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 41,
+    "stock": 7,
+    "sku": "LUW-COR-015",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 15
+  },
+  {
+    "id": "riviera-navy-suede-walk-loafers",
+    "slug": "riviera-navy-suede-walk-loafers",
+    "name": "Riviera Navy Suede Walk Loafers",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "Suede Loafer",
+    "brand": "Loro Piana",
+    "price": 81000,
+    "comparePrice": 101000,
+    "currency": "NGN",
+    "colors": [
+      "navy"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Navy suede slip-on loafers with a crisp white sole for laid-back refinement. A summer essential with understated polish.",
+    "fabric": "Premium suede",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "loafers",
+      "suede",
+      "slip-on",
+      "casual",
+      "summer"
+    ],
+    "images": [
+      "/products/riviera-navy-suede-walk-loafers.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 101,
+    "stock": 7,
+    "sku": "LUW-CAS-016",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 16
+  },
+  {
+    "id": "aspen-sage-quarter-zip-knit-polo",
+    "slug": "aspen-sage-quarter-zip-knit-polo",
+    "name": "Aspen Sage Quarter-Zip Knit Polo",
+    "category": "polo-shirts",
+    "categoryName": "Polo Shirts",
+    "group": "Clothing",
+    "subcategory": "Quarter-Zip Knit",
+    "brand": "Luxe Universal",
+    "price": 36500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey",
+      "green"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A ribbed sage-grey quarter-zip knit polo with a refined mock collar. Smart layering knitwear that pairs beautifully with tailored trousers.",
+    "fabric": "Mercerised cotton knit",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "knit",
+      "quarter-zip",
+      "polo",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/aspen-sage-quarter-zip-knit-polo.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 55,
+    "stock": 21,
+    "sku": "LUW-POL-017",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 17
+  },
+  {
+    "id": "carlisle-brown-wool-zip-jacket",
+    "slug": "carlisle-brown-wool-zip-jacket",
+    "name": "Carlisle Brown Wool Zip Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Harrington",
+    "brand": "Luxe Universal",
+    "price": 71000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A heathered brown wool zip jacket worn over a shirt and navy tie for sharp, modern layering. Refined texture with a tailored edge.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "wool",
+      "zip",
+      "layering",
+      "smart-casual",
+      "autumn"
+    ],
+    "images": [
+      "/products/carlisle-brown-wool-zip-jacket.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 121,
+    "stock": 27,
+    "sku": "LUW-JAC-018",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 18
+  },
+  {
+    "id": "milano-black-croc-leather-mules",
+    "slug": "milano-black-croc-leather-mules",
+    "name": "Milano Black Croc Leather Mules",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Half Shoe Mule",
+    "brand": "Luxe Universal",
+    "price": 49500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Backless leather mules in a glossy crocodile-embossed finish for slip-on sophistication. A bold half-shoe statement in jet black.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "mules",
+      "half-shoe",
+      "croc",
+      "leather",
+      "casual"
+    ],
+    "images": [
+      "/products/milano-black-croc-leather-mules.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 51,
+    "stock": 17,
+    "sku": "LUW-SLI-019",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 19
+  },
+  {
+    "id": "kingsley-black-double-monk-shoes",
+    "slug": "kingsley-black-double-monk-shoes",
+    "name": "Kingsley Black Double Monk Shoes",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "Double Monk Strap",
+    "brand": "Steve Madden",
+    "price": 97000,
+    "comparePrice": 121000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Classic black leather double monk-strap shoes with a cap toe and pebbled detailing. Polished formal footwear with timeless appeal.",
+    "fabric": "Full-grain leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "monk-strap",
+      "leather",
+      "formal",
+      "double-monk"
+    ],
+    "images": [
+      "/products/kingsley-black-double-monk-shoes.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 65,
+    "stock": 31,
+    "sku": "LUW-COR-020",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 20
+  },
+  {
+    "id": "lavender-paisley-long-sleeve-zip-polo",
+    "slug": "lavender-paisley-long-sleeve-zip-polo",
+    "name": "Lavender Paisley Long-Sleeve Zip Polo",
+    "category": "polo-shirts",
+    "categoryName": "Polo Shirts",
+    "group": "Clothing",
+    "subcategory": "Long Sleeve Zip",
+    "brand": "Luxe Universal",
+    "price": 33500,
+    "comparePrice": 42000,
+    "currency": "NGN",
+    "colors": [
+      "purple"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A lavender long-sleeve polo with a subtle paisley texture and quarter-zip collar. Soft, elevated knitwear for refined everyday dressing.",
+    "fabric": "Mercerised cotton knit",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "polo",
+      "long-sleeve",
+      "quarter-zip",
+      "paisley",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/lavender-paisley-long-sleeve-zip-polo.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 98,
+    "stock": 4,
+    "sku": "LUW-POL-021",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 21
+  },
+  {
+    "id": "brooklyn-charcoal-textured-chore-jacket",
+    "slug": "brooklyn-charcoal-textured-chore-jacket",
+    "name": "Brooklyn Charcoal Textured Chore Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Chore Jacket",
+    "brand": "Luxe Universal",
+    "price": 68000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A charcoal textured chore jacket with utility pockets, styled with a crisp shirt and red tie. Rugged workwear reimagined with luxury polish.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "chore",
+      "workwear",
+      "layering",
+      "casual",
+      "autumn"
+    ],
+    "images": [
+      "/products/brooklyn-charcoal-textured-chore-jacket.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 97,
+    "stock": 33,
+    "sku": "LUW-JAC-022",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 22
+  },
+  {
+    "id": "herm-s-izmir-black-leather-sandals",
+    "slug": "herm-s-izmir-black-leather-sandals",
+    "name": "Hermès Izmir Black Leather Sandals",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Izmir Sandal",
+    "brand": "Hermès",
+    "price": 48000,
+    "comparePrice": 60000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Iconic black calfskin sandals with the signature cut-out strap and cushioned sole. Effortless luxury for the warmer months.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "sandals",
+      "slides",
+      "leather",
+      "summer",
+      "designer"
+    ],
+    "images": [
+      "/products/herm-s-izmir-black-leather-sandals.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 83,
+    "stock": 19,
+    "sku": "LUW-SLI-023",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 23
+  },
+  {
+    "id": "ivory-linen-overshirt-co-ord",
+    "slug": "ivory-linen-overshirt-co-ord",
+    "name": "Ivory Linen Overshirt Co-Ord",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Shirt Jacket",
+    "brand": "Luxe Universal",
+    "price": 68000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "cream",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A relaxed ivory linen-blend overshirt styled with tailored black trousers for elevated ease. A breezy layering piece with quiet luxury.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "overshirt",
+      "linen",
+      "co-ord",
+      "layering",
+      "summer"
+    ],
+    "images": [
+      "/products/ivory-linen-overshirt-co-ord.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 64,
+    "stock": 30,
+    "sku": "LUW-JAC-024",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 24
+  },
+  {
+    "id": "coastal-black-toe-post-sandals",
+    "slug": "coastal-black-toe-post-sandals",
+    "name": "Coastal Black Toe-Post Sandals",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Thong Sandal",
+    "brand": "Luxe Universal",
+    "price": 45000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather toe-post sandals with a contoured footbed for all-day comfort. Casual warm-weather essentials with a sleek profile.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "sandals",
+      "slides",
+      "thong",
+      "summer",
+      "casual"
+    ],
+    "images": [
+      "/products/coastal-black-toe-post-sandals.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 84,
+    "stock": 20,
+    "sku": "LUW-SLI-025",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 25
+  },
+  {
+    "id": "emerald-tartan-check-blazer",
+    "slug": "emerald-tartan-check-blazer",
+    "name": "Emerald Tartan Check Blazer",
+    "category": "blazers",
+    "categoryName": "Blazers",
+    "group": "Suits",
+    "subcategory": "Single Breasted",
+    "brand": "Luxe Universal",
+    "price": 102500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "green",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A vivid emerald tartan-check blazer with notch lapels and a single-button front. A spirited statement jacket for the bold dresser.",
+    "fabric": "Wool-rich tweed blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "tartan",
+      "check",
+      "statement",
+      "tailored"
+    ],
+    "images": [
+      "/products/emerald-tartan-check-blazer.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 33,
+    "stock": 29,
+    "sku": "LUW-BLA-026",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 26
+  },
+  {
+    "id": "verona-black-buckle-slides",
+    "slug": "verona-black-buckle-slides",
+    "name": "Verona Black Buckle Slides",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Buckle Strap",
+    "brand": "Luxe Universal",
+    "price": 42000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather slides with an adjustable buckle strap and chunky moulded sole. Modern, masculine comfort with refined detailing.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "slides",
+      "sandals",
+      "buckle",
+      "leather",
+      "summer"
+    ],
+    "images": [
+      "/products/verona-black-buckle-slides.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 57,
+    "stock": 23,
+    "sku": "LUW-SLI-027",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 27
+  },
+  {
+    "id": "capri-ivory-wide-leg-trousers",
+    "slug": "capri-ivory-wide-leg-trousers",
+    "name": "Capri Ivory Wide-Leg Trousers",
+    "category": "chinos",
+    "categoryName": "Chinos",
+    "group": "Clothing",
+    "subcategory": "Wide Leg",
+    "brand": "Luxe Universal",
+    "price": 44000,
+    "comparePrice": 55000,
+    "currency": "NGN",
+    "colors": [
+      "cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Crisp ivory wide-leg trousers with a clean front pleat and flowing drape. An elegant warm-weather staple in a versatile neutral.",
+    "fabric": "Stretch cotton twill",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "wide-leg",
+      "trousers",
+      "summer",
+      "tailored"
+    ],
+    "images": [
+      "/products/capri-ivory-wide-leg-trousers.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 44,
+    "stock": 10,
+    "sku": "LUW-CHI-028",
+    "isNew": false,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 28
+  },
+  {
+    "id": "brixton-black-suede-trucker-jacket",
+    "slug": "brixton-black-suede-trucker-jacket",
+    "name": "Brixton Black Suede Trucker Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Trucker Jacket",
+    "brand": "Luxe Universal",
+    "price": 69500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "beige"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black suede trucker jacket with chest pockets, styled over a shirt with camel chinos. A versatile layering piece with rugged refinement.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "trucker",
+      "suede",
+      "layering",
+      "casual",
+      "autumn"
+    ],
+    "images": [
+      "/products/brixton-black-suede-trucker-jacket.jpeg"
+    ],
+    "rating": 4.1,
+    "reviews": 39,
+    "stock": 5,
+    "sku": "LUW-JAC-029",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 29
+  },
+  {
+    "id": "glacier-grey-suede-trucker-jacket",
+    "slug": "glacier-grey-suede-trucker-jacket",
+    "name": "Glacier Grey Suede Trucker Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Trucker Jacket",
+    "brand": "Luxe Universal",
+    "price": 72500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A light-grey suede trucker jacket with a snap-button front and chest pocket detail. Soft, structured outerwear with elevated appeal.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "trucker",
+      "suede",
+      "layering",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/glacier-grey-suede-trucker-jacket.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 42,
+    "stock": 8,
+    "sku": "LUW-JAC-030",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 30
+  },
+  {
+    "id": "tobacco-textured-quarter-zip-polo",
+    "slug": "tobacco-textured-quarter-zip-polo",
+    "name": "Tobacco Textured Quarter-Zip Polo",
+    "category": "polo-shirts",
+    "categoryName": "Polo Shirts",
+    "group": "Clothing",
+    "subcategory": "Quarter-Zip",
+    "brand": "Luxe Universal",
+    "price": 36500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A tobacco-brown textured polo with a quarter-zip collar and tipped trim. Refined short-sleeve knitwear for smart-casual ease.",
+    "fabric": "Mercerised cotton knit",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "textured",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/tobacco-textured-quarter-zip-polo.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 117,
+    "stock": 23,
+    "sku": "LUW-POL-031",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 31
+  },
+  {
+    "id": "stewart-red-tartan-check-blazer",
+    "slug": "stewart-red-tartan-check-blazer",
+    "name": "Stewart Red Tartan Check Blazer",
+    "category": "blazers",
+    "categoryName": "Blazers",
+    "group": "Suits",
+    "subcategory": "Single Breasted",
+    "brand": "Luxe Universal",
+    "price": 95000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "red",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A striking red-and-black tartan-check blazer with notch lapels and a single-button closure. A confident, festive statement piece.",
+    "fabric": "Wool-rich tweed blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "tartan",
+      "check",
+      "statement",
+      "tailored",
+      "festive"
+    ],
+    "images": [
+      "/products/stewart-red-tartan-check-blazer.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 81,
+    "stock": 17,
+    "sku": "LUW-BLA-032",
+    "isNew": false,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 32
+  },
+  {
+    "id": "siena-tan-double-buckle-sandals",
+    "slug": "siena-tan-double-buckle-sandals",
+    "name": "Siena Tan Double-Buckle Sandals",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Double Buckle",
+    "brand": "Luxe Universal",
+    "price": 42000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "tan"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Tan leather sandals with twin buckle straps and a sturdy moulded sole. Warm-weather footwear with rugged, masculine character.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "sandals",
+      "slides",
+      "buckle",
+      "leather",
+      "summer"
+    ],
+    "images": [
+      "/products/siena-tan-double-buckle-sandals.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 46,
+    "stock": 12,
+    "sku": "LUW-SLI-033",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 33
+  },
+  {
+    "id": "heritage-89-graphic-tee",
+    "slug": "heritage-89-graphic-tee",
+    "name": "Heritage 89 Graphic Tee",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "Graphic Tee",
+    "brand": "Luxe Universal",
+    "price": 31000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "orange",
+      "multicolor"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A vibrant graphic tee with a bold 89 motif and washed multicolor print. An expressive statement piece for off-duty styling.",
+    "fabric": "Combed cotton jersey",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "graphic",
+      "print",
+      "statement",
+      "casual",
+      "streetwear"
+    ],
+    "images": [
+      "/products/heritage-89-graphic-tee.jpeg"
+    ],
+    "rating": 4.1,
+    "reviews": 109,
+    "stock": 15,
+    "sku": "LUW-T-S-034",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 34
+  },
+  {
+    "id": "azure-striped-zip-polo",
+    "slug": "azure-striped-zip-polo",
+    "name": "Azure Striped Zip Polo",
+    "category": "polo-shirts",
+    "categoryName": "Polo Shirts",
+    "group": "Clothing",
+    "subcategory": "Striped Zip",
+    "brand": "Luxe Universal",
+    "price": 38000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A striped blue-and-white polo with a quarter-zip collar in graduated tones. Crisp, contemporary knitwear for relaxed sophistication.",
+    "fabric": "Mercerised cotton knit",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "polo",
+      "striped",
+      "quarter-zip",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/azure-striped-zip-polo.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 78,
+    "stock": 14,
+    "sku": "LUW-POL-035",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 35
+  },
+  {
+    "id": "noir-floral-jacquard-tuxedo",
+    "slug": "noir-floral-jacquard-tuxedo",
+    "name": "Noir Floral Jacquard Tuxedo",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "Double Breasted",
+    "brand": "Luxe Universal",
+    "price": 320000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black double-breasted tuxedo in tonal floral jacquard with an embellished shawl lapel and velvet bow tie. The ultimate in evening opulence.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "tuxedo",
+      "jacquard",
+      "shawl-lapel",
+      "black-tie",
+      "formal"
+    ],
+    "images": [
+      "/products/noir-floral-jacquard-tuxedo.jpeg"
+    ],
+    "rating": 4.3,
+    "reviews": 91,
+    "stock": 27,
+    "sku": "LUW-TUX-036",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 36
+  },
+  {
+    "id": "dune-beige-overshirt-co-ord",
+    "slug": "dune-beige-overshirt-co-ord",
+    "name": "Dune Beige Overshirt Co-Ord",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "Shirt Jacket",
+    "brand": "Luxe Universal",
+    "price": 69500,
+    "comparePrice": 87000,
+    "currency": "NGN",
+    "colors": [
+      "beige"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A beige overshirt and matching slim trousers form a clean tonal co-ord, finished with white sneakers. Relaxed monochrome dressing done right.",
+    "fabric": "Premium wool / cotton blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "overshirt",
+      "co-ord",
+      "matching-set",
+      "casual",
+      "layering"
+    ],
+    "images": [
+      "/products/dune-beige-overshirt-co-ord.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 13,
+    "sku": "LUW-JAC-037",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 37
+  },
+  {
+    "id": "ashton-black-double-monk-shoes",
+    "slug": "ashton-black-double-monk-shoes",
+    "name": "Ashton Black Double Monk Shoes",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "Double Monk Strap",
+    "brand": "Steve Madden",
+    "price": 97000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather double monk-strap shoes with a sleek cap toe and burnished finish. Refined buckled footwear for formal occasions.",
+    "fabric": "Full-grain leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "monk-strap",
+      "leather",
+      "formal",
+      "double-monk"
+    ],
+    "images": [
+      "/products/ashton-black-double-monk-shoes.jpeg"
+    ],
+    "rating": 4,
+    "reviews": 88,
+    "stock": 24,
+    "sku": "LUW-COR-038",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 38
+  },
+  {
+    "id": "herm-s-chypre-grey-suede-sandals",
+    "slug": "herm-s-chypre-grey-suede-sandals",
+    "name": "Hermès Chypre Grey Suede Sandals",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Chypre Sandal",
+    "brand": "Hermès",
+    "price": 49500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Grey suede sandals with a braided strap and adjustable buckle on a cushioned sole. Sophisticated comfort in a versatile neutral tone.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "sandals",
+      "slides",
+      "suede",
+      "summer",
+      "designer"
+    ],
+    "images": [
+      "/products/herm-s-chypre-grey-suede-sandals.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 22,
+    "stock": 18,
+    "sku": "LUW-SLI-039",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 39
+  },
+  {
+    "id": "manhattan-black-striped-polo",
+    "slug": "manhattan-black-striped-polo",
+    "name": "Manhattan Black Striped Polo",
+    "category": "polo-shirts",
+    "categoryName": "Polo Shirts",
+    "group": "Clothing",
+    "subcategory": "Striped",
+    "brand": "Tommy Hilfiger",
+    "price": 39500,
+    "comparePrice": 49000,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A classic black polo with fine white horizontal stripes and a structured collar. Timeless, versatile knitwear for everyday refinement.",
+    "fabric": "Mercerised cotton knit",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "polo",
+      "striped",
+      "classic",
+      "smart-casual"
+    ],
+    "images": [
+      "/products/manhattan-black-striped-polo.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 53,
+    "stock": 19,
+    "sku": "LUW-POL-040",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 40
+  },
+  {
+    "id": "onyx-pleated-wide-leg-trousers",
+    "slug": "onyx-pleated-wide-leg-trousers",
+    "name": "Onyx Pleated Wide-Leg Trousers",
+    "category": "chinos",
+    "categoryName": "Chinos",
+    "group": "Clothing",
+    "subcategory": "Wide Leg",
+    "brand": "Luxe Universal",
+    "price": 38000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Sleek black pleated wide-leg trousers with a flowing drape and self-tie detail. A versatile tailored staple for elevated looks.",
+    "fabric": "Stretch cotton twill",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "wide-leg",
+      "trousers",
+      "pleated",
+      "tailored"
+    ],
+    "images": [
+      "/products/onyx-pleated-wide-leg-trousers.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 25,
+    "stock": 21,
+    "sku": "LUW-CHI-041",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 41
+  },
+  {
+    "id": "zara-black-woven-strap-sandals",
+    "slug": "zara-black-woven-strap-sandals",
+    "name": "Zara Black Woven Strap Sandals",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "Woven Strap",
+    "brand": "Zara",
+    "price": 51000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather sandals with an interwoven strap design and slim profile sole. Sleek, contemporary warm-weather footwear.",
+    "fabric": "Genuine leather",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "sandals",
+      "slides",
+      "woven",
+      "summer",
+      "casual"
+    ],
+    "images": [
+      "/products/zara-black-woven-strap-sandals.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 102,
+    "stock": 8,
+    "sku": "LUW-SLI-042",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 42
+  },
+  {
+    "id": "portofino-sage-suede-walk-loafers",
+    "slug": "portofino-sage-suede-walk-loafers",
+    "name": "Portofino Sage Suede Walk Loafers",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "Suede Loafer",
+    "brand": "Loro Piana",
+    "price": 78000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Sage-green suede slip-on loafers with contrast stitching and a clean white sole. A fresh, luxurious take on the everyday loafer.",
+    "fabric": "Premium suede",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "loafers",
+      "suede",
+      "slip-on",
+      "casual",
+      "summer"
+    ],
+    "images": [
+      "/products/portofino-sage-suede-walk-loafers.jpeg"
+    ],
+    "rating": 4.1,
+    "reviews": 69,
+    "stock": 5,
+    "sku": "LUW-CAS-043",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 43
+  },
+  {
+    "id": "royal-cobalt-two-piece-suit",
+    "slug": "royal-cobalt-two-piece-suit",
+    "name": "Royal Cobalt Two-Piece Suit",
+    "category": "suits",
+    "categoryName": "Suits",
+    "group": "Suits",
+    "subcategory": "Two-Piece",
+    "brand": "Luxe Universal",
+    "price": 189500,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "navy"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A rich cobalt-blue two-piece suit with notch lapels, styled with a striped tie and pocket square. Vibrant, confident tailoring for standout occasions.",
+    "fabric": "Italian wool blend",
+    "care": "Professional dry clean recommended. Store on a padded hanger away from direct sunlight.",
+    "tags": [
+      "suit",
+      "formal",
+      "tailored",
+      "two-piece",
+      "business"
+    ],
+    "images": [
+      "/products/royal-cobalt-two-piece-suit.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 45,
+    "stock": 11,
+    "sku": "LUW-SUI-044",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 44
+  }
+]
