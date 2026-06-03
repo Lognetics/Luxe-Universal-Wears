@@ -35,40 +35,36 @@ export function Header() {
     <header className="sticky top-0 z-[80] w-full">
       <AnnouncementBar />
       <div
-        className={`w-full border-b transition-all duration-300 ${
+        className={`relative w-full border-b transition-all duration-300 ${
           scrolled ? "border-sand bg-ivory/95 backdrop-blur-md" : "border-transparent bg-ivory"
         }`}
         onMouseLeave={() => setOpenMega(null)}
       >
+        {/* Top row: utilities left · centered logo · icons right */}
         <div className="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-5 py-4 sm:px-8">
-          {/* Mobile menu toggle */}
-          <button onClick={() => setMobileOpen(true)} className="lg:hidden" aria-label="Open menu">
-            <Menu size={24} />
-          </button>
+          {/* Left cluster */}
+          <div className="flex flex-1 items-center gap-4">
+            <button onClick={() => setMobileOpen(true)} className="lg:hidden" aria-label="Open menu">
+              <Menu size={24} />
+            </button>
+            <button
+              onClick={() => setSearchOpen(true)}
+              aria-label="Search"
+              className="hidden items-center gap-2 text-ink transition hover:text-blue-deep lg:flex"
+            >
+              <Search size={19} />
+              <span className="text-[0.72rem] uppercase tracking-[0.18em]">Search</span>
+            </button>
+          </div>
 
-          {/* Left nav (desktop) */}
-          <nav className="hidden flex-1 items-center gap-7 lg:flex">
-            {NAV.map((item) => (
-              <div key={item.label} onMouseEnter={() => setOpenMega(item.mega ? item.label : null)}>
-                <Link
-                  href={item.href}
-                  className="flex items-center gap-1 text-[0.78rem] uppercase tracking-[0.16em] text-ink transition hover:text-blue-deep"
-                >
-                  {item.label}
-                  {item.mega && <ChevronDown size={12} className="text-mist" />}
-                </Link>
-              </div>
-            ))}
-          </nav>
-
-          {/* Logo */}
-          <Link href="/" aria-label="Luxe Universal Wears — home" className="flex shrink-0 items-center lg:absolute lg:left-1/2 lg:-translate-x-1/2">
-            <Logo priority className="h-12 w-auto sm:h-14" />
+          {/* Logo (centered) */}
+          <Link href="/" aria-label="Luxe Universal Wears — home" className="flex shrink-0 items-center justify-center">
+            <Logo priority className="h-11 w-auto sm:h-14" />
           </Link>
 
           {/* Right icons */}
           <div className="flex flex-1 items-center justify-end gap-4 sm:gap-5">
-            <button onClick={() => setSearchOpen(true)} aria-label="Search" className="hidden text-ink hover:text-blue-deep sm:block">
+            <button onClick={() => setSearchOpen(true)} aria-label="Search" className="text-ink hover:text-blue-deep lg:hidden">
               <Search size={20} />
             </button>
             <Link href="/account" aria-label="Account" className="hidden text-ink hover:text-blue-deep sm:block">
@@ -92,6 +88,21 @@ export function Header() {
             </button>
           </div>
         </div>
+
+        {/* Bottom row: centered desktop navigation */}
+        <nav className="mx-auto hidden max-w-[1600px] items-center justify-center gap-8 px-8 pb-3.5 lg:flex">
+          {NAV.map((item) => (
+            <div key={item.label} onMouseEnter={() => setOpenMega(item.mega ? item.label : null)}>
+              <Link
+                href={item.href}
+                className="flex items-center gap-1 text-[0.78rem] uppercase tracking-[0.16em] text-ink transition hover:text-blue-deep"
+              >
+                {item.label}
+                {item.mega && <ChevronDown size={12} className="text-mist" />}
+              </Link>
+            </div>
+          ))}
+        </nav>
 
         {/* Mega menu panel */}
         {NAV.map((item) =>
