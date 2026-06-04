@@ -13,15 +13,13 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Place your order on WhatsApp"
-      className="group fixed bottom-5 right-5 z-[70] flex items-center gap-2.5 rounded-full bg-[#25D366] py-2.5 pl-2.5 pr-3 text-white shadow-card transition-all duration-300 hover:bg-[#1ebe5b] hover:pr-5 sm:bottom-6 sm:right-6 sm:pr-5"
+      title="Place your order on WhatsApp"
+      className="fixed bottom-4 right-4 z-[70] flex items-center gap-1.5 rounded-full bg-[#25D366] py-1.5 pl-1.5 pr-3 text-white shadow-soft transition-colors duration-200 hover:bg-[#1ebe5b] sm:bottom-5 sm:right-5"
     >
-      <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20">
-        <span className="absolute inset-0 animate-ping rounded-full bg-white/25" />
-        <WhatsAppIcon width={24} height={24} />
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white/20">
+        <WhatsAppIcon width={16} height={16} />
       </span>
-      <span className="whitespace-nowrap pr-1 text-[0.8rem] font-medium tracking-wide sm:text-sm">
-        Place your order on WhatsApp
-      </span>
+      <span className="whitespace-nowrap text-[0.7rem] font-medium tracking-wide">Order</span>
     </a>
   );
 }
