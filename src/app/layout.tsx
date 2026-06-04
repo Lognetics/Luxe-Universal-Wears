@@ -7,6 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MiniCart } from "@/components/cart/MiniCart";
 import { Toast } from "@/components/ui/Toast";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
             <MiniCart />
             <Toast />
+            <WhatsAppButton />
           </StoreProvider>
         </AuthProvider>
       </body>

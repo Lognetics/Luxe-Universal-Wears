@@ -54,33 +54,6 @@ const VALUES = [
   },
 ];
 
-const TEAM = [
-  {
-    initials: "OA",
-    name: "Olawale Adebayo",
-    role: "Founder & Creative Director",
-    bio: "A third-generation tailor who founded Luxe to bring world-class bespoke home to Abuja.",
-  },
-  {
-    initials: "CN",
-    name: "Chioma Nwankwo",
-    role: "Head of Atelier",
-    bio: "Master cutter overseeing every pattern, fitting and final press with exacting standards.",
-  },
-  {
-    initials: "TE",
-    name: "Tunde Eze",
-    role: "Lead Stylist",
-    bio: "Curates each client's wardrobe, translating personality and occasion into cloth.",
-  },
-  {
-    initials: "FM",
-    name: "Fatima Mohammed",
-    role: "Client Experience Director",
-    bio: "Ensures every gentleman is cared for, from first consultation to lifetime alterations.",
-  },
-];
-
 const STATS = [
   { value: "25+", label: "Years of Heritage" },
   { value: "12,000+", label: "Gentlemen Dressed" },
@@ -257,31 +230,6 @@ export default function AboutPage() {
             put on. That is the reason Luxe Universal Wears exists: to give every gentleman that
             feeling, and to prove it can be made right here, at home.
           </p>
-        </Container>
-      </section>
-
-      {/* Team */}
-      <section className="bg-cream py-20 md:py-24">
-        <Container>
-          <SectionHeading
-            eyebrow="The People"
-            title="Meet The Team"
-            description="The hands and minds behind every Luxe commission."
-          />
-          <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {TEAM.map((m) => (
-              <div key={m.name} className="text-center">
-                <span className="mx-auto flex h-28 w-28 items-center justify-center rounded-full border border-blue/40 bg-blue/10 font-serif text-3xl text-blue-deep">
-                  {m.initials}
-                </span>
-                <h3 className="mt-5 font-serif text-2xl text-ink">{m.name}</h3>
-                <p className="mt-1 text-[0.72rem] uppercase tracking-[0.18em] text-blue-deep">
-                  {m.role}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-stone">{m.bio}</p>
-              </div>
-            ))}
-          </div>
         </Container>
       </section>
 
