@@ -58,7 +58,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
                       onClick={onClose}
                       className="flex items-center gap-4 rounded-sm p-2 transition hover:bg-cream"
                     >
-                      <div className="relative h-16 w-12 shrink-0 overflow-hidden bg-cream">
+                      <div className="relative h-16 w-12 shrink-0 overflow-hidden rounded-2xl bg-cream">
                         <Image src={p.images[0]} alt={p.name} fill sizes="48px" className="object-cover" />
                       </div>
                       <div className="flex-1">

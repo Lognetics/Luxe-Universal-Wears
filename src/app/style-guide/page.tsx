@@ -197,7 +197,7 @@ export default function StyleGuidePage() {
             >
               {/* Image */}
               <div className="lg:sticky lg:top-24">
-                <div className="relative aspect-[4/5] overflow-hidden bg-cream">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream">
                   <Image
                     src={g.image}
                     alt={g.title}

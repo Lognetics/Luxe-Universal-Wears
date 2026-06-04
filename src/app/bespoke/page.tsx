@@ -186,7 +186,7 @@ export default function BespokePage() {
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {SERVICES.map((s) => (
               <article key={s.title} className="group bg-paper shadow-soft">
-                <div className="relative aspect-[3/4] overflow-hidden bg-cream">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-cream">
                   <Image
                     src={s.image}
                     alt={s.title}
@@ -287,7 +287,7 @@ export default function BespokePage() {
       <section className="py-20 md:py-28">
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-            <div className="relative aspect-[4/5] overflow-hidden bg-cream">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream">
               <Image
                 src="/products/emerald-tartan-check-blazer.jpeg"
                 alt="Fabric library at the Luxe atelier"

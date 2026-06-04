@@ -131,7 +131,7 @@ export function Header() {
                 ))}
                 {item.feature && (
                   <Link href={item.feature.href} className="group relative overflow-hidden">
-                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-cream">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-cream">
                       <Image src={item.feature.image} alt={item.feature.title} fill sizes="320px" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                       <div className="absolute inset-0 bg-gradient-to-t from-ink/70 to-transparent" />
                       <div className="absolute bottom-0 p-5 text-ivory">

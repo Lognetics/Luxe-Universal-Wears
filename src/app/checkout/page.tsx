@@ -593,7 +593,7 @@ export default function CheckoutPage() {
                   key={`${item.productId}-${item.size}-${item.color}`}
                   className="flex gap-4"
                 >
-                  <div className="relative aspect-[3/4] w-16 shrink-0 overflow-hidden bg-cream">
+                  <div className="relative aspect-[3/4] w-16 shrink-0 overflow-hidden rounded-2xl bg-cream">
                     <Image
                       src={item.image}
                       alt={item.name}

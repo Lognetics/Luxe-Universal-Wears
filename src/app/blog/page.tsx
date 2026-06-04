@@ -41,7 +41,7 @@ export default function BlogPage() {
             href={`/blog/${lead.slug}`}
             className="group grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12"
           >
-            <div className="relative aspect-[4/3] overflow-hidden bg-cream">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-cream">
               <Image
                 src={lead.image}
                 alt={lead.title}

@@ -46,7 +46,7 @@ export default async function ArticlePage({
     <main className="bg-ivory">
       {/* Cover */}
       <section className="relative">
-        <div className="relative aspect-[16/10] w-full overflow-hidden bg-cream sm:aspect-[16/8] lg:aspect-[16/6]">
+        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl bg-cream sm:aspect-[16/8] lg:aspect-[16/6]">
           <Image
             src={post.image}
             alt={post.title}

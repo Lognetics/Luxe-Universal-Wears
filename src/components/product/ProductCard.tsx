@@ -15,7 +15,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
 
   return (
     <div className="group relative flex flex-col">
-      <div className="relative aspect-[3/4] overflow-hidden bg-cream">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-cream">
         <Link href={`/product/${product.slug}`}>
           <Image
             src={product.images[0]}

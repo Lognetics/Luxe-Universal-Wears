@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
             {cats.slice(0, 10).map((c) => (
               <Link key={c.slug} href={`/category/${c.slug}`} className="group relative overflow-hidden">
-                <div className="relative aspect-[3/4] overflow-hidden bg-cream">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-cream">
                   {c.image && (
                     <Image
                       src={c.image}
@@ -131,7 +131,7 @@ export default function HomePage() {
           <Divider className="my-8" />
           <div className="grid gap-5 md:grid-cols-3">
             {COLLECTIONS.map((c) => (
-              <Link key={c.title} href={c.href} className="group relative block aspect-[4/5] overflow-hidden bg-ink">
+              <Link key={c.title} href={c.href} className="group relative block aspect-[4/5] overflow-hidden rounded-2xl bg-ink">
                 <Image
                   src={c.image}
                   alt={c.title}
@@ -172,7 +172,7 @@ export default function HomePage() {
       <section className="py-20">
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="relative aspect-[4/5] overflow-hidden bg-cream">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream">
               <Image
                 src="/products/cotswold-camel-houndstooth-blazer.jpeg"
                 alt="Bespoke tailoring"
@@ -241,7 +241,7 @@ export default function HomePage() {
           <SectionHeading eyebrow="@luxeuniversalwears" title="Follow The Look" description="Tag us to be featured. Luxury, lived in." />
           <div className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
             {gallery.map((p) => (
-              <Link key={p.id} href={`/product/${p.slug}`} className="group relative aspect-square overflow-hidden bg-cream">
+              <Link key={p.id} href={`/product/${p.slug}`} className="group relative aspect-square overflow-hidden rounded-2xl bg-cream">
                 <Image
                   src={p.images[0]}
                   alt={p.name}

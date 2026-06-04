@@ -64,7 +64,7 @@ export function MiniCart() {
             <div className="flex-1 overflow-y-auto px-6 py-4 no-scrollbar">
               {cart.map((item) => (
                 <div key={`${item.productId}-${item.size}-${item.color}`} className="flex gap-4 border-b border-sand/70 py-4">
-                  <Link href={`/product/${item.slug}`} onClick={() => setCartOpen(false)} className="relative h-28 w-20 shrink-0 overflow-hidden bg-cream">
+                  <Link href={`/product/${item.slug}`} onClick={() => setCartOpen(false)} className="relative h-28 w-20 shrink-0 overflow-hidden rounded-2xl bg-cream">
                     <Image src={item.image} alt={item.name} fill sizes="80px" className="object-cover" />
                   </Link>
                   <div className="flex flex-1 flex-col">

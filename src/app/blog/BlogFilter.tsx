@@ -34,7 +34,7 @@ export function BlogFilter({ posts }: { posts: BlogPost[] }) {
       <div className="mt-14 grid grid-cols-1 gap-x-7 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((post) => (
           <article key={post.slug} className="group flex flex-col">
-            <Link href={`/blog/${post.slug}`} className="relative aspect-[4/3] overflow-hidden bg-cream">
+            <Link href={`/blog/${post.slug}`} className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-cream">
               <Image
                 src={post.image}
                 alt={post.title}

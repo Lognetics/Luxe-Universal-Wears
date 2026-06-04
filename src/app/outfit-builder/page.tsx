@@ -127,7 +127,7 @@ export default function OutfitBuilderPage() {
                         key={s.key}
                         onClick={() => setActiveSlot(s.key)}
                         className={clsx(
-                          "group relative aspect-[3/4] overflow-hidden border bg-cream text-left transition",
+                          "group relative aspect-[3/4] overflow-hidden rounded-xl border bg-cream text-left transition",
                           activeSlot === s.key ? "border-ink" : "border-sand hover:border-ink/50"
                         )}
                       >
@@ -258,7 +258,7 @@ export default function OutfitBuilderPage() {
                     >
                       <div
                         className={clsx(
-                          "relative aspect-[3/4] overflow-hidden border bg-cream transition",
+                          "relative aspect-[3/4] overflow-hidden rounded-xl border bg-cream transition",
                           isPicked ? "border-ink ring-1 ring-ink" : "border-transparent"
                         )}
                       >

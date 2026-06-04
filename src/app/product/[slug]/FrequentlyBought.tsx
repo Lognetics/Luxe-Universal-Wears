@@ -18,7 +18,7 @@ export function FrequentlyBought({ items }: { items: Product[] }) {
         {items.map((p, i) => (
           <div key={p.id} className="flex items-center gap-4">
             <Link href={`/product/${p.slug}`} className="group block">
-              <div className="relative h-28 w-24 overflow-hidden bg-cream">
+              <div className="relative h-28 w-24 overflow-hidden rounded-2xl bg-cream">
                 <Image
                   src={p.images[0]}
                   alt={p.name}

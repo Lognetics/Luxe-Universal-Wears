@@ -42,7 +42,7 @@ export function ProductGallery({
             onClick={() => setActive(i)}
             aria-label={`View ${i + 1}`}
             className={clsx(
-              "relative h-20 w-16 overflow-hidden border bg-cream transition md:h-24 md:w-20",
+              "relative h-20 w-16 overflow-hidden rounded-xl border bg-cream transition md:h-24 md:w-20",
               active === i ? "border-ink" : "border-sand hover:border-ink/50"
             )}
           >
@@ -57,7 +57,7 @@ export function ProductGallery({
         onMouseEnter={() => setZoom(true)}
         onMouseLeave={() => setZoom(false)}
         onMouseMove={onMove}
-        className="relative aspect-[3/4] flex-1 cursor-zoom-in overflow-hidden bg-cream"
+        className="relative aspect-[3/4] flex-1 cursor-zoom-in overflow-hidden rounded-2xl bg-cream"
       >
         <Image
           src={image}

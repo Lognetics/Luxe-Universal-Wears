@@ -91,7 +91,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28">
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-            <div className="relative aspect-[4/5] overflow-hidden bg-cream">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream">
               <Image
                 src="/products/cotswold-camel-houndstooth-blazer.jpeg"
                 alt="The Luxe atelier in Abuja"

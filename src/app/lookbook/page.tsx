@@ -120,7 +120,7 @@ export default function LookbookPage() {
             >
               {/* Tall image */}
               <div className="relative">
-                <div className="relative aspect-[3/4] overflow-hidden bg-cream">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-cream">
                   <Image
                     src={story.tall}
                     alt={story.title}
@@ -153,7 +153,7 @@ export default function LookbookPage() {
 
             {/* Wide + detail composition */}
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
-              <div className="relative aspect-[4/5] overflow-hidden bg-cream sm:col-span-2 sm:aspect-[16/9]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream sm:col-span-2 sm:aspect-[16/9]">
                 <Image
                   src={story.wide}
                   alt={`${story.title} editorial`}
@@ -162,7 +162,7 @@ export default function LookbookPage() {
                   className="object-cover transition-transform duration-[1.2s] hover:scale-[1.04]"
                 />
               </div>
-              <div className="relative aspect-[4/5] overflow-hidden bg-cream sm:aspect-auto">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-cream sm:aspect-auto">
                 <Image
                   src={story.detail}
                   alt={`${story.title} detail`}
