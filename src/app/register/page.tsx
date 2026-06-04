@@ -137,7 +137,7 @@ export default function RegisterPage() {
           </form>
 
           <p className="mt-10 text-center text-[0.7rem] uppercase tracking-[0.2em] text-mist">
-            Crafted in Lagos · Worn the world over
+            Crafted in Abuja · Worn the world over
           </p>
         </div>
       </div>

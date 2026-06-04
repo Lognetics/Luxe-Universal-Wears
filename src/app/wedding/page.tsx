@@ -10,7 +10,7 @@ import type { Product } from "@/lib/types";
 export const metadata: Metadata = {
   title: "Wedding & Groom Collection | Luxe Universal Wears",
   description:
-    "Tuxedos, double-breasted suits, fine shoes and accessories for the modern groom and his party — with bespoke styling from our Ikoyi atelier.",
+    "Tuxedos, double-breasted suits, fine shoes and accessories for the modern groom and his party — with bespoke styling from our Utako atelier.",
 };
 
 function pick(cats: string[], limit: number): Product[] {
@@ -81,7 +81,7 @@ export default function WeddingPage() {
             </h1>
             <p className="mt-6 max-w-lg text-mist leading-relaxed">
               Impeccable tuxedos, commanding double-breasted suits and considered accessories for the
-              modern groom and his party — finished by hand in our Ikoyi atelier.
+              modern groom and his party — finished by hand in our Utako atelier.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/bespoke#book" variant="gold" size="lg">
@@ -171,7 +171,7 @@ export default function WeddingPage() {
             magazine cover — and the entire process was effortless. The fit was simply perfect.&rdquo;
           </blockquote>
           <p className="mt-6 text-[0.7rem] uppercase tracking-[0.2em] text-blue-deep">
-            Emeka & Adaeze — Married in Lagos, December 2025
+            Emeka & Adaeze — Married in Abuja, December 2025
           </p>
         </Container>
       </section>
@@ -182,7 +182,7 @@ export default function WeddingPage() {
           <Calendar className="mx-auto text-blue" size={30} />
           <h2 className="mt-5 text-3xl text-ivory sm:text-4xl md:text-5xl">Begin Your Fitting</h2>
           <p className="mx-auto mt-4 max-w-md text-mist leading-relaxed">
-            Reserve a private consultation with a wedding stylist at our Ikoyi atelier and let us craft
+            Reserve a private consultation with a wedding stylist at our Utako atelier and let us craft
             the look of your celebration.
           </p>
           <div className="mt-8 flex justify-center">

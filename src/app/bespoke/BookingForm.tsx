@@ -13,8 +13,8 @@ const SERVICES = [
 ];
 
 const CITIES = [
-  "Lagos",
   "Abuja",
+  "Lagos",
   "Port Harcourt",
   "Ibadan",
   "Benin City",

@@ -18,7 +18,7 @@ import { ButtonLink } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About Us | Luxe Universal Wears",
   description:
-    "Luxe Universal Wears — a Lagos luxury menswear house redefining how the modern African gentleman dresses, through bespoke craftsmanship and considered design.",
+    "Luxe Universal Wears — an Abuja luxury menswear house redefining how the modern African gentleman dresses, through bespoke craftsmanship and considered design.",
 };
 
 const VALUES = [
@@ -59,7 +59,7 @@ const TEAM = [
     initials: "OA",
     name: "Olawale Adebayo",
     role: "Founder & Creative Director",
-    bio: "A third-generation tailor who founded Luxe to bring world-class bespoke home to Lagos.",
+    bio: "A third-generation tailor who founded Luxe to bring world-class bespoke home to Abuja.",
   },
   {
     initials: "CN",
@@ -108,7 +108,7 @@ export default function AboutPage() {
             Redefining Luxury Fashion
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-ivory/80 leading-relaxed animate-fade-up">
-            A Lagos house dressing the modern African gentleman with craftsmanship, character and an
+            An Abuja house dressing the modern African gentleman with craftsmanship, character and an
             unwavering eye for detail.
           </p>
         </Container>
@@ -121,21 +121,21 @@ export default function AboutPage() {
             <div className="relative aspect-[4/5] overflow-hidden bg-cream">
               <Image
                 src="/products/cotswold-camel-houndstooth-blazer.jpeg"
-                alt="The Luxe atelier in Lagos"
+                alt="The Luxe atelier in Abuja"
                 fill
                 sizes="(max-width:1024px) 100vw, 50vw"
                 className="object-cover"
               />
               <div className="absolute bottom-5 left-5 bg-ivory/95 px-6 py-4">
                 <p className="font-serif text-2xl text-ink">Est. 1998</p>
-                <p className="text-xs uppercase tracking-[0.15em] text-mist">Lagos, Nigeria</p>
+                <p className="text-xs uppercase tracking-[0.15em] text-mist">Abuja, Nigeria</p>
               </div>
             </div>
             <div>
               <p className="eyebrow mb-3">Our Story</p>
-              <h2 className="text-4xl leading-tight text-ink md:text-5xl">From A Single Bench In Lagos</h2>
+              <h2 className="text-4xl leading-tight text-ink md:text-5xl">From A Single Bench In Abuja</h2>
               <p className="mt-5 text-stone leading-relaxed">
-                Luxe Universal Wears began in 1998 at a single tailor&apos;s bench in Lagos, founded
+                Luxe Universal Wears began in 1998 at a single tailor&apos;s bench in Abuja, founded
                 on a simple conviction: that the African gentleman deserved clothing made to the
                 world&apos;s highest standard, without ever leaving home. What started as bespoke
                 commissions for a handful of clients has grown into one of Nigeria&apos;s most
@@ -145,7 +145,7 @@ export default function AboutPage() {
                 A quarter-century on, our philosophy has not changed. We still cut every bespoke
                 pattern by hand. We still know our clients by name. And we still believe that the
                 finest garment is the one that makes its wearer feel entirely, effortlessly himself —
-                whether he is closing a deal in Victoria Island or dancing at a wedding in Enugu.
+                whether he is closing a deal in Maitama or dancing at a wedding in Enugu.
               </p>
             </div>
           </div>
@@ -305,7 +305,7 @@ export default function AboutPage() {
       <section className="py-24 text-center">
         <Container width="narrow">
           <p className="flex items-center justify-center gap-2 text-xs uppercase tracking-[0.2em] text-mist">
-            <MapPin size={13} className="text-blue-deep" /> Lagos · Nationwide · Worldwide
+            <MapPin size={13} className="text-blue-deep" /> Abuja · Nationwide · Worldwide
           </p>
           <h2 className="mt-4 text-4xl leading-tight text-ink md:text-5xl">
             Become Part Of The Story

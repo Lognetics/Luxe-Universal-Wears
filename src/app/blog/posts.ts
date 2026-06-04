@@ -37,9 +37,9 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
 export const POSTS: BlogPost[] = [
   {
     slug: "anatomy-of-the-perfect-lagos-suit",
-    title: "The Anatomy of the Perfect Lagos Suit",
+    title: "The Anatomy of the Perfect Abuja Suit",
     excerpt:
-      "From shoulder line to break, we break down the construction details that separate a forgettable suit from one that commands the room on Awolowo Road.",
+      "From shoulder line to break, we break down the construction details that separate a forgettable suit from one that commands the room the moment you walk in.",
     category: "Suiting Guides",
     image: "/products/windsor-black-two-piece-suit.jpeg",
     author: "Tunde Adeyemi",
@@ -50,7 +50,7 @@ export const POSTS: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A great suit is never an accident. It is the sum of a hundred quiet decisions — the angle of a shoulder, the weight of a canvas, the half-inch of cuff that should reveal itself when you reach to shake a hand. In Lagos, where the heat is unforgiving and the standard of dress is exacting, these decisions matter even more. The right suit does not merely fit; it negotiates the climate, the occasion, and the man wearing it.",
+        text: "A great suit is never an accident. It is the sum of a hundred quiet decisions — the angle of a shoulder, the weight of a canvas, the half-inch of cuff that should reveal itself when you reach to shake a hand. In Abuja, where the heat is unforgiving and the standard of dress is exacting, these decisions matter even more. The right suit does not merely fit; it negotiates the climate, the occasion, and the man wearing it.",
       },
       {
         type: "h2",
@@ -58,7 +58,7 @@ export const POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The shoulder is the foundation of the entire garment. A clean, natural shoulder line that follows your own anatomy is the single most important indicator of quality tailoring. When the shoulder is too wide, the jacket appears borrowed; too narrow, and it strains with every movement. At Luxe Universal Wears we favour a lightly structured Neapolitan shoulder — soft enough to breathe in Lagos humidity, sharp enough to hold its shape from a morning meeting in Ikoyi to an evening on Victoria Island.",
+        text: "The shoulder is the foundation of the entire garment. A clean, natural shoulder line that follows your own anatomy is the single most important indicator of quality tailoring. When the shoulder is too wide, the jacket appears borrowed; too narrow, and it strains with every movement. At Luxe Universal Wears we favour a lightly structured Neapolitan shoulder — soft enough to breathe in Abuja humidity, sharp enough to hold its shape from a morning meeting in Utako to an evening in Maitama.",
       },
       {
         type: "p",
@@ -121,7 +121,7 @@ export const POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "The matching set has graduated from leisurewear to legitimate occasion dressing. An overshirt-and-trouser co-ord in a refined cloth offers the polish of a suit with the ease the climate demands. It is, perhaps, the most Lagos-appropriate silhouette of the decade.",
+        text: "The matching set has graduated from leisurewear to legitimate occasion dressing. An overshirt-and-trouser co-ord in a refined cloth offers the polish of a suit with the ease the climate demands. It is, perhaps, the most Abuja-appropriate silhouette of the decade.",
       },
       {
         type: "quote",
@@ -213,7 +213,7 @@ export const POSTS: BlogPost[] = [
     slug: "dressing-for-the-corner-office",
     title: "Dressing for the Corner Office",
     excerpt:
-      "Corporate dress codes are evolving. Here is how to project authority and competence in Lagos boardrooms without resorting to the predictable navy suit.",
+      "Corporate dress codes are evolving. Here is how to project authority and competence in Abuja boardrooms without resorting to the predictable navy suit.",
     category: "Corporate Fashion",
     image: "/products/royal-cobalt-two-piece-suit.jpeg",
     author: "Tunde Adeyemi",
@@ -482,7 +482,7 @@ export const POSTS: BlogPost[] = [
   },
   {
     slug: "caring-for-fine-leather-and-suede",
-    title: "Caring for Fine Leather and Suede in Lagos",
+    title: "Caring for Fine Leather and Suede in Abuja",
     excerpt:
       "Quality footwear is an investment. A practical guide to protecting your leather and suede against humidity, dust and the demands of the city.",
     category: "Grooming Tips",
@@ -494,7 +494,7 @@ export const POSTS: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "A fine pair of shoes can last decades — but only if you treat them as the investment they are. Lagos is hard on leather: heat dries it, humidity warps it, and dust dulls its finish. With a modest routine, however, your footwear will not merely survive the city but grow more beautiful with every year.",
+        text: "A fine pair of shoes can last decades — but only if you treat them as the investment they are. Abuja is hard on leather: heat dries it, humidity warps it, and dust dulls its finish. With a modest routine, however, your footwear will not merely survive the city but grow more beautiful with every year.",
       },
       {
         type: "h2",

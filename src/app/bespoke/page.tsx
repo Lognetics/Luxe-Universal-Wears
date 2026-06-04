@@ -19,7 +19,7 @@ import { BookingForm } from "./BookingForm";
 export const metadata: Metadata = {
   title: "Bespoke Tailoring | Luxe Universal Wears",
   description:
-    "Made-to-measure suits, shirts, wedding tuxedos and corporate wear, hand-crafted in Lagos. Book a private consultation with the Luxe atelier.",
+    "Made-to-measure suits, shirts, wedding tuxedos and corporate wear, hand-crafted in Abuja. Book a private consultation with the Luxe atelier.",
 };
 
 const SERVICES = [
@@ -50,7 +50,7 @@ const PROCESS = [
     icon: Calendar,
     step: "01",
     title: "Consultation",
-    text: "We meet at our Lagos atelier or virtually to understand your taste, lifestyle and the occasion, then curate fabrics and styles together.",
+    text: "We meet at our Abuja atelier or virtually to understand your taste, lifestyle and the occasion, then curate fabrics and styles together.",
   },
   {
     icon: Ruler,
@@ -134,7 +134,7 @@ export default function BespokePage() {
             Tailored To Your Identity
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base text-ivory/80 leading-relaxed animate-fade-up">
-            Made-to-measure suits, shirts and ceremonial wear, drafted by hand in Lagos for the
+            Made-to-measure suits, shirts and ceremonial wear, drafted by hand in Abuja for the
             modern Nigerian gentleman. One body, one pattern, one unmistakable fit.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up">
@@ -156,7 +156,7 @@ export default function BespokePage() {
       {/* Intro story */}
       <section className="py-20 md:py-28">
         <Container width="narrow" className="text-center">
-          <p className="eyebrow mb-4">Since 1998 · Lagos</p>
+          <p className="eyebrow mb-4">Since 1998 · Abuja</p>
           <h2 className="text-3xl leading-tight text-ink sm:text-4xl md:text-[2.8rem]">
             The garment should bow to the man — never the reverse.
           </h2>
@@ -307,7 +307,7 @@ export default function BespokePage() {
               </h2>
               <p className="mt-5 text-stone leading-relaxed">
                 We source from the world&apos;s most storied mills and finish every garment by hand
-                in Lagos. From breathable high-twist wools built for the West African climate to
+                in Abuja. From breathable high-twist wools built for the West African climate to
                 ceremonial jacquards, each cloth is selected for how it will live on you.
               </p>
               <div className="mt-9 grid gap-x-6 gap-y-7 sm:grid-cols-2">
@@ -343,7 +343,7 @@ export default function BespokePage() {
             <div className="text-left">
               <p className="font-medium text-ink">Engr. Emeka Adeyemi</p>
               <p className="flex items-center gap-1 text-xs uppercase tracking-[0.15em] text-mist">
-                <MapPin size={12} /> Ikoyi, Lagos
+                <MapPin size={12} /> Utako, Abuja
               </p>
             </div>
           </div>
@@ -360,7 +360,7 @@ export default function BespokePage() {
                 Begin Your Commission
               </h2>
               <p className="mt-5 text-stone leading-relaxed">
-                Reserve a private appointment at our Lagos atelier or arrange a virtual fitting from
+                Reserve a private appointment at our Abuja atelier or arrange a virtual fitting from
                 anywhere in the world. Tell us a little about yourself and the occasion — our team
                 will respond within 24 hours.
               </p>

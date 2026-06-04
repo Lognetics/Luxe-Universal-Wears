@@ -7,7 +7,7 @@ import { FaqAccordion, type Faq } from "./FaqAccordion";
 export const metadata: Metadata = {
   title: "Contact Us | Luxe Universal Wears",
   description:
-    "Visit our Ikoyi flagship, call our concierge or send us a message. We are here to help with orders, bespoke commissions and styling.",
+    "Visit our Utako flagship, call our concierge or send us a message. We are here to help with orders, bespoke commissions and styling.",
 };
 
 const HOURS = [
@@ -18,21 +18,21 @@ const HOURS = [
 
 const STORES = [
   {
-    city: "Lagos — Flagship",
-    address: "21 Awolowo Road, Ikoyi, Lagos",
-    phone: "+234 800 123 4567",
+    city: "Abuja — Flagship",
+    address: "Shop 313, Favour Line, Ultra Modern Market, Utako, Abuja",
+    phone: "+234 817 393 8770",
     note: "Full atelier, bespoke fittings & private styling suite.",
   },
   {
-    city: "Abuja",
+    city: "Abuja — Wuse II",
     address: "14 Aminu Kano Crescent, Wuse II, Abuja",
-    phone: "+234 800 123 4568",
+    phone: "+234 817 393 8770",
     note: "Ready-to-wear showroom & made-to-measure appointments.",
   },
   {
     city: "Port Harcourt",
     address: "9 Aba Road, GRA Phase II, Port Harcourt",
-    phone: "+234 800 123 4569",
+    phone: "+234 817 393 8770",
     note: "Boutique showroom & consultation lounge.",
   },
 ];
@@ -44,7 +44,7 @@ const FAQS: Faq[] = [
   },
   {
     q: "What are your delivery options across Nigeria?",
-    a: "We offer same-day delivery within Lagos, next-day delivery to Abuja and Port Harcourt, and 2–4 day nationwide courier. Complimentary shipping applies to orders above ₦150,000.",
+    a: "We offer same-day delivery within Abuja, next-day delivery to Port Harcourt and other major cities, and 2–4 day nationwide courier. Complimentary shipping applies to orders above ₦150,000.",
   },
   {
     q: "What is your returns and exchange policy?",
@@ -88,22 +88,22 @@ export default function ContactPage() {
             {/* Details */}
             <div className="lg:col-span-2">
               <p className="eyebrow mb-3">Flagship Atelier</p>
-              <h2 className="mb-8 text-3xl text-ink sm:text-4xl">Visit Us in Ikoyi</h2>
+              <h2 className="mb-8 text-3xl text-ink sm:text-4xl">Visit Us in Utako</h2>
 
               <ul className="space-y-6">
                 <li className="flex gap-4">
                   <MapPin className="mt-0.5 shrink-0 text-blue-deep" size={20} />
                   <div>
                     <p className="text-[0.65rem] uppercase tracking-[0.18em] text-mist">Address</p>
-                    <p className="mt-1 text-ink">21 Awolowo Road, Ikoyi, Lagos</p>
+                    <p className="mt-1 text-ink">Shop 313, Favour Line, Ultra Modern Market, Utako, Abuja</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <Phone className="mt-0.5 shrink-0 text-blue-deep" size={20} />
                   <div>
                     <p className="text-[0.65rem] uppercase tracking-[0.18em] text-mist">Phone</p>
-                    <a href="tel:+2348001234567" className="mt-1 block text-ink luxe-link-underline">
-                      +234 800 123 4567
+                    <a href="tel:+2348173938770" className="mt-1 block text-ink luxe-link-underline">
+                      +234 817 393 8770
                     </a>
                   </div>
                 </li>
@@ -112,10 +112,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-[0.65rem] uppercase tracking-[0.18em] text-mist">Email</p>
                     <a
-                      href="mailto:hello@luxeuniversal.com"
+                      href="mailto:info@luxeuniversalwears.com"
                       className="mt-1 block text-ink luxe-link-underline"
                     >
-                      hello@luxeuniversal.com
+                      info@luxeuniversalwears.com
                     </a>
                   </div>
                 </li>
@@ -123,7 +123,7 @@ export default function ContactPage() {
                   <MessageCircle className="mt-0.5 shrink-0 text-blue-deep" size={20} />
                   <div>
                     <p className="text-[0.65rem] uppercase tracking-[0.18em] text-mist">WhatsApp</p>
-                    <a href="https://wa.me/2348001234567" className="mt-1 block text-ink luxe-link-underline">
+                    <a href="https://wa.me/2348173938770" className="mt-1 block text-ink luxe-link-underline">
                       Chat with our concierge
                     </a>
                   </div>
@@ -162,8 +162,8 @@ export default function ContactPage() {
       <section className="border-t border-sand">
         <div className="relative aspect-[16/9] w-full bg-cream sm:aspect-[16/6]">
           <iframe
-            title="Luxe Universal Wears — Ikoyi, Lagos"
-            src="https://www.google.com/maps?q=Ikoyi,Lagos&output=embed"
+            title="Luxe Universal Wears — Utako, Abuja"
+            src="https://www.google.com/maps?q=Utako,Abuja&output=embed"
             className="absolute inset-0 h-full w-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

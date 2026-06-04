@@ -10,7 +10,7 @@ import { BlogFilter } from "./BlogFilter";
 export const metadata: Metadata = {
   title: "Fashion Journal | Luxe Universal Wears",
   description:
-    "Style notes, suiting guides and grooming wisdom from Luxe Universal Wears — the considered perspective on dressing well in Lagos and beyond.",
+    "Style notes, suiting guides and grooming wisdom from Luxe Universal Wears — the considered perspective on dressing well in Abuja and beyond.",
 };
 
 export default function BlogPage() {
@@ -28,7 +28,7 @@ export default function BlogPage() {
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-stone leading-relaxed">
             Considered perspectives on tailoring, grooming and the art of dressing well — written for
-            the modern gentleman, from our atelier in Ikoyi.
+            the modern gentleman, from our atelier in Utako.
           </p>
           <Divider className="mt-8" />
         </Container>

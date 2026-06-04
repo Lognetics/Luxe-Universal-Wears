@@ -63,9 +63,9 @@ export function Footer() {
       {/* Contact strip */}
       <div className="border-t border-ivory/10">
         <div className="mx-auto flex max-w-[1320px] flex-col gap-4 px-6 py-6 text-sm text-ivory/70 md:flex-row md:items-center md:justify-between">
-          <span className="inline-flex items-center gap-2"><MapPin size={15} className="text-blue-soft" /> 21 Awolowo Road, Ikoyi, Lagos, Nigeria</span>
-          <span className="inline-flex items-center gap-2"><Phone size={15} className="text-blue-soft" /> +234 800 123 4567</span>
-          <span className="inline-flex items-center gap-2"><Mail size={15} className="text-blue-soft" /> hello@luxeuniversal.com</span>
+          <span className="inline-flex items-center gap-2"><MapPin size={15} className="text-blue-soft" /> Shop 313, Favour Line, Ultra Modern Market, Utako, Abuja, Nigeria</span>
+          <span className="inline-flex items-center gap-2"><Phone size={15} className="text-blue-soft" /> +234 817 393 8770</span>
+          <span className="inline-flex items-center gap-2"><Mail size={15} className="text-blue-soft" /> info@luxeuniversalwears.com</span>
         </div>
       </div>
 

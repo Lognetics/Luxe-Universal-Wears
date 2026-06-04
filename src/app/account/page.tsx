@@ -574,8 +574,8 @@ function AddressForm({
           <FormField label="Label" id="a-label" value={form.label} onChange={(v) => set("label", v)} placeholder="Home / Office" />
           <FormField label="Recipient" id="a-recipient" value={form.recipient} onChange={(v) => set("recipient", v)} placeholder="Full name" />
           <FormField label="Phone" id="a-phone" value={form.phone} onChange={(v) => set("phone", v)} placeholder="+234 ..." />
-          <FormField label="City" id="a-city" value={form.city} onChange={(v) => set("city", v)} placeholder="Lagos" />
-          <FormField label="State" id="a-state" value={form.state} onChange={(v) => set("state", v)} placeholder="Lagos State" />
+          <FormField label="City" id="a-city" value={form.city} onChange={(v) => set("city", v)} placeholder="Abuja" />
+          <FormField label="State" id="a-state" value={form.state} onChange={(v) => set("state", v)} placeholder="FCT" />
         </div>
         <FormField label="Street Address" id="a-street" value={form.street} onChange={(v) => set("street", v)} placeholder="House no, street, area" />
         <label className="flex cursor-pointer items-center gap-2 text-xs text-stone select-none">

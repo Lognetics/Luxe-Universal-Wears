@@ -97,9 +97,9 @@ export const MOCK_ADDRESSES: Address[] = [
     label: "Home",
     recipient: "Adewale Okonkwo",
     phone: "+234 802 114 5566",
-    street: "14B Bourdillon Road, Ikoyi",
-    city: "Lagos",
-    state: "Lagos State",
+    street: "House 14, 3rd Avenue, Gwarinpa Estate",
+    city: "Abuja",
+    state: "FCT",
     isDefault: true,
   },
   {

@@ -44,7 +44,7 @@ const PROCESS = [
   { step: "04", title: "Delivery & Support", desc: "On-schedule nationwide delivery, with reorders and replacements on demand." },
 ];
 
-const CLIENTS = ["Meridian Bank", "Lagos Law LLP", "Atlantic Air", "Crown Academy", "Summit Events", "Civic Group"];
+const CLIENTS = ["Meridian Bank", "Abuja Law LLP", "Atlantic Air", "Crown Academy", "Summit Events", "Civic Group"];
 
 export default function CorporatePage() {
   return (

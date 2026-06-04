@@ -165,7 +165,7 @@ export default async function ProductPage({
               content: (
                 <div className="space-y-2">
                   <p>
-                    Complimentary nationwide delivery on orders over ₦150,000. Lagos same-day and
+                    Complimentary nationwide delivery on orders over ₦150,000. Abuja same-day and
                     next-day options available at checkout. Orders dispatch within 24–48 hours.
                   </p>
                   <p>

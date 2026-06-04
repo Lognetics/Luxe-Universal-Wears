@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "Premium fashion, bespoke tailoring & luxury accessories for the modern gentleman. Suits, tuxedos, footwear & more — delivered across Nigeria and worldwide.",
   keywords: [
     "luxury menswear Nigeria",
-    "bespoke tailoring Lagos",
+    "bespoke tailoring Abuja",
     "tuxedos",
     "suits",
     "designer fashion",

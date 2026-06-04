@@ -58,8 +58,8 @@ const DELIVERY_OPTIONS: DeliveryOption[] = [
   },
   {
     id: "sameday",
-    label: "Same-Day (Lagos)",
-    description: "Order before 12pm, within Lagos",
+    label: "Same-Day (Abuja)",
+    description: "Order before 12pm, within Abuja",
     price: 5000,
     eta: "Today",
     lagosOnly: true,
@@ -164,7 +164,7 @@ export default function CheckoutPage() {
   }, [intl, payment, delivery]);
 
   const availableDelivery = useMemo(
-    () => DELIVERY_OPTIONS.filter((o) => !(o.lagosOnly && (intl || state !== "Lagos"))),
+    () => DELIVERY_OPTIONS.filter((o) => !(o.lagosOnly && (intl || state !== "FCT - Abuja"))),
     [intl, state]
   );
 
@@ -405,7 +405,7 @@ export default function CheckoutPage() {
                   id="city"
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
-                  placeholder="Ikoyi"
+                  placeholder="Utako"
                   className={inputClass}
                 />
                 <FieldError name="city" />

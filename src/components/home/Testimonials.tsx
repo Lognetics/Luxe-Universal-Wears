@@ -6,7 +6,7 @@ import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 const reviews = [
   {
     name: "Chidi Okafor",
-    role: "Investment Banker, Lagos",
+    role: "Investment Banker, Abuja",
     text: "The bespoke suit fits like a second skin. From measurement to delivery, the experience felt genuinely luxurious. Luxe has earned a client for life.",
   },
   {
