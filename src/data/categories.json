@@ -7,10 +7,12 @@
       "Slim Fit",
       "Regular Fit",
       "Skinny Fit",
+      "Cargo",
+      "Wide Leg",
       "Luxury Denim"
     ],
-    "count": 0,
-    "image": null
+    "count": 68,
+    "image": "/products/onyx-midnight-slim-jeans.jpeg"
   },
   {
     "slug": "chinos",
@@ -19,9 +21,10 @@
     "subcategories": [
       "Formal Chinos",
       "Casual Chinos",
-      "Wide Leg"
+      "Cargo",
+      "Joggers"
     ],
-    "count": 3,
+    "count": 25,
     "image": "/products/turin-herringbone-wide-leg-trousers.jpeg"
   },
   {
@@ -32,9 +35,10 @@
       "Round Neck",
       "V Neck",
       "Graphic Tee",
+      "Long Sleeve",
       "Premium Tees"
     ],
-    "count": 1,
+    "count": 7,
     "image": "/products/heritage-89-graphic-tee.jpeg"
   },
   {
@@ -45,9 +49,9 @@
       "Luxury Polo",
       "Corporate Polo",
       "Quarter-Zip",
-      "Striped"
+      "Long Sleeve"
     ],
-    "count": 5,
+    "count": 26,
     "image": "/products/aspen-sage-quarter-zip-knit-polo.jpeg"
   },
   {
@@ -58,10 +62,10 @@
       "Corporate Shirts",
       "Casual Shirts",
       "Pattern Shirts",
-      "Luxury Shirts"
+      "Co-Ord Sets"
     ],
-    "count": 0,
-    "image": null
+    "count": 9,
+    "image": "/products/ivory-jacquard-zip-overshirt.jpeg"
   },
   {
     "slug": "jackets",
@@ -70,11 +74,10 @@
     "subcategories": [
       "Shirt Jacket",
       "Trucker Jacket",
-      "Harrington",
-      "Corduroy",
-      "Chore Jacket"
+      "Leather",
+      "Overshirt"
     ],
-    "count": 12,
+    "count": 24,
     "image": "/products/monaco-houndstooth-overshirt.jpeg"
   },
   {
@@ -87,7 +90,7 @@
       "Three Piece",
       "Business Suits"
     ],
-    "count": 2,
+    "count": 9,
     "image": "/products/windsor-black-two-piece-suit.jpeg"
   },
   {
@@ -99,7 +102,7 @@
       "Smart Casual Blazers",
       "Single Breasted"
     ],
-    "count": 4,
+    "count": 5,
     "image": "/products/belgravia-gingham-check-blazer.jpeg"
   },
   {
@@ -108,10 +111,11 @@
     "group": "Suits",
     "subcategories": [
       "Classic",
-      "Modern"
+      "Modern",
+      "Peak Lapel"
     ],
-    "count": 0,
-    "image": null
+    "count": 14,
+    "image": "/products/azure-sovereign-double-breasted-suit.jpeg"
   },
   {
     "slug": "tuxedos",
@@ -122,7 +126,7 @@
       "Double Breasted",
       "Jacquard"
     ],
-    "count": 1,
+    "count": 5,
     "image": "/products/noir-floral-jacquard-tuxedo.jpeg"
   },
   {
@@ -131,10 +135,11 @@
     "group": "Footwear",
     "subcategories": [
       "Luxury Sneakers",
-      "Casual Sneakers"
+      "Casual Sneakers",
+      "Running"
     ],
-    "count": 0,
-    "image": null
+    "count": 7,
+    "image": "/products/new-balance-9060-olive-sneakers.jpeg"
   },
   {
     "slug": "corporate-shoes",
@@ -144,10 +149,9 @@
       "Oxford",
       "Derby",
       "Monk Strap",
-      "Loafers",
-      "Tassel Loafer"
+      "Loafers"
     ],
-    "count": 4,
+    "count": 10,
     "image": "/products/versailles-black-tassel-loafers.jpeg"
   },
   {
@@ -156,10 +160,10 @@
     "group": "Footwear",
     "subcategories": [
       "Suede Loafer",
-      "Suede Boot",
+      "Boots",
       "Slip-On"
     ],
-    "count": 4,
+    "count": 12,
     "image": "/products/zermatt-black-suede-zip-boots.jpeg"
   },
   {
@@ -168,11 +172,11 @@
     "group": "Footwear",
     "subcategories": [
       "Cross-Strap",
-      "Buckle Strap",
-      "Sandals",
-      "Mules"
+      "Double-Strap",
+      "Mules",
+      "Sandals"
     ],
-    "count": 8,
+    "count": 21,
     "image": "/products/capri-black-leather-cross-strap-slides.jpeg"
   },
   {
@@ -181,10 +185,11 @@
     "group": "Accessories",
     "subcategories": [
       "Baseball",
+      "Fedora",
       "Flat Cap"
     ],
-    "count": 0,
-    "image": null
+    "count": 8,
+    "image": "/products/kendall-signature-wide-brim-fedora.jpeg"
   },
   {
     "slug": "watches",

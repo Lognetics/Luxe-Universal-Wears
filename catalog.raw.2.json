@@ -1,0 +1,3870 @@
+[
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.05 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "slim jeans",
+    "name": "Onyx Midnight Slim Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek jet-black slim-fit jeans crafted for a sharp, modern silhouette that pairs effortlessly with smart-casual looks.",
+    "tags": [
+      "jeans",
+      "slim-fit",
+      "black",
+      "denim",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.24.jpeg",
+    "category": "suits",
+    "subcategory": "three-piece suit",
+    "name": "Plum Regalia Plaid Three-Piece Suit",
+    "colors": [
+      "purple",
+      "plum",
+      "black"
+    ],
+    "description": "A commanding plum plaid three-piece suit with matching waistcoat, tailored for the man who owns every room he enters.",
+    "tags": [
+      "suit",
+      "three-piece",
+      "plaid",
+      "plum",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.42 (1).jpeg",
+    "category": "t-shirts",
+    "subcategory": "long-sleeve tee",
+    "name": "Monogram Noir Long-Sleeve Tee",
+    "colors": [
+      "black"
+    ],
+    "description": "An all-over monogram long-sleeve tee in deep black, blending streetwear edge with understated luxury.",
+    "tags": [
+      "t-shirt",
+      "long-sleeve",
+      "monogram",
+      "black",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo jeans",
+    "name": "Indigo Utility Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Rugged blue denim cargo jeans with utilitarian pockets, balancing function and refined street style.",
+    "tags": [
+      "jeans",
+      "cargo",
+      "denim",
+      "blue",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.51 (3).jpeg",
+    "category": "t-shirts",
+    "subcategory": "textured tee",
+    "name": "Navy Cipher Textured Tee",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A refined navy tee with subtle textured weave, offering elevated everyday comfort.",
+    "tags": [
+      "t-shirt",
+      "textured",
+      "navy",
+      "casual",
+      "crewneck"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.28 (2).jpeg",
+    "category": "shirts",
+    "subcategory": "overshirt",
+    "name": "Ivory Jacquard Zip Overshirt",
+    "colors": [
+      "white",
+      "cream"
+    ],
+    "description": "A white jacquard zip overshirt with intricate woven patterning, a versatile layer for the discerning gentleman.",
+    "tags": [
+      "shirt",
+      "overshirt",
+      "jacquard",
+      "white",
+      "zip"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.16 (1).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "oxford",
+    "name": "Cognac Wholecut Oxford",
+    "colors": [
+      "brown"
+    ],
+    "description": "Impeccably polished brown wholecut oxfords, the cornerstone of any distinguished formal wardrobe.",
+    "tags": [
+      "shoes",
+      "oxford",
+      "wholecut",
+      "brown",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.50 (2).jpeg",
+    "category": "shirts",
+    "subcategory": "short-sleeve shirt",
+    "name": "Tie-Dye Bloom Short-Sleeve Shirt",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "description": "A grey and white tie-dye floral short-sleeve shirt that brings artistic flair to warm-weather dressing.",
+    "tags": [
+      "shirt",
+      "short-sleeve",
+      "tie-dye",
+      "floral",
+      "grey"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.25 (2).jpeg",
+    "category": "chinos",
+    "subcategory": "printed trousers",
+    "name": "Saharan Geometric Wide-Leg Trousers",
+    "colors": [
+      "beige",
+      "navy"
+    ],
+    "description": "Beige and navy geometric-print wide-leg trousers that make a bold, sophisticated statement.",
+    "tags": [
+      "chinos",
+      "wide-leg",
+      "geometric",
+      "printed",
+      "beige"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.27 (3).jpeg",
+    "category": "chinos",
+    "subcategory": "flared trousers",
+    "name": "Slate Flared Tailored Trousers",
+    "colors": [
+      "grey"
+    ],
+    "description": "Elegant grey flared trousers with a fluid drape for a retro-refined silhouette.",
+    "tags": [
+      "chinos",
+      "flared",
+      "grey",
+      "tailored",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.18 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "denim shorts",
+    "name": "Azure Utility Denim Shorts",
+    "colors": [
+      "blue"
+    ],
+    "description": "Light blue denim cargo shorts blending laid-back ease with functional detailing.",
+    "tags": [
+      "shorts",
+      "denim",
+      "cargo",
+      "blue",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.07 (3).jpeg",
+    "category": "chinos",
+    "subcategory": "cargo trousers",
+    "name": "Graphite Field Cargo Trousers",
+    "colors": [
+      "grey"
+    ],
+    "description": "Grey cargo trousers with structured pockets, engineered for rugged elegance.",
+    "tags": [
+      "chinos",
+      "cargo",
+      "grey",
+      "utility",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04 (4).jpeg",
+    "category": "jeans",
+    "subcategory": "straight jeans",
+    "name": "Cobalt Straight-Leg Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Classic blue straight-leg jeans finished with a sleek belt for everyday versatility.",
+    "tags": [
+      "jeans",
+      "straight-leg",
+      "blue",
+      "denim",
+      "belt"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45 (3).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "mule loafers",
+    "name": "Croc-Embossed Backless Loafer",
+    "colors": [
+      "black"
+    ],
+    "description": "Black croc-embossed mule loafers with an Italian-flag heel tab, the height of relaxed luxury.",
+    "tags": [
+      "shoes",
+      "loafers",
+      "mule",
+      "croc",
+      "black"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.34 (2).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "quarter-zip polo",
+    "name": "Heritage Stripe Quarter-Zip Polo",
+    "colors": [
+      "brown",
+      "cream",
+      "black"
+    ],
+    "description": "A brown, cream and black striped quarter-zip polo that marries sporty ease with refined texture.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "striped",
+      "brown",
+      "knit"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.15 (2).jpeg",
+    "category": "slides",
+    "subcategory": "croc slides",
+    "name": "Noir Croc H-Cut Slides",
+    "colors": [
+      "black"
+    ],
+    "description": "Black croc-embossed slides with a sculpted H-cut strap for effortless poolside-to-street style.",
+    "tags": [
+      "slides",
+      "croc",
+      "black",
+      "sandals",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.22 (2).jpeg",
+    "category": "slides",
+    "subcategory": "croc slides",
+    "name": "Hermès Noir Croc Slides",
+    "colors": [
+      "black"
+    ],
+    "description": "Hermès black croc-embossed slides presented in their signature orange box, the pinnacle of designer comfort.",
+    "tags": [
+      "slides",
+      "croc",
+      "black",
+      "designer",
+      "hermes"
+    ],
+    "brand": "Hermès"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.58 (4).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Azure Sovereign Double-Breasted Suit",
+    "colors": [
+      "blue"
+    ],
+    "description": "A striking blue double-breasted suit with peak lapels, tailored for commanding sophistication.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "blue",
+      "formal",
+      "peak-lapel"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.00.jpeg",
+    "category": "jeans",
+    "subcategory": "cargo jeans",
+    "name": "Shadow Slate Cargo Jeans",
+    "colors": [
+      "grey",
+      "black"
+    ],
+    "description": "Dark slate cargo jeans with multi-pocket utility detailing for an urban-luxe edge.",
+    "tags": [
+      "jeans",
+      "cargo",
+      "grey",
+      "denim",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.23 (3).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Khaki Imperial Double-Breasted Suit",
+    "colors": [
+      "tan",
+      "beige"
+    ],
+    "description": "A tan double-breasted suit accented with gold buttons, exuding warm, regal confidence.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "tan",
+      "gold-buttons",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.25.jpeg",
+    "category": "tuxedos",
+    "subcategory": "jacquard tuxedo",
+    "name": "Sapphire Jacquard Shawl Tuxedo",
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "description": "A royal blue jacquard tuxedo with black shawl lapel and ornate detailing, made for unforgettable evenings.",
+    "tags": [
+      "tuxedo",
+      "jacquard",
+      "blue",
+      "shawl-lapel",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.12 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "printed jeans",
+    "name": "Eclipse Monogram Print Jeans",
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "description": "Black jeans with an all-over tonal monogram print, a bold canvas for statement streetwear.",
+    "tags": [
+      "jeans",
+      "monogram",
+      "printed",
+      "black",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.57.jpeg",
+    "category": "chinos",
+    "subcategory": "cargo trousers",
+    "name": "Charcoal Expedition Cargo Trousers",
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "description": "Charcoal cargo trousers with bold side pockets, built for rugged sophistication.",
+    "tags": [
+      "chinos",
+      "cargo",
+      "charcoal",
+      "utility",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.46 (2).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "loafers",
+    "name": "Tod's Suede T-Buckle Loafer",
+    "colors": [
+      "black"
+    ],
+    "description": "Black suede Tod's loafers with a polished gold T-buckle, the epitome of Italian craftsmanship.",
+    "tags": [
+      "shoes",
+      "loafers",
+      "suede",
+      "black",
+      "tods"
+    ],
+    "brand": "Tod's"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.00 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo jeans",
+    "name": "Ironstone Belted Cargo Jeans",
+    "colors": [
+      "grey"
+    ],
+    "description": "Washed grey cargo jeans with a sleek belt and utility pockets for refined everyday wear.",
+    "tags": [
+      "jeans",
+      "cargo",
+      "grey",
+      "belt",
+      "denim"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.22 (3).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Cerulean Crest Double-Breasted Suit",
+    "colors": [
+      "blue"
+    ],
+    "description": "A cerulean blue double-breasted suit with crisp peak lapels, tailored for distinguished occasions.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "blue",
+      "peak-lapel",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.19.jpeg",
+    "category": "sneakers",
+    "subcategory": "running sneakers",
+    "name": "New Balance 9060 Olive Sneakers",
+    "colors": [
+      "green",
+      "olive"
+    ],
+    "description": "Olive-toned New Balance 9060 sneakers with sculpted retro-tech styling, a coveted streetwear staple.",
+    "tags": [
+      "sneakers",
+      "new-balance",
+      "olive",
+      "running",
+      "9060"
+    ],
+    "brand": "New Balance"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.35.jpeg",
+    "category": "chinos",
+    "subcategory": "cargo joggers",
+    "name": "Onyx Drawcord Cargo Joggers",
+    "colors": [
+      "black"
+    ],
+    "description": "Black drawcord cargo joggers with relaxed utility detailing for elevated off-duty comfort.",
+    "tags": [
+      "joggers",
+      "cargo",
+      "black",
+      "drawcord",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.16.jpeg",
+    "category": "slides",
+    "subcategory": "fisherman sandals",
+    "name": "Pedro Caged Leather Sandals",
+    "colors": [
+      "black"
+    ],
+    "description": "Black caged leather fisherman sandals with an ankle strap, blending heritage style and modern ease.",
+    "tags": [
+      "sandals",
+      "fisherman",
+      "leather",
+      "black",
+      "pedro"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.26.jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Midnight Onyx Double-Breasted Suit",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black double-breasted suit styled with a rose bow tie and lapel bloom for timeless evening elegance.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "black",
+      "formal",
+      "evening"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.40 (2).jpeg",
+    "category": "jackets",
+    "subcategory": "leather biker jacket",
+    "name": "Medusa Noir Leather Jacket",
+    "colors": [
+      "black",
+      "gold"
+    ],
+    "description": "A statement black leather jacket crowned with a gilded Medusa emblem for unapologetic Italian swagger.",
+    "tags": [
+      "leather",
+      "biker",
+      "luxury",
+      "statement",
+      "gold-hardware"
+    ],
+    "brand": "Versace"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.42 (4).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "double monk strap",
+    "name": "Wall Street Double Monk",
+    "colors": [
+      "black"
+    ],
+    "description": "Polished black double monk straps that command every boardroom with quiet authority.",
+    "tags": [
+      "formal",
+      "monk-strap",
+      "leather",
+      "office",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.40 (4).jpeg",
+    "category": "t-shirts",
+    "subcategory": "knit pullover",
+    "name": "Highland Plaid Knit Top",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A refined navy plaid knit pullover that layers effortless heritage into your wardrobe.",
+    "tags": [
+      "knit",
+      "plaid",
+      "navy",
+      "pullover",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.01 (4).jpeg",
+    "category": "jeans",
+    "subcategory": "distressed flared jeans",
+    "name": "Boulevard Flared Denim",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Light-wash flared jeans with artful distressing for a retro silhouette with modern edge.",
+    "tags": [
+      "denim",
+      "flared",
+      "distressed",
+      "light-wash",
+      "retro"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13.jpeg",
+    "category": "chinos",
+    "subcategory": "cargo trousers",
+    "name": "Expedition Cargo Trousers",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek black cargo trousers blending utilitarian pockets with tailored modern lines.",
+    "tags": [
+      "cargo",
+      "black",
+      "utility",
+      "trousers",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.34 (1).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "striped quarter-zip polo",
+    "name": "Regatta Quarter-Zip Polo",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "description": "A crisp striped quarter-zip polo that pairs sporty ease with sharp monochrome styling.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "striped",
+      "monochrome",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.47 (4).jpeg",
+    "category": "t-shirts",
+    "subcategory": "textured knit crew-neck tee",
+    "name": "Bordeaux Textured Crew Tee",
+    "colors": [
+      "burgundy",
+      "red"
+    ],
+    "description": "A richly textured burgundy knit tee that elevates everyday dressing with depth and warmth.",
+    "tags": [
+      "knit",
+      "textured",
+      "burgundy",
+      "crew-neck",
+      "tee"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.25 (1).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Bordeaux Sovereign Double-Breasted Suit",
+    "colors": [
+      "burgundy"
+    ],
+    "description": "A commanding burgundy double-breasted suit finished with lustrous gold buttons for regal presence.",
+    "tags": [
+      "double-breasted",
+      "burgundy",
+      "formal",
+      "gold-buttons",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "patterned flared jeans",
+    "name": "Etched Stone Flared Jeans",
+    "colors": [
+      "grey"
+    ],
+    "description": "Grey flared jeans embossed with subtle all-over patterning for textured statement appeal.",
+    "tags": [
+      "denim",
+      "flared",
+      "grey",
+      "patterned",
+      "statement"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.24 (2).jpeg",
+    "category": "suits",
+    "subcategory": "windowpane check suit",
+    "name": "Mayfair Windowpane Suit",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A navy windowpane-check suit that marries classic tailoring with a confident, contemporary grid.",
+    "tags": [
+      "suit",
+      "navy",
+      "windowpane",
+      "tailored",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.16 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "denim cargo shorts",
+    "name": "Drift Denim Cargo Shorts",
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "description": "Charcoal denim cargo shorts with contrast stitching for laid-back utilitarian cool.",
+    "tags": [
+      "denim",
+      "shorts",
+      "cargo",
+      "charcoal",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.26 (2).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Claret Regent Double-Breasted Suit",
+    "colors": [
+      "burgundy"
+    ],
+    "description": "A burgundy double-breasted suit with peaked lapels and gold buttons for distinguished evening elegance.",
+    "tags": [
+      "double-breasted",
+      "burgundy",
+      "gold-buttons",
+      "formal",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.55.jpeg",
+    "category": "jackets",
+    "subcategory": "distressed denim jacket",
+    "name": "Renegade Acid-Wash Denim Jacket",
+    "colors": [
+      "blue",
+      "indigo"
+    ],
+    "description": "An acid-washed distressed denim jacket that channels rugged vintage attitude with every fade.",
+    "tags": [
+      "denim",
+      "jacket",
+      "distressed",
+      "acid-wash",
+      "vintage"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.24 (4).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Onyx Gala Double-Breasted Suit",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black double-breasted suit styled with a bow tie for refined formal occasions.",
+    "tags": [
+      "double-breasted",
+      "black",
+      "formal",
+      "tailored",
+      "evening"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.27 (1).jpeg",
+    "category": "chinos",
+    "subcategory": "flared suede trousers",
+    "name": "Dune Flared Suede Trousers",
+    "colors": [
+      "beige",
+      "cream"
+    ],
+    "description": "Cream flared suede-finish trousers that bring soft seventies flair to a polished wardrobe.",
+    "tags": [
+      "flared",
+      "suede",
+      "beige",
+      "trousers",
+      "retro"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26 (4).jpeg",
+    "category": "jackets",
+    "subcategory": "suede zip jacket",
+    "name": "Savanna Suede Harrington Jacket",
+    "colors": [
+      "olive",
+      "khaki"
+    ],
+    "description": "An olive suede zip-up jacket that delivers earthy refinement with a clean modern cut.",
+    "tags": [
+      "suede",
+      "jacket",
+      "olive",
+      "zip-up",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.56 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "straight-leg jeans",
+    "name": "Midnight Straight Denim",
+    "colors": [
+      "dark blue",
+      "indigo"
+    ],
+    "description": "Deep indigo straight-leg jeans offering timeless versatility in a rich saturated wash.",
+    "tags": [
+      "denim",
+      "straight-leg",
+      "indigo",
+      "dark-wash",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04.jpeg",
+    "category": "jeans",
+    "subcategory": "paint-splatter jeans",
+    "name": "Atelier Splatter Jeans",
+    "colors": [
+      "light blue",
+      "yellow"
+    ],
+    "description": "Light-wash jeans flecked with golden paint splatter and a bold chain for artful street edge.",
+    "tags": [
+      "denim",
+      "paint-splatter",
+      "light-wash",
+      "chain",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.40 (3).jpeg",
+    "category": "shirts",
+    "subcategory": "short-sleeve camp shirt",
+    "name": "Noir Resort Camp Shirt",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black short-sleeve camp shirt offering effortless monochrome resort style.",
+    "tags": [
+      "shirt",
+      "short-sleeve",
+      "black",
+      "camp-collar",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.01 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "paneled cargo jeans",
+    "name": "Vanguard Paneled Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Mid-wash jeans with paneled knees and cargo detailing for a rugged, architectural look.",
+    "tags": [
+      "denim",
+      "cargo",
+      "paneled",
+      "mid-wash",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.43 (2).jpeg",
+    "category": "caps",
+    "subcategory": "wide-brim fedora",
+    "name": "Kendall Signature Wide-Brim Fedora",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "description": "A black wide-brim fedora banded with a signature logo ribbon for sophisticated flair.",
+    "tags": [
+      "fedora",
+      "wide-brim",
+      "black",
+      "hat",
+      "designer"
+    ],
+    "brand": "Kendall + Kylie"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.43.jpeg",
+    "category": "caps",
+    "subcategory": "trilby hat",
+    "name": "Glen Check Trilby",
+    "colors": [
+      "grey",
+      "black",
+      "red"
+    ],
+    "description": "A houndstooth glen-check trilby with crimson accents for dapper vintage charm.",
+    "tags": [
+      "trilby",
+      "houndstooth",
+      "grey",
+      "hat",
+      "vintage"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.34.jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured zip polo",
+    "name": "Terracotta Textured Zip Polo",
+    "colors": [
+      "brown"
+    ],
+    "description": "A waffle-textured brown quarter-zip polo with contrast collar for elevated casual ease.",
+    "tags": [
+      "polo",
+      "textured",
+      "brown",
+      "quarter-zip",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.36 (2).jpeg",
+    "category": "chinos",
+    "subcategory": "drawstring sweatpants",
+    "name": "Ivory Lounge Drawstring Trousers",
+    "colors": [
+      "cream",
+      "ivory"
+    ],
+    "description": "Cream drawstring trousers with side graphics that blend loungewear comfort with street style.",
+    "tags": [
+      "sweatpants",
+      "drawstring",
+      "cream",
+      "joggers",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.58 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "distressed applique jeans",
+    "name": "Voltage Distressed Jeans",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Light-wash jeans with frayed lightning-bolt appliques for high-impact denim drama.",
+    "tags": [
+      "denim",
+      "distressed",
+      "applique",
+      "light-wash",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.23 (4).jpeg",
+    "category": "suits",
+    "subcategory": "three-piece suit",
+    "name": "Emerald Estate Three-Piece Suit",
+    "colors": [
+      "green"
+    ],
+    "description": "A striking emerald three-piece suit that exudes bold sophistication with classic tailoring.",
+    "tags": [
+      "suit",
+      "three-piece",
+      "green",
+      "tailored",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.24 (1).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Admiral Navy Double-Breasted Suit",
+    "colors": [
+      "navy"
+    ],
+    "description": "A navy double-breasted suit adorned with gold buttons for distinguished nautical elegance.",
+    "tags": [
+      "double-breasted",
+      "navy",
+      "gold-buttons",
+      "formal",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.44.jpeg",
+    "category": "jackets",
+    "subcategory": "suede trucker jacket",
+    "name": "Sandstone Suede Trucker Jacket",
+    "colors": [
+      "beige",
+      "cream"
+    ],
+    "description": "A cream suede trucker jacket that delivers buttery texture and laid-back luxury.",
+    "tags": [
+      "suede",
+      "trucker",
+      "jacket",
+      "beige",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.42.jpeg",
+    "category": "sneakers",
+    "subcategory": "slip-on trainers",
+    "name": "Skechers Arch Fit Midnight Slip-On",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek all-black knit slip-on trainers with sculpted cushioning for effortless all-day comfort and modern style.",
+    "tags": [
+      "slip-on",
+      "knit",
+      "comfort",
+      "athleisure",
+      "everyday"
+    ],
+    "brand": "Skechers"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.28 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "flared",
+    "name": "Botanica Tapestry Flared Trousers",
+    "colors": [
+      "beige",
+      "pink",
+      "yellow",
+      "green"
+    ],
+    "description": "Statement flared trousers woven with an ornate floral tapestry motif, crafted for the fearless dresser.",
+    "tags": [
+      "flared",
+      "floral",
+      "tapestry",
+      "statement",
+      "bohemian"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "flared",
+    "name": "Sahara Suede Flared Trousers",
+    "colors": [
+      "tan",
+      "brown"
+    ],
+    "description": "Earth-toned suede-finish flared trousers with knee detailing, blending vintage flair with luxe texture.",
+    "tags": [
+      "flared",
+      "suede",
+      "tan",
+      "retro",
+      "wide-leg"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.09.jpeg",
+    "category": "jeans",
+    "subcategory": "denim shorts",
+    "name": "Stratus Triple-Stripe Denim Jorts",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "description": "Acid-washed knee-length denim shorts accented with bold side stripes and distressed detailing for street-ready edge.",
+    "tags": [
+      "jorts",
+      "distressed",
+      "striped",
+      "streetwear",
+      "acid-wash"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "relaxed",
+    "name": "Drifter Faded Carpenter Jeans",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Relaxed light-wash carpenter jeans with utility stitching, an easy go-anywhere staple with rugged character.",
+    "tags": [
+      "carpenter",
+      "light-wash",
+      "relaxed",
+      "utility",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.16 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "denim shorts",
+    "name": "Azure Five-Pocket Denim Shorts",
+    "colors": [
+      "blue"
+    ],
+    "description": "Classic mid-blue denim shorts with a clean five-pocket cut, perfect for laid-back warm-weather styling.",
+    "tags": [
+      "denim-shorts",
+      "blue",
+      "casual",
+      "summer",
+      "everyday"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.22 (1).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "three-piece windowpane",
+    "name": "Midnight Windowpane Three-Piece Suit",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A commanding navy three-piece suit in a refined windowpane check, tailored for boardrooms and black-tie alike.",
+    "tags": [
+      "three-piece",
+      "windowpane",
+      "navy",
+      "tailored",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.59 (4).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo",
+    "name": "Expedition Indigo Cargo Jeans",
+    "colors": [
+      "dark blue",
+      "indigo"
+    ],
+    "description": "Rugged dark-indigo cargo jeans with multi-pocket detailing and a tailored taper for utilitarian sophistication.",
+    "tags": [
+      "cargo",
+      "indigo",
+      "utility",
+      "streetwear",
+      "multi-pocket"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.08 (4).jpeg",
+    "category": "jeans",
+    "subcategory": "drop-crotch",
+    "name": "Cascade Faded Drop-Crotch Jeans",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Light-wash drop-crotch jeans with seamed paneling, delivering a relaxed avant-garde silhouette.",
+    "tags": [
+      "drop-crotch",
+      "light-wash",
+      "relaxed",
+      "streetwear",
+      "paneled"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.43 (4).jpeg",
+    "category": "caps",
+    "subcategory": "fedora",
+    "name": "Monaco Checkerboard Trilby Hat",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "description": "A woven black trilby finished with a crisp checkered band, lending instant continental charm.",
+    "tags": [
+      "trilby",
+      "fedora",
+      "woven",
+      "checkered",
+      "summer"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.39 (2).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured short-sleeve",
+    "name": "Cobalt Embossed Knit Polo",
+    "colors": [
+      "blue",
+      "royal blue"
+    ],
+    "description": "A vivid royal-blue polo in an embossed tonal pattern, marrying refined texture with effortless ease.",
+    "tags": [
+      "polo",
+      "textured",
+      "royal-blue",
+      "short-sleeve",
+      "knit"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.18 (4).jpeg",
+    "category": "slides",
+    "subcategory": "double-strap",
+    "name": "Hermes Chypre Noir Slides",
+    "colors": [
+      "black"
+    ],
+    "description": "Iconic black leather double-strap slides with embossed detailing, the epitome of understated Parisian luxury.",
+    "tags": [
+      "slides",
+      "leather",
+      "double-strap",
+      "designer",
+      "summer"
+    ],
+    "brand": "Hermes"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.27.jpeg",
+    "category": "jeans",
+    "subcategory": "flared cargo",
+    "name": "Ivory Chevron Flared Cargo Trousers",
+    "colors": [
+      "white",
+      "ivory"
+    ],
+    "description": "Striking ivory cargo trousers in a textured chevron weave with a dramatic flared leg for bold elegance.",
+    "tags": [
+      "flared",
+      "cargo",
+      "chevron",
+      "white",
+      "statement"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.15.jpeg",
+    "category": "slides",
+    "subcategory": "printed double-strap",
+    "name": "Hermes Carre Print Slides",
+    "colors": [
+      "black",
+      "blue",
+      "yellow",
+      "orange"
+    ],
+    "description": "Hermes double-strap slides lined with a vibrant equestrian scarf print, a playful nod to the maison's heritage.",
+    "tags": [
+      "slides",
+      "printed",
+      "leather",
+      "designer",
+      "statement"
+    ],
+    "brand": "Hermes"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "flared",
+    "name": "Storm Embossed Flared Trousers",
+    "colors": [
+      "grey"
+    ],
+    "description": "Slate-grey flared trousers with subtle embossed banding and knee seams for refined retro attitude.",
+    "tags": [
+      "flared",
+      "grey",
+      "embossed",
+      "retro",
+      "wide-leg"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.03 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "graphic print",
+    "name": "Gothica Flame Graphic Jeans",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "description": "Black denim jeans splashed with hand-drawn gothic flame and bat graphics for unapologetic street style.",
+    "tags": [
+      "graphic",
+      "black",
+      "gothic",
+      "streetwear",
+      "printed"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45 (4).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve",
+    "name": "Indigo Heather Long-Sleeve Polo",
+    "colors": [
+      "blue",
+      "navy"
+    ],
+    "description": "A heathered indigo long-sleeve polo with contrast collar, offering smart-casual versatility in soft cotton.",
+    "tags": [
+      "polo",
+      "long-sleeve",
+      "indigo",
+      "smart-casual",
+      "cotton"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.17 (1).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "wholecut oxford",
+    "name": "Cognac Wholecut Oxford Shoe",
+    "colors": [
+      "brown",
+      "tan"
+    ],
+    "description": "A burnished cognac wholecut oxford with subtle medallion toe, the hallmark of polished formal dressing.",
+    "tags": [
+      "oxford",
+      "wholecut",
+      "leather",
+      "formal",
+      "brown"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.06.jpeg",
+    "category": "jeans",
+    "subcategory": "skinny",
+    "name": "Glacier Light-Wash Skinny Jeans",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Pale glacier-blue skinny jeans with a clean finish and slim taper for a sharp modern profile.",
+    "tags": [
+      "skinny",
+      "light-wash",
+      "slim",
+      "casual",
+      "everyday"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.49 (3).jpeg",
+    "category": "jackets",
+    "subcategory": "suede trucker",
+    "name": "Onyx Suede Utility Trucker Jacket",
+    "colors": [
+      "black"
+    ],
+    "description": "A structured black suede trucker jacket with twin chest pockets, blending rugged utility and refined texture.",
+    "tags": [
+      "trucker",
+      "suede",
+      "black",
+      "utility",
+      "outerwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.08.jpeg",
+    "category": "jeans",
+    "subcategory": "relaxed",
+    "name": "Marine Stonewash Utility Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Mid-blue stonewashed jeans with utility seaming and a relaxed leg, built for easy everyday wear.",
+    "tags": [
+      "relaxed",
+      "stonewash",
+      "blue",
+      "utility",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.36.jpeg",
+    "category": "chinos",
+    "subcategory": "drawstring jogger",
+    "name": "Dune Tapered Drawstring Trousers",
+    "colors": [
+      "beige",
+      "tan"
+    ],
+    "description": "Soft beige tapered trousers with an elasticated drawstring waist for relaxed, refined comfort.",
+    "tags": [
+      "chinos",
+      "drawstring",
+      "tapered",
+      "beige",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45 (2).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve",
+    "name": "Slate Pique Long-Sleeve Polo",
+    "colors": [
+      "grey"
+    ],
+    "description": "A versatile charcoal-grey long-sleeve polo in soft pique with an embroidered crest, ideal for layered looks.",
+    "tags": [
+      "polo",
+      "long-sleeve",
+      "grey",
+      "pique",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26 (5).jpeg",
+    "category": "jeans",
+    "subcategory": "flared",
+    "name": "Geo Diamond Flared Trousers",
+    "colors": [
+      "tan",
+      "beige"
+    ],
+    "description": "Tan flared trousers patterned with a geometric diamond weave, a vintage-inspired showstopper.",
+    "tags": [
+      "flared",
+      "geometric",
+      "tan",
+      "retro",
+      "wide-leg"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.05 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "skinny",
+    "name": "Ash Faded Distressed Skinny Jeans",
+    "colors": [
+      "grey"
+    ],
+    "description": "Faded ash-grey skinny jeans with knee paneling and subtle distressing for a worn-in, modern edge.",
+    "tags": [
+      "skinny",
+      "distressed",
+      "grey",
+      "faded",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.49 (1).jpeg",
+    "category": "slides",
+    "subcategory": "sport mule",
+    "name": "Nike Aero Metallic Sport Mule",
+    "colors": [
+      "black",
+      "silver",
+      "red"
+    ],
+    "description": "Futuristic black sport mules with metallic silver paneling and a red accent swoosh for athletic flair.",
+    "tags": [
+      "mule",
+      "sport",
+      "metallic",
+      "slip-on",
+      "streetwear"
+    ],
+    "brand": "Nike"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.44 (1).jpeg",
+    "category": "shirts",
+    "subcategory": "camo co-ord set",
+    "name": "Recon Camo Knit Co-Ord Set",
+    "colors": [
+      "green",
+      "grey",
+      "brown"
+    ],
+    "description": "A coordinated camo-print knit polo and trousers set, delivering elevated tactical-luxe styling head to toe.",
+    "tags": [
+      "co-ord",
+      "camo",
+      "set",
+      "knit",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.14 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "denim cargo shorts",
+    "name": "Surf Light-Wash Cargo Shorts",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Light-wash denim cargo shorts with roomy side pockets, an easy casual pick for warm days.",
+    "tags": [
+      "cargo-shorts",
+      "denim",
+      "light-wash",
+      "casual",
+      "summer"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.52 (1).jpeg",
+    "category": "jackets",
+    "subcategory": "leather trucker",
+    "name": "Maverick Brown Leather Trucker Jacket",
+    "colors": [
+      "brown"
+    ],
+    "description": "A timeless distressed-brown leather trucker jacket with classic chest pockets, exuding rugged sophistication.",
+    "tags": [
+      "leather",
+      "trucker",
+      "brown",
+      "outerwear",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.06 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "straight",
+    "name": "Cobalt Classic Straight Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Medium-blue straight-leg jeans with clean stitching, a dependable wardrobe essential with timeless appeal.",
+    "tags": [
+      "straight",
+      "blue",
+      "classic",
+      "everyday",
+      "denim"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.09 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "relaxed-fit printed denim",
+    "name": "Givenchy Noir Statement Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Relaxed-fit black denim emblazoned with bold Givenchy branding for a fearless, high-fashion edge.",
+    "tags": [
+      "jeans",
+      "denim",
+      "black",
+      "designer",
+      "givenchy",
+      "streetwear"
+    ],
+    "brand": "Givenchy"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.39.jpeg",
+    "category": "slides",
+    "subcategory": "croc-embossed leather mules",
+    "name": "Lucca Noir Leather Slides",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek croc-embossed black leather mules that bring quiet sophistication to off-duty moments.",
+    "tags": [
+      "slides",
+      "leather",
+      "black",
+      "mules",
+      "croc",
+      "summer"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45.jpeg",
+    "category": "polo-shirts",
+    "subcategory": "zip-neck textured polo",
+    "name": "Burgundy Diamond Zip Polo",
+    "colors": [
+      "burgundy"
+    ],
+    "description": "A burgundy zip-neck polo with refined diamond texturing that elevates smart-casual dressing.",
+    "tags": [
+      "polo",
+      "burgundy",
+      "zip-neck",
+      "textured",
+      "knit",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.00 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "straight-fit denim",
+    "name": "Charcoal Heritage Jeans",
+    "colors": [
+      "charcoal",
+      "grey"
+    ],
+    "description": "Versatile charcoal denim finished with a tailored belt for an effortlessly polished silhouette.",
+    "tags": [
+      "jeans",
+      "denim",
+      "charcoal",
+      "grey",
+      "straight-fit",
+      "everyday"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.50 (1).jpeg",
+    "category": "caps",
+    "subcategory": "woven-band fedora",
+    "name": "Navy Riviera Fedora",
+    "colors": [
+      "navy"
+    ],
+    "description": "A navy fedora accented with a woven band, crowning any look with timeless gentlemanly flair.",
+    "tags": [
+      "hat",
+      "fedora",
+      "navy",
+      "woven",
+      "accessory",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.44 (3).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve polo",
+    "name": "Royal Blue Longline Polo",
+    "colors": [
+      "royal blue"
+    ],
+    "description": "A royal blue long-sleeve polo that pairs refined comfort with understated luxury.",
+    "tags": [
+      "polo",
+      "long-sleeve",
+      "royal-blue",
+      "knit",
+      "smart-casual",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.51 (2).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve zip polo",
+    "name": "Emerald Zip Longline Polo",
+    "colors": [
+      "green"
+    ],
+    "description": "An emerald long-sleeve zip polo delivering rich color and elevated everyday elegance.",
+    "tags": [
+      "polo",
+      "long-sleeve",
+      "green",
+      "zip",
+      "knit",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.49.jpeg",
+    "category": "slides",
+    "subcategory": "croc-embossed leather mules",
+    "name": "Rossi Cognac Leather Slides",
+    "colors": [
+      "brown"
+    ],
+    "description": "Warm brown croc-embossed leather mules that exude relaxed Italian-inspired luxury.",
+    "tags": [
+      "slides",
+      "leather",
+      "brown",
+      "mules",
+      "croc",
+      "rossi"
+    ],
+    "brand": "Rossi"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.41 (1).jpeg",
+    "category": "sneakers",
+    "subcategory": "low-top leather sneakers",
+    "name": "Tommy Coastal Low-Top Sneakers",
+    "colors": [
+      "white",
+      "blue",
+      "navy",
+      "olive"
+    ],
+    "description": "Crisp white low-top sneakers with blue, navy, and olive accents that nod to nautical heritage style.",
+    "tags": [
+      "sneakers",
+      "white",
+      "blue",
+      "low-top",
+      "tommy-hilfiger",
+      "casual"
+    ],
+    "brand": "Tommy Hilfiger"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.57 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo jeans",
+    "name": "Voyager Faded Cargo Denim",
+    "colors": [
+      "light blue",
+      "stone wash"
+    ],
+    "description": "Faded stonewash cargo jeans with stacked utility pockets for an effortlessly rugged urban silhouette.",
+    "tags": [
+      "cargo",
+      "denim",
+      "faded",
+      "streetwear",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.15 (3).jpeg",
+    "category": "slides",
+    "subcategory": "leather slides",
+    "name": "Saint-Honoré Striped Leather Slides",
+    "colors": [
+      "brown",
+      "yellow",
+      "black",
+      "white"
+    ],
+    "description": "Sumptuous leather slides crowned with a bold racing stripe for poolside opulence and city ease alike.",
+    "tags": [
+      "slides",
+      "leather",
+      "striped",
+      "summer",
+      "designer"
+    ],
+    "brand": "Hermès"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.25 (1).jpeg",
+    "category": "chinos",
+    "subcategory": "printed wide-leg trousers",
+    "name": "Typeset Wide-Leg Lounge Trousers",
+    "colors": [
+      "grey",
+      "charcoal",
+      "off-white"
+    ],
+    "description": "Relaxed wide-leg trousers splashed with a graphic typographic print for art-house cool.",
+    "tags": [
+      "wide-leg",
+      "printed",
+      "lounge",
+      "statement",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.21 (1).jpeg",
+    "category": "suits",
+    "subcategory": "three-piece single-breasted suit",
+    "name": "Greystone Three-Piece Tailored Suit",
+    "colors": [
+      "grey"
+    ],
+    "description": "A refined grey three-piece suit cut for the boardroom and beyond with impeccable single-breasted tailoring.",
+    "tags": [
+      "suit",
+      "three-piece",
+      "grey",
+      "tailored",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.39 (1).jpeg",
+    "category": "slides",
+    "subcategory": "leather mule loafers",
+    "name": "Noir Woven Leather Mules",
+    "colors": [
+      "black"
+    ],
+    "description": "Backless woven-leather mule loafers that marry old-money elegance with slip-on ease.",
+    "tags": [
+      "mules",
+      "leather",
+      "woven",
+      "backless",
+      "loafer"
+    ],
+    "brand": "Tommy Hilfiger"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.48 (2).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured knit polo",
+    "name": "Azure Textured Knit Polo",
+    "colors": [
+      "blue"
+    ],
+    "description": "A vivid azure polo in subtly textured knit, tailored for sun-drenched leisure.",
+    "tags": [
+      "polo",
+      "knit",
+      "blue",
+      "textured",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.25.jpeg",
+    "category": "chinos",
+    "subcategory": "plaid flared trousers",
+    "name": "Highland Check Flared Trousers",
+    "colors": [
+      "brown",
+      "tan",
+      "beige"
+    ],
+    "description": "Tweed-toned plaid trousers with a dramatic flared leg for vintage-modern flair.",
+    "tags": [
+      "plaid",
+      "flared",
+      "check",
+      "retro",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.27 (2).jpeg",
+    "category": "chinos",
+    "subcategory": "floral-print trousers",
+    "name": "Botanica Floral Flared Trousers",
+    "colors": [
+      "beige",
+      "black"
+    ],
+    "description": "Ivory trousers scattered with inky botanical sprays and finished with a fluid flared hem.",
+    "tags": [
+      "floral",
+      "printed",
+      "flared",
+      "statement",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.14 (2).jpeg",
+    "category": "sneakers",
+    "subcategory": "chunky dad sneakers",
+    "name": "Cloudrunner White Chunky Sneakers",
+    "colors": [
+      "white"
+    ],
+    "description": "All-white chunky-soled sneakers engineered for cushioned, head-turning street style.",
+    "tags": [
+      "sneakers",
+      "chunky",
+      "white",
+      "dad-shoe",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.32.jpeg",
+    "category": "polo-shirts",
+    "subcategory": "striped zip-neck polo",
+    "name": "Meridian Striped Zip Polo",
+    "colors": [
+      "black",
+      "white",
+      "brown"
+    ],
+    "description": "A knit zip-neck polo banded in earthy stripes for elevated weekend dressing.",
+    "tags": [
+      "polo",
+      "striped",
+      "zip-neck",
+      "knit",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.48 (1).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve paisley polo",
+    "name": "Cashmere Paisley Long-Sleeve Polo",
+    "colors": [
+      "brown",
+      "tan"
+    ],
+    "description": "A long-sleeve zip polo awash in heritage paisley for refined cool-weather ease.",
+    "tags": [
+      "polo",
+      "paisley",
+      "long-sleeve",
+      "brown",
+      "knit"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.51 (1).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured knit polo",
+    "name": "Royal Sapphire Textured Polo",
+    "colors": [
+      "blue",
+      "purple"
+    ],
+    "description": "A jewel-toned sapphire polo in tactile knit, radiating understated luxury.",
+    "tags": [
+      "polo",
+      "knit",
+      "blue",
+      "textured",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.05.jpeg",
+    "category": "jeans",
+    "subcategory": "distressed denim shorts",
+    "name": "Renegade Distressed Denim Jorts",
+    "colors": [
+      "light blue",
+      "stone wash"
+    ],
+    "description": "Knee-length distressed denim shorts with raw rips for a laid-back, lived-in edge.",
+    "tags": [
+      "denim",
+      "shorts",
+      "distressed",
+      "jorts",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.17.jpeg",
+    "category": "jeans",
+    "subcategory": "denim cargo shorts",
+    "name": "Expedition Denim Cargo Shorts",
+    "colors": [
+      "blue",
+      "medium wash"
+    ],
+    "description": "Classic mid-wash denim cargo shorts with roomy side pockets for rugged summer days.",
+    "tags": [
+      "denim",
+      "cargo",
+      "shorts",
+      "utility",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.22.jpeg",
+    "category": "suits",
+    "subcategory": "single-breasted suit",
+    "name": "Midnight Navy Tailored Suit",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A deep navy single-breasted suit with sharp lapels for commanding formal presence.",
+    "tags": [
+      "suit",
+      "navy",
+      "tailored",
+      "single-breasted",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.02 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "straight-leg jeans",
+    "name": "Classic Indigo Straight Jeans",
+    "colors": [
+      "blue",
+      "indigo"
+    ],
+    "description": "Timeless mid-blue straight-leg jeans built for everyday versatility and comfort.",
+    "tags": [
+      "jeans",
+      "straight-leg",
+      "indigo",
+      "denim",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.40 (1).jpeg",
+    "category": "caps",
+    "subcategory": "wool fedora hat",
+    "name": "Monaco Gold-Band Fedora",
+    "colors": [
+      "black",
+      "gold"
+    ],
+    "description": "A black wool fedora cinched with an ornate woven gold band and jeweled medallion.",
+    "tags": [
+      "fedora",
+      "hat",
+      "wool",
+      "gold-band",
+      "statement"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.02 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "paneled stitched jeans",
+    "name": "Aviator Contrast-Stitch Jeans",
+    "colors": [
+      "blue",
+      "dark wash"
+    ],
+    "description": "Dark-wash jeans with sculpted contrast stitching and paneling for a moto-inspired statement.",
+    "tags": [
+      "jeans",
+      "stitched",
+      "paneled",
+      "moto",
+      "denim"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.07 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "distressed skinny jeans",
+    "name": "Splatter Distressed Skinny Jeans",
+    "colors": [
+      "blue",
+      "medium wash"
+    ],
+    "description": "Slim skinny jeans flecked with paint splatter and raw rips for rebellious city style.",
+    "tags": [
+      "jeans",
+      "skinny",
+      "distressed",
+      "splatter",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.07.jpeg",
+    "category": "jeans",
+    "subcategory": "light-wash straight jeans",
+    "name": "Glacier Light-Wash Straight Jeans",
+    "colors": [
+      "light blue"
+    ],
+    "description": "Airy light-wash straight jeans with soft fading for relaxed warm-weather wear.",
+    "tags": [
+      "jeans",
+      "light-wash",
+      "straight-leg",
+      "faded",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.38.jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured knit polo",
+    "name": "Cobalt Textured Knit Polo",
+    "colors": [
+      "blue"
+    ],
+    "description": "A bright cobalt polo in fine textured knit, effortlessly poised between sport and style.",
+    "tags": [
+      "polo",
+      "knit",
+      "blue",
+      "textured",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.56 (3).jpeg",
+    "category": "chinos",
+    "subcategory": "studded flared trousers",
+    "name": "Obsidian Studded Flared Trousers",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek black flared trousers finished with a studded hem for rock-luxe attitude.",
+    "tags": [
+      "flared",
+      "studded",
+      "black",
+      "statement",
+      "trousers"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.58 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "washed cargo jeans",
+    "name": "Sahara Olive Washed Cargo Jeans",
+    "colors": [
+      "olive",
+      "khaki",
+      "green"
+    ],
+    "description": "Olive-washed cargo jeans with utility pockets for a tonal, adventure-ready look.",
+    "tags": [
+      "cargo",
+      "jeans",
+      "olive",
+      "washed",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.01 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "slim",
+    "name": "Onyx Noir Slim Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Sleek jet-black denim with a clean slim silhouette, tailored for an effortlessly sharp everyday statement.",
+    "tags": [
+      "denim",
+      "slim",
+      "black",
+      "casual",
+      "menswear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.00 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "wide-leg",
+    "name": "Azure Drift Wide-Leg Denim",
+    "colors": [
+      "blue"
+    ],
+    "description": "Relaxed wide-leg jeans in a classic blue wash, blending vintage attitude with modern comfort.",
+    "tags": [
+      "denim",
+      "wide-leg",
+      "blue",
+      "baggy",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.14 (1).jpeg",
+    "category": "sneakers",
+    "subcategory": "running",
+    "name": "Desert Sand Air Runners",
+    "colors": [
+      "tan",
+      "beige"
+    ],
+    "description": "Tan-toned cushioned sneakers built for all-day stride with a premium athletic finish.",
+    "tags": [
+      "sneakers",
+      "tan",
+      "athletic",
+      "casual",
+      "nike"
+    ],
+    "brand": "Nike"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.46.jpeg",
+    "category": "casual-shoes",
+    "subcategory": "loafers",
+    "name": "Cocoa Bit Leather Loafers",
+    "colors": [
+      "brown"
+    ],
+    "description": "Rich brown leather loafers accented with a polished metal bit, exuding refined Italian elegance.",
+    "tags": [
+      "loafers",
+      "brown",
+      "leather",
+      "gucci",
+      "slip-on"
+    ],
+    "brand": "Gucci"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.36 (1).jpeg",
+    "category": "chinos",
+    "subcategory": "cargo",
+    "name": "Olive Expedition Cargo Pants",
+    "colors": [
+      "khaki",
+      "olive"
+    ],
+    "description": "Utility-driven olive cargo trousers with a drawstring waist and ample pocketing for rugged versatility.",
+    "tags": [
+      "cargo",
+      "olive",
+      "khaki",
+      "utility",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.25 (2).jpeg",
+    "category": "blazers",
+    "subcategory": "single-breasted",
+    "name": "Burgundy Regent Blazer",
+    "colors": [
+      "burgundy",
+      "maroon"
+    ],
+    "description": "A striking burgundy single-breasted blazer that commands attention with sophisticated tailoring.",
+    "tags": [
+      "blazer",
+      "burgundy",
+      "formal",
+      "tailored",
+      "menswear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.01 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo",
+    "name": "Indigo Field Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Deep indigo cargo-style denim finished with a leather belt for a bold, functional edge.",
+    "tags": [
+      "denim",
+      "cargo",
+      "blue",
+      "levis",
+      "casual"
+    ],
+    "brand": "Levi's"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13 (4).jpeg",
+    "category": "jeans",
+    "subcategory": "shorts",
+    "name": "Coastal Light Denim Shorts",
+    "colors": [
+      "blue"
+    ],
+    "description": "Light-wash denim shorts offering laid-back warm-weather ease with timeless appeal.",
+    "tags": [
+      "denim",
+      "shorts",
+      "blue",
+      "casual",
+      "summer"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.59.jpeg",
+    "category": "jeans",
+    "subcategory": "baggy",
+    "name": "Web Graphic Baggy Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Black baggy denim with a striking white web graphic and signature waistband detailing.",
+    "tags": [
+      "denim",
+      "baggy",
+      "black",
+      "graphic",
+      "gucci"
+    ],
+    "brand": "Gucci"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.34.jpeg",
+    "category": "chinos",
+    "subcategory": "joggers",
+    "name": "Midnight Lounge Joggers",
+    "colors": [
+      "black"
+    ],
+    "description": "Soft black drawstring joggers crafted for relaxed comfort with a clean tapered cut.",
+    "tags": [
+      "joggers",
+      "black",
+      "drawstring",
+      "casual",
+      "loungewear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.23.jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "slim-fit",
+    "name": "Cobalt Heritage Double-Breasted Suit",
+    "colors": [
+      "blue"
+    ],
+    "description": "A dapper cobalt-blue double-breasted suit, peak-lapelled and styled with a bow tie for distinguished occasions.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "blue",
+      "formal",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.34 (3).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "knit",
+    "name": "Ivory Waffle Zip Polo",
+    "colors": [
+      "cream",
+      "white"
+    ],
+    "description": "A textured waffle-knit polo in soft ivory with a contrasting brown zip collar for elevated casual flair.",
+    "tags": [
+      "polo",
+      "knit",
+      "cream",
+      "zip",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.57 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "wide-leg",
+    "name": "Vintage Seam Wide-Leg Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Faded blue wide-leg jeans with sculpted seam detailing for a distinctive contemporary look.",
+    "tags": [
+      "denim",
+      "wide-leg",
+      "blue",
+      "faded",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.42 (2).jpeg",
+    "category": "sneakers",
+    "subcategory": "low-top",
+    "name": "Medusa Stripe White Sneakers",
+    "colors": [
+      "white"
+    ],
+    "description": "Crisp white low-top sneakers detailed with a striped midsole and a gilded medusa emblem.",
+    "tags": [
+      "sneakers",
+      "white",
+      "low-top",
+      "versace",
+      "luxury"
+    ],
+    "brand": "Versace"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.51 (4).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "chelsea-boots",
+    "name": "Onyx Suede Zip Boots",
+    "colors": [
+      "black"
+    ],
+    "description": "Black suede ankle boots with a side zip and contrast welt, balancing rugged charm and refinement.",
+    "tags": [
+      "boots",
+      "suede",
+      "black",
+      "boss",
+      "chelsea"
+    ],
+    "brand": "Boss"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.41 (2).jpeg",
+    "category": "t-shirts",
+    "subcategory": "sweater-vest",
+    "name": "Onyx Knit Layering Vest",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black knit vest layered over a crisp white shirt for a smart, modern silhouette.",
+    "tags": [
+      "vest",
+      "knit",
+      "black",
+      "layering",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.01.jpeg",
+    "category": "jeans",
+    "subcategory": "cargo",
+    "name": "Navy Trail Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Dark navy cargo denim with paneled detailing and a sleek belt for a utilitarian edge.",
+    "tags": [
+      "denim",
+      "cargo",
+      "blue",
+      "utility",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45 (5).jpeg",
+    "category": "caps",
+    "subcategory": "fedora",
+    "name": "Navy Buckle Felt Fedora",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A refined navy felt fedora finished with a sleek metal-buckle band for timeless sophistication.",
+    "tags": [
+      "fedora",
+      "hat",
+      "navy",
+      "felt",
+      "accessory"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "straight",
+    "name": "Charcoal Slate Straight Jeans",
+    "colors": [
+      "grey",
+      "charcoal"
+    ],
+    "description": "Versatile charcoal-grey straight-leg jeans offering an understated, polished everyday option.",
+    "tags": [
+      "denim",
+      "straight",
+      "grey",
+      "charcoal",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.23 (1).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "gold-button",
+    "name": "Black Admiral Double-Breasted Suit",
+    "colors": [
+      "black"
+    ],
+    "description": "A commanding black double-breasted suit jacket with gleaming gold buttons, styled for statement occasions.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "black",
+      "gold-buttons",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.43 (3).jpeg",
+    "category": "jackets",
+    "subcategory": "overshirt",
+    "name": "Sandstone Knit Overshirt",
+    "colors": [
+      "beige",
+      "cream"
+    ],
+    "description": "A textured cream overshirt with snap closures and patch pockets, ideal as a refined layering piece.",
+    "tags": [
+      "overshirt",
+      "beige",
+      "knit",
+      "layering",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.56 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo",
+    "name": "Stonewash Utility Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Stonewashed blue cargo denim with multi-panel pockets for a bold, functional street aesthetic.",
+    "tags": [
+      "denim",
+      "cargo",
+      "blue",
+      "stonewash",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.52 (2).jpeg",
+    "category": "t-shirts",
+    "subcategory": "sweater-vest",
+    "name": "Olive Ribbed Layering Vest",
+    "colors": [
+      "green",
+      "olive"
+    ],
+    "description": "An olive ribbed-knit vest worn over a white shirt, delivering relaxed yet polished dimension.",
+    "tags": [
+      "vest",
+      "knit",
+      "olive",
+      "layering",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.45 (1).jpeg",
+    "category": "caps",
+    "subcategory": "fedora",
+    "name": "Espresso Buckle Felt Fedora",
+    "colors": [
+      "brown"
+    ],
+    "description": "A warm brown felt fedora with a sleek metal-buckle band, crowning any look with classic charm.",
+    "tags": [
+      "fedora",
+      "hat",
+      "brown",
+      "felt",
+      "accessory"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.58 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "distressed",
+    "name": "Faded Panel Distressed Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Blue jeans with faded knee paneling and a leather belt, layering vintage texture into a modern fit.",
+    "tags": [
+      "denim",
+      "distressed",
+      "blue",
+      "faded",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.41 (3).jpeg",
+    "category": "slides",
+    "subcategory": "mules",
+    "name": "Onyx Horsebit Leather Mules",
+    "colors": [
+      "black"
+    ],
+    "description": "Backless black leather mules with a woven texture and gold horsebit, merging loafer elegance with easy slip-on comfort.",
+    "tags": [
+      "mules",
+      "black",
+      "leather",
+      "horsebit",
+      "slip-on"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.08 (2).jpeg",
+    "category": "shirts",
+    "subcategory": "co-ord-set",
+    "name": "Monogram Noir Shirt Set",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "description": "A black short-sleeve shirt and matching shorts set adorned with an allover signature monogram for head-turning luxury.",
+    "tags": [
+      "shirt",
+      "monogram",
+      "black",
+      "co-ord",
+      "louis-vuitton"
+    ],
+    "brand": "Louis Vuitton"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13 (5).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "oxford",
+    "name": "Cognac Medallion Oxfords",
+    "colors": [
+      "brown"
+    ],
+    "description": "Polished cognac-brown oxford shoes with an elegant medallion brogue toe for distinguished formal wear.",
+    "tags": [
+      "oxford",
+      "brown",
+      "leather",
+      "formal",
+      "brogue"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.21.jpeg",
+    "category": "suits",
+    "subcategory": "three-piece",
+    "name": "Navy Windowpane Three-Piece Suit",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "description": "A navy windowpane-check three-piece suit complete with waistcoat, offering impeccable layered tailoring.",
+    "tags": [
+      "suit",
+      "three-piece",
+      "navy",
+      "windowpane",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.49 (2).jpeg",
+    "category": "slides",
+    "subcategory": "clogs",
+    "name": "Cloud White Cushion Slides",
+    "colors": [
+      "white"
+    ],
+    "description": "White backless cushioned mule slides with a plush footbed for ultimate everyday comfort.",
+    "tags": [
+      "slides",
+      "white",
+      "mules",
+      "cushioned",
+      "nike"
+    ],
+    "brand": "Nike"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.26 (3).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted peak-lapel suit",
+    "name": "Azure Sovereign Double-Breasted Suit",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "description": "A sky-blue double-breasted suit with peak lapels and a crisp pocket square, tailored for the man who commands every room.",
+    "tags": [
+      "double-breasted",
+      "suit",
+      "blue",
+      "formal",
+      "peak-lapel",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.47 (1).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "long-sleeve quarter-zip polo",
+    "name": "Lattice Blue Quarter-Zip Polo",
+    "colors": [
+      "blue"
+    ],
+    "description": "A heathered blue long-sleeve quarter-zip polo woven with a subtle diamond lattice for understated everyday refinement.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "long-sleeve",
+      "blue",
+      "knit",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.12 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "stitched-panel distressed jeans",
+    "name": "Architect Faded Panel Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Faded indigo jeans sculpted with contrast topstitched paneling that lends an architectural edge to denim.",
+    "tags": [
+      "jeans",
+      "denim",
+      "distressed",
+      "blue",
+      "paneled",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.37 (3).jpeg",
+    "category": "chinos",
+    "subcategory": "drawstring lounge trousers",
+    "name": "Ivory Repose Drawstring Trousers",
+    "colors": [
+      "cream",
+      "ivory"
+    ],
+    "description": "Relaxed cream drawstring trousers with a graphic side print, blending loungewear ease with elevated street style.",
+    "tags": [
+      "trousers",
+      "joggers",
+      "cream",
+      "drawstring",
+      "casual",
+      "relaxed"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.50 (3).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "suede zip Chelsea boots",
+    "name": "Onyx Suede Zip Chelsea Boots",
+    "colors": [
+      "black"
+    ],
+    "description": "Black suede side-zip ankle boots on a contrast welt sole, a polished cornerstone of cold-weather tailoring.",
+    "tags": [
+      "boots",
+      "suede",
+      "black",
+      "chelsea",
+      "casual",
+      "zip"
+    ],
+    "brand": "Boss"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.03.jpeg",
+    "category": "jeans",
+    "subcategory": "cargo carpenter jeans",
+    "name": "Workshop Indigo Cargo Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Classic indigo carpenter jeans with utility stitching and a relaxed leg for rugged, lived-in luxury.",
+    "tags": [
+      "jeans",
+      "denim",
+      "cargo",
+      "blue",
+      "carpenter",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.39 (4).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "horsebit leather loafers",
+    "name": "Gucci Horsebit Noir Loafers",
+    "colors": [
+      "black"
+    ],
+    "description": "Black leather loafers crowned with a signature silver horsebit, the timeless emblem of refined Italian dress.",
+    "tags": [
+      "loafers",
+      "leather",
+      "black",
+      "horsebit",
+      "formal",
+      "dress"
+    ],
+    "brand": "Gucci"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.03 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "distressed denim shorts",
+    "name": "Renegade Chained Denim Shorts",
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "description": "Painter-faded grey denim shorts hung with a metal chain and belt for a defiantly luxe streetwear statement.",
+    "tags": [
+      "shorts",
+      "denim",
+      "distressed",
+      "grey",
+      "chain",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.15 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "denim shorts",
+    "name": "Coastal Indigo Denim Shorts",
+    "colors": [
+      "blue"
+    ],
+    "description": "Mid-blue five-pocket denim shorts cut for clean, easy summer dressing.",
+    "tags": [
+      "shorts",
+      "denim",
+      "blue",
+      "casual",
+      "summer",
+      "five-pocket"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.08 (1).jpeg",
+    "category": "jeans",
+    "subcategory": "light-wash faded jeans",
+    "name": "Pale Horizon Faded Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Light-wash jeans with sun-bleached whiskering for a breezy, vintage-inspired silhouette.",
+    "tags": [
+      "jeans",
+      "denim",
+      "light-wash",
+      "blue",
+      "faded",
+      "vintage"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.48 (3).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "short-sleeve quarter-zip polo",
+    "name": "Burgundy Reign Striped Polo",
+    "colors": [
+      "burgundy",
+      "white"
+    ],
+    "description": "A rich burgundy quarter-zip polo banded with twin white chest stripes for sporting sophistication.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "burgundy",
+      "striped",
+      "short-sleeve",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.41.jpeg",
+    "category": "jackets",
+    "subcategory": "varsity bomber jacket",
+    "name": "Alabaster Court Varsity Jacket",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "description": "A crisp white collared bomber finished with ribbed striped trims, a sleek take on collegiate luxe.",
+    "tags": [
+      "jacket",
+      "bomber",
+      "varsity",
+      "white",
+      "collared",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.26 (1).jpeg",
+    "category": "suits",
+    "subcategory": "single-breasted notch-lapel suit",
+    "name": "Cerulean Heritage Two-Piece Suit",
+    "colors": [
+      "blue"
+    ],
+    "description": "A soft cerulean single-breasted suit with notch lapels and matching trousers, refined for boardroom and beyond.",
+    "tags": [
+      "suit",
+      "single-breasted",
+      "blue",
+      "formal",
+      "notch-lapel",
+      "tailored"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.39 (3).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "striped quarter-zip polo",
+    "name": "Tidal Stripe Quarter-Zip Polo",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "description": "A gradient blue-striped quarter-zip polo with a bold spread collar for relaxed yet elevated days.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "striped",
+      "blue",
+      "short-sleeve",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.08 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "light-wash paneled jeans",
+    "name": "Glacier Wash Paneled Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Pale-blue jeans with subtle thigh paneling and a clean wash for effortless modern denim.",
+    "tags": [
+      "jeans",
+      "denim",
+      "light-wash",
+      "blue",
+      "paneled",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.07 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "carpenter knee-panel jeans",
+    "name": "Frostlight Carpenter Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Light-wash carpenter jeans with reinforced knee paneling for utilitarian polish.",
+    "tags": [
+      "jeans",
+      "denim",
+      "carpenter",
+      "light-wash",
+      "blue",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.58.jpeg",
+    "category": "jeans",
+    "subcategory": "ripped skinny jeans",
+    "name": "Midnight Shred Skinny Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Black skinny jeans torn at the knees for an unapologetically rebellious edge.",
+    "tags": [
+      "jeans",
+      "denim",
+      "ripped",
+      "black",
+      "skinny",
+      "distressed"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.13 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "knee-distressed jeans",
+    "name": "Cobalt Drift Distressed Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Mid-blue jeans marked with discreet knee distressing for a relaxed, broken-in feel.",
+    "tags": [
+      "jeans",
+      "denim",
+      "distressed",
+      "blue",
+      "casual",
+      "tapered"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.51.jpeg",
+    "category": "polo-shirts",
+    "subcategory": "textured-knit button polo",
+    "name": "Amber Ember Knit Polo",
+    "colors": [
+      "orange"
+    ],
+    "description": "A vivid burnt-orange knit polo with a textured weave and tonal buttons for warm-weather sophistication.",
+    "tags": [
+      "polo",
+      "knit",
+      "orange",
+      "textured",
+      "short-sleeve",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.44 (2).jpeg",
+    "category": "shirts",
+    "subcategory": "camo-print short-sleeve shirt",
+    "name": "Dusk Rose Camo Resort Shirt",
+    "colors": [
+      "pink",
+      "burgundy"
+    ],
+    "description": "A dusty-rose camouflage short-sleeve shirt with a relaxed camp collar for confident resort dressing.",
+    "tags": [
+      "shirt",
+      "camo",
+      "short-sleeve",
+      "pink",
+      "resort",
+      "camp-collar"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.50.jpeg",
+    "category": "jackets",
+    "subcategory": "textured-knit button overshirt",
+    "name": "Sandstone Weave Knit Jacket",
+    "colors": [
+      "cream",
+      "beige"
+    ],
+    "description": "A cream textured-knit button jacket with patch pockets, bridging cardigan comfort and overshirt structure.",
+    "tags": [
+      "jacket",
+      "knit",
+      "cream",
+      "overshirt",
+      "button",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04 (5).jpeg",
+    "category": "jeans",
+    "subcategory": "dark-wash belted jeans",
+    "name": "Slate Ember Washed Jeans",
+    "colors": [
+      "grey",
+      "black"
+    ],
+    "description": "Charcoal-washed jeans with whiskered fading and a sleek belt for moody, modern denim.",
+    "tags": [
+      "jeans",
+      "denim",
+      "dark-wash",
+      "grey",
+      "belted",
+      "faded"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.34 (4).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "striped knit polo",
+    "name": "Navy Mariner Striped Knit Polo",
+    "colors": [
+      "navy",
+      "white"
+    ],
+    "description": "A navy open-knit polo with crisp white stripes, exuding nautical ease with artisanal texture.",
+    "tags": [
+      "polo",
+      "knit",
+      "navy",
+      "striped",
+      "short-sleeve",
+      "smart-casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "cargo carpenter jeans",
+    "name": "Harbor Blue Carpenter Jeans",
+    "colors": [
+      "blue"
+    ],
+    "description": "Mid-blue carpenter jeans with side utility detailing for a clean, hard-working silhouette.",
+    "tags": [
+      "jeans",
+      "denim",
+      "cargo",
+      "blue",
+      "carpenter",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.46 (1).jpeg",
+    "category": "shirts",
+    "subcategory": "short-sleeve camp shirt",
+    "name": "Obsidian Camp Shirt",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black short-sleeve camp shirt, an effortless foundation for monochrome luxe ensembles.",
+    "tags": [
+      "shirt",
+      "short-sleeve",
+      "black",
+      "camp-collar",
+      "casual",
+      "minimal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.12 (2).jpeg",
+    "category": "shirts",
+    "subcategory": "plaid short-sleeve overshirt",
+    "name": "Highland Check Overshirt",
+    "colors": [
+      "grey",
+      "burgundy"
+    ],
+    "description": "A brushed grey-and-burgundy plaid short-sleeve overshirt offering rugged warmth with tailored charm.",
+    "tags": [
+      "shirt",
+      "plaid",
+      "short-sleeve",
+      "grey",
+      "overshirt",
+      "check"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.47 (2).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "suede buckle loafers",
+    "name": "Tod's Noir Suede Buckle Loafers",
+    "colors": [
+      "black",
+      "beige"
+    ],
+    "description": "Black suede loafers with a polished metal T-buckle set on a raffia-trimmed sole for relaxed luxury.",
+    "tags": [
+      "loafers",
+      "suede",
+      "black",
+      "buckle",
+      "casual",
+      "espadrille"
+    ],
+    "brand": "Tod's"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.59 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "heavily ripped jeans",
+    "name": "Vandal Black Destroyed Jeans",
+    "colors": [
+      "black"
+    ],
+    "description": "Black jeans ravaged with allover rips and frayed cargo detailing for maximal street attitude.",
+    "tags": [
+      "jeans",
+      "denim",
+      "ripped",
+      "black",
+      "distressed",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.23 (2).jpeg",
+    "category": "tuxedos",
+    "subcategory": "three-piece shawl-lapel tuxedo",
+    "name": "Midnight Navy Shawl Tuxedo",
+    "colors": [
+      "navy",
+      "black",
+      "white"
+    ],
+    "description": "A navy three-piece tuxedo with satin shawl lapel, waistcoat and bow tie, crafted for the most celebrated evenings.",
+    "tags": [
+      "tuxedo",
+      "navy",
+      "shawl-lapel",
+      "three-piece",
+      "formal",
+      "evening"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.48.jpeg",
+    "category": "casual-shoes",
+    "subcategory": "leather slip-on loafers",
+    "name": "Timberland Brown Slip-On Loafers",
+    "colors": [
+      "brown",
+      "white"
+    ],
+    "description": "Brown nubuck slip-on loafers on a cushioned white sole, marrying sneaker comfort with loafer grace.",
+    "tags": [
+      "loafers",
+      "slip-on",
+      "brown",
+      "leather",
+      "casual",
+      "comfort"
+    ],
+    "brand": "Timberland"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.42 (3).jpeg",
+    "category": "casual-shoes",
+    "subcategory": "penny loafers",
+    "name": "Il Capolavoro Penny Loafer",
+    "colors": [
+      "black"
+    ],
+    "description": "Hand-finished black leather penny loafers that bring effortless polish to any refined wardrobe.",
+    "tags": [
+      "loafers",
+      "leather",
+      "slip-on",
+      "black",
+      "moccasin"
+    ],
+    "brand": "Santoni"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.59 (1).jpeg",
+    "category": "chinos",
+    "subcategory": "cargo trousers",
+    "name": "Expedition Tan Cargo",
+    "colors": [
+      "tan",
+      "brown"
+    ],
+    "description": "Rugged tan cargo trousers with utilitarian pockets and a tailored taper for modern adventure.",
+    "tags": [
+      "cargo",
+      "tan",
+      "utility",
+      "cotton",
+      "tapered"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.26.jpeg",
+    "category": "chinos",
+    "subcategory": "printed flared trousers",
+    "name": "Midnight Sketch Flare",
+    "colors": [
+      "black",
+      "grey"
+    ],
+    "description": "Bold graphic-print flared trousers that channel a daring, runway-ready streetwear edge.",
+    "tags": [
+      "flared",
+      "printed",
+      "black",
+      "statement",
+      "streetwear"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.14.jpeg",
+    "category": "slides",
+    "subcategory": "leather slides",
+    "name": "Monogram Voyage Slide",
+    "colors": [
+      "brown",
+      "white"
+    ],
+    "description": "Supple textured-leather slides finished with iconic detailing for elevated everyday ease.",
+    "tags": [
+      "slides",
+      "leather",
+      "brown",
+      "monogram",
+      "summer"
+    ],
+    "brand": "Louis Vuitton"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.44 (4).jpeg",
+    "category": "caps",
+    "subcategory": "fedora hat",
+    "name": "Monte Carlo Checkered Fedora",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "description": "A sleek black fedora wrapped in a crisp checkered band for timeless sartorial flair.",
+    "tags": [
+      "fedora",
+      "hat",
+      "black",
+      "checkered",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.04 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "two-tone cargo jeans",
+    "name": "Contrast Frontier Cargo Jean",
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "description": "Two-tone cargo denim blending washed indigo and faded grey for a fearless layered look.",
+    "tags": [
+      "jeans",
+      "cargo",
+      "two-tone",
+      "denim",
+      "utility"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.47 (3).jpeg",
+    "category": "jackets",
+    "subcategory": "varsity bomber jacket",
+    "name": "Ivory Court Varsity Bomber",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "description": "A crisp ivory bomber with sporty ribbed trims, marrying heritage varsity charm with modern luxe.",
+    "tags": [
+      "bomber",
+      "varsity",
+      "white",
+      "jacket",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.02.jpeg",
+    "category": "jeans",
+    "subcategory": "straight-leg jeans",
+    "name": "Azure Classic Straight Jean",
+    "colors": [
+      "blue"
+    ],
+    "description": "Timeless mid-blue straight-leg denim crafted for an enduring, well-cut silhouette.",
+    "tags": [
+      "jeans",
+      "denim",
+      "blue",
+      "straight",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.28 (3).jpeg",
+    "category": "chinos",
+    "subcategory": "flared trousers",
+    "name": "Onyx Suede Flare",
+    "colors": [
+      "black"
+    ],
+    "description": "Sumptuous black suede flared trousers with a paneled knee for a dramatic, sculpted line.",
+    "tags": [
+      "flared",
+      "suede",
+      "black",
+      "trousers",
+      "statement"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.59 (3).jpeg",
+    "category": "jeans",
+    "subcategory": "denim shorts",
+    "name": "Sunfade Denim Jort",
+    "colors": [
+      "blue",
+      "yellow"
+    ],
+    "description": "Relaxed denim shorts with a sun-bleached ombre panel for laid-back summer attitude.",
+    "tags": [
+      "denim",
+      "shorts",
+      "jorts",
+      "faded",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.50 (4).jpeg",
+    "category": "polo-shirts",
+    "subcategory": "quarter-zip long-sleeve polo",
+    "name": "Cobalt Knit Quarter-Zip Polo",
+    "colors": [
+      "blue"
+    ],
+    "description": "A vivid cobalt long-sleeve quarter-zip polo in fine textured knit for refined casual days.",
+    "tags": [
+      "polo",
+      "quarter-zip",
+      "blue",
+      "knit",
+      "long-sleeve"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.56.jpeg",
+    "category": "jeans",
+    "subcategory": "straight-leg jeans",
+    "name": "Eclipse Straight Jean",
+    "colors": [
+      "black"
+    ],
+    "description": "Deep black straight-leg denim delivering sleek, versatile sophistication day to night.",
+    "tags": [
+      "jeans",
+      "black",
+      "denim",
+      "straight",
+      "classic"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.43 (1).jpeg",
+    "category": "jackets",
+    "subcategory": "knit overshirt",
+    "name": "Frost Weave Overshirt",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "description": "A textured grey knit overshirt that layers beautifully for elevated transitional dressing.",
+    "tags": [
+      "overshirt",
+      "knit",
+      "grey",
+      "jacket",
+      "layering"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.15 (4).jpeg",
+    "category": "corporate-shoes",
+    "subcategory": "cap-toe oxford",
+    "name": "Boardroom Tan Oxford",
+    "colors": [
+      "brown",
+      "tan"
+    ],
+    "description": "Burnished tan cap-toe Oxfords that lend distinguished authority to every formal ensemble.",
+    "tags": [
+      "oxford",
+      "leather",
+      "brown",
+      "formal",
+      "cap-toe"
+    ],
+    "brand": "Louis Vuitton"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.18 (1).jpeg",
+    "category": "sneakers",
+    "subcategory": "runner sneakers",
+    "name": "Azael Wave Runner",
+    "colors": [
+      "grey",
+      "black",
+      "cream"
+    ],
+    "description": "Sculptural runner sneakers in muted grey and cream tones for futuristic everyday motion.",
+    "tags": [
+      "sneakers",
+      "runner",
+      "grey",
+      "chunky",
+      "casual"
+    ],
+    "brand": "Adidas"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.25 (3).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Sahara Gold-Button Double-Breasted Suit",
+    "colors": [
+      "tan",
+      "olive"
+    ],
+    "description": "A tan double-breasted suit crowned with gilded buttons for commanding, regal presence.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "tan",
+      "gold-buttons",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.24 (3).jpeg",
+    "category": "tuxedos",
+    "subcategory": "shawl-lapel tuxedo jacket",
+    "name": "Emerald Soiree Tuxedo",
+    "colors": [
+      "green",
+      "black"
+    ],
+    "description": "A jewel-toned green tuxedo with contrast peak lapel and ornate trim for unforgettable evenings.",
+    "tags": [
+      "tuxedo",
+      "green",
+      "evening",
+      "formal",
+      "peak-lapel"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.05 (2).jpeg",
+    "category": "jeans",
+    "subcategory": "light-wash jeans",
+    "name": "Glacier Light-Wash Jean",
+    "colors": [
+      "blue"
+    ],
+    "description": "Soft light-wash denim with a relaxed fit for breezy, effortless everyday style.",
+    "tags": [
+      "jeans",
+      "light-wash",
+      "blue",
+      "denim",
+      "relaxed"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.47.jpeg",
+    "category": "shirts",
+    "subcategory": "short-sleeve zip shirt",
+    "name": "Noir Zip Camp Shirt",
+    "colors": [
+      "black"
+    ],
+    "description": "A sleek black short-sleeve zip shirt with utility detailing for sharp warm-weather styling.",
+    "tags": [
+      "shirt",
+      "black",
+      "short-sleeve",
+      "zip",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.37 (2).jpeg",
+    "category": "chinos",
+    "subcategory": "drawstring joggers",
+    "name": "Cocoa Lounge Jogger",
+    "colors": [
+      "brown"
+    ],
+    "description": "Plush brown drawstring joggers offering relaxed luxe comfort with a clean, draped line.",
+    "tags": [
+      "joggers",
+      "brown",
+      "drawstring",
+      "lounge",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.28.jpeg",
+    "category": "chinos",
+    "subcategory": "flared trousers",
+    "name": "Desert Suede Flare",
+    "colors": [
+      "tan",
+      "beige"
+    ],
+    "description": "Tan suede flared trousers with paneled knees for a bold, retro-luxe silhouette.",
+    "tags": [
+      "flared",
+      "suede",
+      "tan",
+      "trousers",
+      "statement"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.12.jpeg",
+    "category": "jeans",
+    "subcategory": "distressed cargo jeans",
+    "name": "Frayed Horizon Cargo Jean",
+    "colors": [
+      "blue"
+    ],
+    "description": "Light-wash cargo denim with raw frayed detailing for rugged, contemporary edge.",
+    "tags": [
+      "jeans",
+      "cargo",
+      "distressed",
+      "blue",
+      "denim"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.25 (4).jpeg",
+    "category": "double-breasted-suits",
+    "subcategory": "double-breasted suit",
+    "name": "Obsidian Gold-Button Double-Breasted Suit",
+    "colors": [
+      "black",
+      "gold"
+    ],
+    "description": "A commanding black double-breasted suit accented with lustrous gold buttons for refined power.",
+    "tags": [
+      "suit",
+      "double-breasted",
+      "black",
+      "gold-buttons",
+      "formal"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.38.37 (1).jpeg",
+    "category": "chinos",
+    "subcategory": "drawstring joggers",
+    "name": "Olive Drift Jogger",
+    "colors": [
+      "olive",
+      "grey"
+    ],
+    "description": "Relaxed olive drawstring joggers cut for laid-back sophistication and all-day ease.",
+    "tags": [
+      "joggers",
+      "olive",
+      "drawstring",
+      "lounge",
+      "casual"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 12.39.18.jpeg",
+    "category": "tuxedos",
+    "subcategory": "embellished shawl-lapel tuxedo jacket",
+    "name": "Ivory Crystal Shawl Tuxedo",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "description": "An ivory tuxedo jacket dusted with crystal embellishment for show-stopping evening elegance.",
+    "tags": [
+      "tuxedo",
+      "white",
+      "embellished",
+      "shawl-lapel",
+      "evening"
+    ],
+    "brand": "Luxe Universal"
+  },
+  {
+    "file": "WhatsApp Image 2026-06-04 at 10.53.40.jpeg",
+    "category": "jackets",
+    "subcategory": "knit zip vest",
+    "name": "Heather Zip Knit Gilet",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "description": "A refined grey knit zip-up gilet that adds polished warmth over any layered look.",
+    "tags": [
+      "vest",
+      "gilet",
+      "grey",
+      "knit",
+      "layering"
+    ],
+    "brand": "Luxe Universal"
+  }
+]
