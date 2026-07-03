@@ -9,7 +9,7 @@
     "subcategory": "Shirt Jacket",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -145,7 +145,7 @@
     "subcategory": "Two-Piece Set",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "grey",
@@ -235,7 +235,7 @@
     "group": "Footwear",
     "subcategory": "Cross-Strap",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -327,7 +327,7 @@
     "subcategory": "Shirt Jacket",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "cream",
@@ -420,7 +420,7 @@
     "subcategory": "Tassel Loafer",
     "brand": "Louis Vuitton",
     "price": 100000,
-    "comparePrice": 130000,
+    "comparePrice": 125000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -464,7 +464,7 @@
     "group": "Footwear",
     "subcategory": "Suede Boot",
     "brand": "Hugo Boss",
-    "price": 90000,
+    "price": 100000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -509,7 +509,7 @@
     "group": "Footwear",
     "subcategory": "Suede Loafer",
     "brand": "Loro Piana",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -646,8 +646,8 @@
     "group": "Footwear",
     "subcategory": "Double Monk Strap",
     "brand": "Louis Vuitton",
-    "price": 120000,
-    "comparePrice": 155000,
+    "price": 110000,
+    "comparePrice": 138000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -691,8 +691,8 @@
     "group": "Footwear",
     "subcategory": "Suede Loafer",
     "brand": "Loro Piana",
-    "price": 100000,
-    "comparePrice": 130000,
+    "price": 120000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "navy"
@@ -827,7 +827,7 @@
     "group": "Footwear",
     "subcategory": "Half Shoe Mule",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -873,8 +873,8 @@
     "group": "Footwear",
     "subcategory": "Double Monk Strap",
     "brand": "Steve Madden",
-    "price": 120000,
-    "comparePrice": 155000,
+    "price": 110000,
+    "comparePrice": 138000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -1009,8 +1009,8 @@
     "group": "Footwear",
     "subcategory": "Izmir Sandal",
     "brand": "Hermès",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 50000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -1556,7 +1556,7 @@
     "group": "Clothing",
     "subcategory": "Striped Zip",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -1601,7 +1601,7 @@
     "group": "Suits",
     "subcategory": "Double Breasted",
     "brand": "Luxe Universal",
-    "price": 90000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -1647,7 +1647,7 @@
     "subcategory": "Shirt Jacket",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "beige"
@@ -1691,7 +1691,7 @@
     "group": "Footwear",
     "subcategory": "Double Monk Strap",
     "brand": "Steve Madden",
-    "price": 120000,
+    "price": 110000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -1736,7 +1736,7 @@
     "group": "Footwear",
     "subcategory": "Chypre Sandal",
     "brand": "Hermès",
-    "price": 40000,
+    "price": 50000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -1782,8 +1782,8 @@
     "group": "Clothing",
     "subcategory": "Striped",
     "brand": "Tommy Hilfiger",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -1917,7 +1917,7 @@
     "group": "Footwear",
     "subcategory": "Suede Loafer",
     "brand": "Loro Piana",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2054,7 +2054,7 @@
     "group": "Suits",
     "subcategory": "three-piece suit",
     "brand": "Luxe Universal",
-    "price": 120000,
+    "price": 140000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2146,8 +2146,8 @@
     "group": "Clothing",
     "subcategory": "cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 45000,
+    "comparePrice": 56000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -2237,7 +2237,7 @@
     "group": "Clothing",
     "subcategory": "overshirt",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 60000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2329,7 +2329,7 @@
     "group": "Clothing",
     "subcategory": "short-sleeve shirt",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2421,7 +2421,7 @@
     "group": "Clothing",
     "subcategory": "flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2511,7 +2511,7 @@
     "group": "Clothing",
     "subcategory": "cargo trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2601,7 +2601,7 @@
     "group": "Footwear",
     "subcategory": "mule loafers",
     "brand": "Luxe Universal",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2647,8 +2647,8 @@
     "group": "Clothing",
     "subcategory": "quarter-zip polo",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "brown",
@@ -2787,7 +2787,7 @@
     "subcategory": "double-breasted suit",
     "brand": "Luxe Universal",
     "price": 100000,
-    "comparePrice": 130000,
+    "comparePrice": 125000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -2831,7 +2831,7 @@
     "group": "Clothing",
     "subcategory": "cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -2923,7 +2923,7 @@
     "group": "Suits",
     "subcategory": "jacquard tuxedo",
     "brand": "Luxe Universal",
-    "price": 90000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3015,7 +3015,7 @@
     "group": "Clothing",
     "subcategory": "cargo trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3061,8 +3061,8 @@
     "group": "Footwear",
     "subcategory": "loafers",
     "brand": "Tod's",
-    "price": 100000,
-    "comparePrice": 130000,
+    "price": 120000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -3107,8 +3107,8 @@
     "group": "Clothing",
     "subcategory": "cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 45000,
+    "comparePrice": 56000,
     "currency": "NGN",
     "colors": [
       "grey"
@@ -3426,7 +3426,7 @@
     "group": "Footwear",
     "subcategory": "double monk strap",
     "brand": "Luxe Universal",
-    "price": 120000,
+    "price": 110000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3472,8 +3472,8 @@
     "group": "Clothing",
     "subcategory": "knit pullover",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 30000,
+    "comparePrice": 38000,
     "currency": "NGN",
     "colors": [
       "navy",
@@ -3563,8 +3563,8 @@
     "group": "Clothing",
     "subcategory": "cargo trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -3608,7 +3608,7 @@
     "group": "Clothing",
     "subcategory": "striped quarter-zip polo",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3654,7 +3654,7 @@
     "group": "Clothing",
     "subcategory": "textured knit crew-neck tee",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 30000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3746,7 +3746,7 @@
     "subcategory": "patterned flared jeans",
     "brand": "Luxe Universal",
     "price": 50000,
-    "comparePrice": 65000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "grey"
@@ -3790,7 +3790,7 @@
     "group": "Suits",
     "subcategory": "windowpane check suit",
     "brand": "Luxe Universal",
-    "price": 100000,
+    "price": 140000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -3883,7 +3883,7 @@
     "subcategory": "double-breasted suit",
     "brand": "Luxe Universal",
     "price": 100000,
-    "comparePrice": 130000,
+    "comparePrice": 125000,
     "currency": "NGN",
     "colors": [
       "burgundy"
@@ -3928,7 +3928,7 @@
     "subcategory": "distressed denim jacket",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "blue",
@@ -4018,8 +4018,8 @@
     "group": "Clothing",
     "subcategory": "flared suede trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "beige",
@@ -4065,7 +4065,7 @@
     "subcategory": "suede zip jacket",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "olive",
@@ -4202,8 +4202,8 @@
     "group": "Clothing",
     "subcategory": "short-sleeve camp shirt",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -4247,7 +4247,7 @@
     "group": "Clothing",
     "subcategory": "paneled cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -4512,7 +4512,7 @@
     "subcategory": "three-piece suit",
     "brand": "Luxe Universal",
     "price": 120000,
-    "comparePrice": 155000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "green"
@@ -4833,8 +4833,8 @@
     "group": "Clothing",
     "subcategory": "relaxed",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "light blue"
@@ -4879,7 +4879,7 @@
     "subcategory": "denim shorts",
     "brand": "Luxe Universal",
     "price": 30000,
-    "comparePrice": 40000,
+    "comparePrice": 38000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -4969,7 +4969,7 @@
     "group": "Clothing",
     "subcategory": "cargo",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -5015,8 +5015,8 @@
     "group": "Clothing",
     "subcategory": "drop-crotch",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "light blue"
@@ -5147,8 +5147,8 @@
     "group": "Footwear",
     "subcategory": "double-strap",
     "brand": "Hermes",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 50000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -5194,7 +5194,7 @@
     "subcategory": "flared cargo",
     "brand": "Luxe Universal",
     "price": 50000,
-    "comparePrice": 65000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "white",
@@ -5240,7 +5240,7 @@
     "subcategory": "printed double-strap",
     "brand": "Hermes",
     "price": 50000,
-    "comparePrice": 65000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -5289,7 +5289,7 @@
     "subcategory": "flared",
     "brand": "Luxe Universal",
     "price": 50000,
-    "comparePrice": 65000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "grey"
@@ -5426,7 +5426,7 @@
     "subcategory": "wholecut oxford",
     "brand": "Luxe Universal",
     "price": 120000,
-    "comparePrice": 155000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "brown",
@@ -5562,7 +5562,7 @@
     "group": "Clothing",
     "subcategory": "relaxed",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -5789,7 +5789,7 @@
     "group": "Footwear",
     "subcategory": "sport mule",
     "brand": "Nike",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -5838,7 +5838,7 @@
     "subcategory": "camo co-ord set",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "green",
@@ -5930,7 +5930,7 @@
     "subcategory": "leather trucker",
     "brand": "Luxe Universal",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "brown"
@@ -6019,8 +6019,8 @@
     "group": "Clothing",
     "subcategory": "relaxed-fit printed denim",
     "brand": "Givenchy",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 70000,
+    "comparePrice": 88000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -6065,7 +6065,7 @@
     "group": "Footwear",
     "subcategory": "croc-embossed leather mules",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6338,7 +6338,7 @@
     "group": "Footwear",
     "subcategory": "croc-embossed leather mules",
     "brand": "Rossi",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6435,7 +6435,7 @@
     "group": "Clothing",
     "subcategory": "cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6578,7 +6578,7 @@
     "subcategory": "three-piece single-breasted suit",
     "brand": "Luxe Universal",
     "price": 120000,
-    "comparePrice": 155000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "grey"
@@ -6622,7 +6622,7 @@
     "group": "Footwear",
     "subcategory": "leather mule loafers",
     "brand": "Tommy Hilfiger",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6713,7 +6713,7 @@
     "group": "Clothing",
     "subcategory": "plaid flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6760,7 +6760,7 @@
     "group": "Clothing",
     "subcategory": "floral-print trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -6807,7 +6807,7 @@
     "subcategory": "chunky dad sneakers",
     "brand": "Luxe Universal",
     "price": 70000,
-    "comparePrice": 90000,
+    "comparePrice": 88000,
     "currency": "NGN",
     "colors": [
       "white"
@@ -6852,8 +6852,8 @@
     "group": "Clothing",
     "subcategory": "striped zip-neck polo",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -7038,7 +7038,7 @@
     "subcategory": "denim cargo shorts",
     "brand": "Luxe Universal",
     "price": 30000,
-    "comparePrice": 40000,
+    "comparePrice": 38000,
     "currency": "NGN",
     "colors": [
       "blue",
@@ -7083,7 +7083,7 @@
     "group": "Suits",
     "subcategory": "single-breasted suit",
     "brand": "Luxe Universal",
-    "price": 100000,
+    "price": 140000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -7398,7 +7398,7 @@
     "group": "Clothing",
     "subcategory": "studded flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -7443,8 +7443,8 @@
     "group": "Clothing",
     "subcategory": "washed cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 45000,
+    "comparePrice": 56000,
     "currency": "NGN",
     "colors": [
       "olive",
@@ -7581,7 +7581,7 @@
     "subcategory": "running",
     "brand": "Nike",
     "price": 70000,
-    "comparePrice": 90000,
+    "comparePrice": 88000,
     "currency": "NGN",
     "colors": [
       "tan",
@@ -7627,8 +7627,8 @@
     "group": "Footwear",
     "subcategory": "loafers",
     "brand": "Gucci",
-    "price": 100000,
-    "comparePrice": 130000,
+    "price": 120000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "brown"
@@ -7673,7 +7673,7 @@
     "group": "Clothing",
     "subcategory": "cargo",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -7765,7 +7765,7 @@
     "group": "Clothing",
     "subcategory": "cargo",
     "brand": "Levi's",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -7856,7 +7856,7 @@
     "subcategory": "baggy",
     "brand": "Gucci",
     "price": 50000,
-    "comparePrice": 65000,
+    "comparePrice": 63000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -8127,7 +8127,7 @@
     "group": "Footwear",
     "subcategory": "chelsea-boots",
     "brand": "Boss",
-    "price": 90000,
+    "price": 100000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8173,7 +8173,7 @@
     "group": "Clothing",
     "subcategory": "sweater-vest",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8218,7 +8218,7 @@
     "group": "Clothing",
     "subcategory": "cargo",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8441,8 +8441,8 @@
     "group": "Clothing",
     "subcategory": "cargo",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 45000,
+    "comparePrice": 56000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -8486,7 +8486,7 @@
     "group": "Clothing",
     "subcategory": "sweater-vest",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8617,7 +8617,7 @@
     "group": "Footwear",
     "subcategory": "mules",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8664,7 +8664,7 @@
     "subcategory": "co-ord-set",
     "brand": "Louis Vuitton",
     "price": 60000,
-    "comparePrice": 80000,
+    "comparePrice": 75000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -8709,7 +8709,7 @@
     "group": "Footwear",
     "subcategory": "oxford",
     "brand": "Luxe Universal",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8755,7 +8755,7 @@
     "group": "Suits",
     "subcategory": "three-piece",
     "brand": "Luxe Universal",
-    "price": 120000,
+    "price": 130000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -8801,7 +8801,7 @@
     "group": "Footwear",
     "subcategory": "clogs",
     "brand": "Nike",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9033,7 +9033,7 @@
     "group": "Footwear",
     "subcategory": "suede zip Chelsea boots",
     "brand": "Boss",
-    "price": 90000,
+    "price": 100000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9080,8 +9080,8 @@
     "group": "Clothing",
     "subcategory": "cargo carpenter jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 45000,
+    "comparePrice": 56000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -9221,7 +9221,7 @@
     "subcategory": "denim shorts",
     "brand": "Luxe Universal",
     "price": 30000,
-    "comparePrice": 40000,
+    "comparePrice": 38000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -9312,7 +9312,7 @@
     "group": "Clothing",
     "subcategory": "short-sleeve quarter-zip polo",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9452,8 +9452,8 @@
     "group": "Clothing",
     "subcategory": "striped quarter-zip polo",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "blue",
@@ -9545,7 +9545,7 @@
     "group": "Clothing",
     "subcategory": "carpenter knee-panel jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9729,7 +9729,7 @@
     "group": "Clothing",
     "subcategory": "camo-print short-sleeve shirt",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9870,7 +9870,7 @@
     "group": "Clothing",
     "subcategory": "striped knit polo",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9917,7 +9917,7 @@
     "group": "Clothing",
     "subcategory": "cargo carpenter jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -9963,8 +9963,8 @@
     "group": "Clothing",
     "subcategory": "short-sleeve camp shirt",
     "brand": "Luxe Universal",
-    "price": 40000,
-    "comparePrice": 50000,
+    "price": 35000,
+    "comparePrice": 44000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -10009,7 +10009,7 @@
     "group": "Clothing",
     "subcategory": "plaid short-sleeve overshirt",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10056,7 +10056,7 @@
     "group": "Footwear",
     "subcategory": "suede buckle loafers",
     "brand": "Tod's",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10150,7 +10150,7 @@
     "group": "Suits",
     "subcategory": "three-piece shawl-lapel tuxedo",
     "brand": "Luxe Universal",
-    "price": 90000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10198,7 +10198,7 @@
     "group": "Footwear",
     "subcategory": "leather slip-on loafers",
     "brand": "Timberland",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10246,8 +10246,8 @@
     "group": "Footwear",
     "subcategory": "penny loafers",
     "brand": "Santoni",
-    "price": 100000,
-    "comparePrice": 130000,
+    "price": 120000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -10292,7 +10292,7 @@
     "group": "Clothing",
     "subcategory": "cargo trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10338,8 +10338,8 @@
     "group": "Clothing",
     "subcategory": "printed flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -10472,7 +10472,7 @@
     "group": "Clothing",
     "subcategory": "two-tone cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10609,8 +10609,8 @@
     "group": "Clothing",
     "subcategory": "flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "black"
@@ -10836,7 +10836,7 @@
     "group": "Footwear",
     "subcategory": "cap-toe oxford",
     "brand": "Louis Vuitton",
-    "price": 100000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -10884,7 +10884,7 @@
     "subcategory": "runner sneakers",
     "brand": "Adidas",
     "price": 70000,
-    "comparePrice": 90000,
+    "comparePrice": 88000,
     "currency": "NGN",
     "colors": [
       "grey",
@@ -10977,7 +10977,7 @@
     "group": "Suits",
     "subcategory": "shawl-lapel tuxedo jacket",
     "brand": "Luxe Universal",
-    "price": 90000,
+    "price": 120000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -11023,8 +11023,8 @@
     "group": "Clothing",
     "subcategory": "light-wash jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
-    "comparePrice": 65000,
+    "price": 40000,
+    "comparePrice": 50000,
     "currency": "NGN",
     "colors": [
       "blue"
@@ -11068,7 +11068,7 @@
     "group": "Clothing",
     "subcategory": "short-sleeve zip shirt",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 35000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -11158,7 +11158,7 @@
     "group": "Clothing",
     "subcategory": "flared trousers",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 40000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -11204,7 +11204,7 @@
     "group": "Clothing",
     "subcategory": "distressed cargo jeans",
     "brand": "Luxe Universal",
-    "price": 50000,
+    "price": 45000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
@@ -11250,7 +11250,7 @@
     "subcategory": "double-breasted suit",
     "brand": "Luxe Universal",
     "price": 100000,
-    "comparePrice": 130000,
+    "comparePrice": 125000,
     "currency": "NGN",
     "colors": [
       "black",
@@ -11341,8 +11341,8 @@
     "group": "Suits",
     "subcategory": "embellished shawl-lapel tuxedo jacket",
     "brand": "Luxe Universal",
-    "price": 90000,
-    "comparePrice": 115000,
+    "price": 120000,
+    "comparePrice": 150000,
     "currency": "NGN",
     "colors": [
       "white",
@@ -11387,7 +11387,7 @@
     "group": "Clothing",
     "subcategory": "knit zip vest",
     "brand": "Luxe Universal",
-    "price": 40000,
+    "price": 60000,
     "comparePrice": null,
     "currency": "NGN",
     "colors": [
