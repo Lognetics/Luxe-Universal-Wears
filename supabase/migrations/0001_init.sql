@@ -199,17 +199,24 @@ alter table public.contact_messages enable row level security;
 alter table public.newsletter_subscribers enable row level security;
 
 -- Public read for catalog & reviews
+drop policy if exists "catalog_read_categories" on public.categories;
 create policy "catalog_read_categories" on public.categories for select using (true);
+drop policy if exists "catalog_read_products" on public.products;
 create policy "catalog_read_products" on public.products for select using (true);
+drop policy if exists "reviews_read" on public.reviews;
 create policy "reviews_read" on public.reviews for select using (true);
 
 -- Authenticated users may write reviews
+drop policy if exists "reviews_insert" on public.reviews;
 create policy "reviews_insert" on public.reviews for insert
   to authenticated with check (auth.uid() = user_id);
 
 -- Profiles: owner only
+drop policy if exists "profiles_select" on public.profiles;
 create policy "profiles_select" on public.profiles for select using (auth.uid() = id);
+drop policy if exists "profiles_upsert" on public.profiles;
 create policy "profiles_upsert" on public.profiles for insert with check (auth.uid() = id);
+drop policy if exists "profiles_update" on public.profiles;
 create policy "profiles_update" on public.profiles for update using (auth.uid() = id);
 
 -- Owner-scoped tables (select/insert/update/delete own rows)
@@ -218,23 +225,33 @@ declare t text;
 begin
   foreach t in array array['addresses','cart_items','wishlists','orders','measurements']
   loop
+    execute format('drop policy if exists "%1$s_own_select" on public.%1$s;', t);
     execute format('create policy "%1$s_own_select" on public.%1$s for select using (auth.uid() = user_id);', t);
+    execute format('drop policy if exists "%1$s_own_insert" on public.%1$s;', t);
     execute format('create policy "%1$s_own_insert" on public.%1$s for insert with check (auth.uid() = user_id);', t);
+    execute format('drop policy if exists "%1$s_own_update" on public.%1$s;', t);
     execute format('create policy "%1$s_own_update" on public.%1$s for update using (auth.uid() = user_id);', t);
+    execute format('drop policy if exists "%1$s_own_delete" on public.%1$s;', t);
     execute format('create policy "%1$s_own_delete" on public.%1$s for delete using (auth.uid() = user_id);', t);
   end loop;
 end $$;
 
 -- Order items: visible/insertable when the parent order belongs to the user
+drop policy if exists "order_items_select" on public.order_items;
 create policy "order_items_select" on public.order_items for select
   using (exists (select 1 from public.orders o where o.id = order_id and o.user_id = auth.uid()));
+drop policy if exists "order_items_insert" on public.order_items;
 create policy "order_items_insert" on public.order_items for insert
   with check (exists (select 1 from public.orders o where o.id = order_id and o.user_id = auth.uid()));
 
 -- Lead capture: anyone (incl. anon) may submit; nobody can read via anon key
+drop policy if exists "bespoke_insert" on public.bespoke_requests;
 create policy "bespoke_insert" on public.bespoke_requests for insert with check (true);
+drop policy if exists "corporate_insert" on public.corporate_enquiries;
 create policy "corporate_insert" on public.corporate_enquiries for insert with check (true);
+drop policy if exists "contact_insert" on public.contact_messages;
 create policy "contact_insert" on public.contact_messages for insert with check (true);
+drop policy if exists "newsletter_insert" on public.newsletter_subscribers;
 create policy "newsletter_insert" on public.newsletter_subscribers for insert with check (true);
 
 -- ============================================================

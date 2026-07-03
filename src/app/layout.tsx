@@ -3,11 +3,8 @@ import { Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
 import { StoreProvider } from "@/components/providers/StoreProvider";
 import { AuthProvider } from "@/components/providers/AuthProvider";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { MiniCart } from "@/components/cart/MiniCart";
+import { ChromeHeader, ChromeFooter } from "@/components/layout/ChromeGate";
 import { Toast } from "@/components/ui/Toast";
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -50,12 +47,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen overflow-x-hidden">
         <AuthProvider>
           <StoreProvider>
-            <Header />
+            <ChromeHeader />
             <main>{children}</main>
-            <Footer />
-            <MiniCart />
+            <ChromeFooter />
             <Toast />
-            <WhatsAppButton />
           </StoreProvider>
         </AuthProvider>
       </body>
