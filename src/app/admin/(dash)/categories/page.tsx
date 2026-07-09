@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 export default async function AdminCategories() {
   const sb = await getSupabaseServerClient();
   const [{ data: cats }, { data: prods }] = await Promise.all([
-    sb!.from("categories").select("*").order("sort_order"),
+    sb!.from("categories").select("*").order("created_at"),
     sb!.from("products").select("category"),
   ]);
 

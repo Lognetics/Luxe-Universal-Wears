@@ -1,6 +1,7 @@
 "use server";
 
-import { getSupabaseServerClient, isCurrentUserAdmin } from "@/lib/supabase/ssr";
+import { getServiceSupabase } from "@/lib/supabase/server";
+import { isAdminRequest } from "@/lib/admin/auth";
 import { rowToProduct, rowToCategory } from "@/lib/supabase/mappers";
 
 const REPO = process.env.GITHUB_REPO || "Lognetics/Luxe-Universal-Wears";
@@ -38,9 +39,9 @@ async function ghUpdateFile(pathInRepo: string, contentString: string, message: 
  * an automatic Vercel redeploy. Returns product/category counts.
  */
 export async function publishToLive() {
-  const sb = await getSupabaseServerClient();
-  if (!sb) throw new Error("Supabase is not configured.");
-  if (!(await isCurrentUserAdmin())) throw new Error("Not authorised.");
+  if (!(await isAdminRequest())) throw new Error("Not authorised.");
+  const sb = getServiceSupabase();
+  if (!sb) throw new Error("Server is missing SUPABASE_SERVICE_ROLE_KEY.");
 
   const { data: prodRows, error: pErr } = await sb
     .from("products")
@@ -51,7 +52,7 @@ export async function publishToLive() {
   const { data: catRows, error: cErr } = await sb
     .from("categories")
     .select("*")
-    .order("sort_order", { ascending: true });
+    .order("created_at", { ascending: true });
   if (cErr) throw new Error(cErr.message);
 
   const products = (prodRows ?? []).map(rowToProduct);

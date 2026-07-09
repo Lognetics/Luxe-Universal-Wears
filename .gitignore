@@ -42,3 +42,7 @@ next-env.d.ts
 
 # allow the env template (no secrets) to be committed
 !.env.local.example
+
+# generated setup SQL contains the admin password hash seed — never commit
+supabase/schema.sql
+supabase/setup.sql

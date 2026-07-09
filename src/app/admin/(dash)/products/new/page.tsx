@@ -9,7 +9,7 @@ export default async function NewProduct() {
   const { data: categories } = await sb!
     .from("categories")
     .select("slug, name, \"group\"")
-    .order("sort_order");
+    .order("created_at");
 
   return (
     <div>

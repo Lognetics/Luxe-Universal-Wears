@@ -1,34 +1,48 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { getSupabaseServerClient, isCurrentUserAdmin } from "@/lib/supabase/ssr";
+import { redirect } from "next/navigation";
+import { getServiceSupabase } from "@/lib/supabase/server";
 import { productToRow } from "@/lib/supabase/mappers";
+import { isAdminRequest, setAdminCookie, clearAdminCookie, checkPassword } from "@/lib/admin/auth";
 import type { Product } from "@/lib/types";
 
 const slugify = (s: string) =>
   s.toLowerCase().replace(/['’`]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
-async function requireAdmin() {
-  const sb = await getSupabaseServerClient();
-  if (!sb) throw new Error("Supabase is not configured.");
-  if (!(await isCurrentUserAdmin())) throw new Error("Not authorised.");
+/** Verify the admin cookie and return a service-role client for privileged writes. */
+async function admin() {
+  if (!(await isAdminRequest())) throw new Error("Not authorised. Please sign in again.");
+  const sb = getServiceSupabase();
+  if (!sb) throw new Error("Server is missing SUPABASE_SERVICE_ROLE_KEY.");
   return sb;
 }
 
+// ---------- auth ----------
+export async function adminLogin(_prev: unknown, formData: FormData) {
+  const password = String(formData.get("password") || "");
+  if (!checkPassword(password)) return { error: "Incorrect password." };
+  await setAdminCookie();
+  redirect("/admin");
+}
+
+export async function adminLogout() {
+  await clearAdminCookie();
+  redirect("/admin/login");
+}
+
+// ---------- products ----------
 export type SaveProductInput = Partial<Product> & { name: string; category: string };
 
-/** Create or update a product. Returns the saved product id/slug. */
 export async function saveProduct(input: SaveProductInput) {
-  const sb = await requireAdmin();
-
+  const sb = await admin();
   const isNew = !input.id;
   const slug = input.slug || slugify(input.name);
   const id = input.id || slug;
 
-  // Resolve category display name + group from the categories table.
   const { data: cat } = await sb
     .from("categories")
-    .select("name, \"group\"")
+    .select('name, "group"')
     .eq("slug", input.category)
     .maybeSingle();
 
@@ -41,7 +55,6 @@ export async function saveProduct(input: SaveProductInput) {
   });
 
   if (isNew) {
-    // sensible defaults for a brand-new product
     row.currency ??= "NGN";
     row.rating ??= 4.6;
     row.reviews ??= 0;
@@ -68,12 +81,13 @@ export async function saveProduct(input: SaveProductInput) {
 }
 
 export async function deleteProduct(id: string) {
-  const sb = await requireAdmin();
+  const sb = await admin();
   const { error } = await sb.from("products").delete().eq("id", id);
   if (error) throw new Error(error.message);
   revalidatePath("/admin/products");
 }
 
+// ---------- categories ----------
 export async function saveCategory(input: {
   slug?: string;
   name: string;
@@ -81,7 +95,7 @@ export async function saveCategory(input: {
   subcategories?: string[];
   image?: string | null;
 }) {
-  const sb = await requireAdmin();
+  const sb = await admin();
   const slug = input.slug || slugify(input.name);
   const { error } = await sb.from("categories").upsert(
     {
@@ -99,7 +113,7 @@ export async function saveCategory(input: {
 }
 
 export async function deleteCategory(slug: string) {
-  const sb = await requireAdmin();
+  const sb = await admin();
   const { count } = await sb
     .from("products")
     .select("id", { count: "exact", head: true })
@@ -110,9 +124,9 @@ export async function deleteCategory(slug: string) {
   revalidatePath("/admin/categories");
 }
 
-/** Upload an image file to Supabase Storage and return its public URL. */
+// ---------- image upload ----------
 export async function uploadProductImage(formData: FormData): Promise<string> {
-  const sb = await requireAdmin();
+  const sb = await admin();
   const file = formData.get("file") as File | null;
   if (!file) throw new Error("No file provided.");
   const ext = (file.name.split(".").pop() || "jpg").toLowerCase();

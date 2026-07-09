@@ -1,23 +1,19 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import { useRouter } from "next/navigation";
-import { getSupabase } from "@/lib/supabase/client";
 import { publishToLive } from "../publish";
+import { adminLogout } from "../actions";
 
 export function LogoutButton() {
-  const router = useRouter();
   return (
-    <button
-      onClick={async () => {
-        await getSupabase()?.auth.signOut();
-        router.replace("/admin/login");
-        router.refresh();
-      }}
-      className="text-xs font-medium text-neutral-500 underline hover:text-neutral-800"
-    >
-      Sign out
-    </button>
+    <form action={adminLogout}>
+      <button
+        type="submit"
+        className="text-xs font-medium text-neutral-500 underline hover:text-neutral-800"
+      >
+        Sign out
+      </button>
+    </form>
   );
 }
 

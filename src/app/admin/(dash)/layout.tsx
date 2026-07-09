@@ -1,39 +1,10 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { getCurrentUser, isCurrentUserAdmin } from "@/lib/supabase/ssr";
-import { isSupabaseServerConfigured } from "@/lib/supabase/server";
+import { isAdminRequest } from "@/lib/admin/auth";
 import { LogoutButton } from "./ui";
 
 export default async function AdminDashLayout({ children }: { children: React.ReactNode }) {
-  if (!isSupabaseServerConfigured()) {
-    return (
-      <div className="min-h-screen grid place-items-center bg-neutral-100 p-8 text-center">
-        <div className="max-w-md">
-          <h1 className="font-serif text-2xl font-semibold">Backend not configured</h1>
-          <p className="mt-2 text-sm text-neutral-600">
-            Add <code>NEXT_PUBLIC_SUPABASE_URL</code> and{" "}
-            <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> to <code>.env.local</code>, then reload.
-          </p>
-        </div>
-      </div>
-    );
-  }
-
-  const user = await getCurrentUser();
-  if (!user) redirect("/admin/login");
-  if (!(await isCurrentUserAdmin())) {
-    return (
-      <div className="min-h-screen grid place-items-center bg-neutral-100 p-8 text-center">
-        <div className="max-w-md">
-          <h1 className="font-serif text-2xl font-semibold">Not authorised</h1>
-          <p className="mt-2 text-sm text-neutral-600">
-            {user.email} is not an admin. Ask for your email to be added to the allowlist.
-          </p>
-          <div className="mt-4"><LogoutButton /></div>
-        </div>
-      </div>
-    );
-  }
+  if (!(await isAdminRequest())) redirect("/admin/login");
 
   const nav = [
     { href: "/admin", label: "Dashboard" },
@@ -66,7 +37,7 @@ export default async function AdminDashLayout({ children }: { children: React.Re
           </Link>
         </nav>
         <div className="mt-auto pt-6">
-          <p className="truncate text-xs text-neutral-400">{user.email}</p>
+          <p className="truncate text-xs text-neutral-400">Signed in as admin</p>
           <div className="mt-2"><LogoutButton /></div>
         </div>
       </aside>

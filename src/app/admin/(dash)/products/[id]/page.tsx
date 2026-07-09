@@ -19,7 +19,7 @@ export default async function EditProduct({
 
   const [{ data: row }, { data: categories }] = await Promise.all([
     sb!.from("products").select("*").eq("id", id).maybeSingle(),
-    sb!.from("categories").select("slug, name, \"group\"").order("sort_order"),
+    sb!.from("categories").select("slug, name, \"group\"").order("created_at"),
   ]);
   if (!row) notFound();
 
