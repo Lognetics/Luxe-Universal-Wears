@@ -6,7 +6,7 @@ import { rowToProduct, rowToCategory } from "@/lib/supabase/mappers";
 
 const REPO = process.env.GITHUB_REPO || "Lognetics/Luxe-Universal-Wears";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
-const BASE = "luxe-app/src/data";
+const BASE = "src/data";
 
 async function ghUpdateFile(pathInRepo: string, contentString: string, message: string) {
   const token = process.env.GITHUB_TOKEN;
