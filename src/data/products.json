@@ -2040,7 +2040,7 @@
     "reviews": 23,
     "stock": 19,
     "sku": "LUW-JEA-045",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 45
@@ -2087,7 +2087,7 @@
     "reviews": 73,
     "stock": 9,
     "sku": "LUW-SUI-046",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 46
@@ -2132,7 +2132,7 @@
     "reviews": 126,
     "stock": 32,
     "sku": "LUW-T-S-047",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 47
@@ -2177,7 +2177,7 @@
     "reviews": 98,
     "stock": 4,
     "sku": "LUW-JEA-048",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 48
@@ -2223,7 +2223,7 @@
     "reviews": 27,
     "stock": 23,
     "sku": "LUW-T-S-049",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 49
@@ -2269,7 +2269,7 @@
     "reviews": 12,
     "stock": 8,
     "sku": "LUW-SHI-050",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 50
@@ -2315,7 +2315,7 @@
     "reviews": 90,
     "stock": 26,
     "sku": "LUW-COR-051",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 51
@@ -2361,7 +2361,7 @@
     "reviews": 52,
     "stock": 18,
     "sku": "LUW-SHI-052",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 52
@@ -2407,7 +2407,7 @@
     "reviews": 41,
     "stock": 7,
     "sku": "LUW-CHI-053",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 53
@@ -2452,7 +2452,7 @@
     "reviews": 57,
     "stock": 23,
     "sku": "LUW-CHI-054",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 54
@@ -2497,7 +2497,7 @@
     "reviews": 42,
     "stock": 8,
     "sku": "LUW-JEA-055",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 55
@@ -2542,7 +2542,7 @@
     "reviews": 58,
     "stock": 24,
     "sku": "LUW-CHI-056",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 56
@@ -2587,7 +2587,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-057",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 57
@@ -2633,7 +2633,7 @@
     "reviews": 9,
     "stock": 5,
     "sku": "LUW-CAS-058",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 58
@@ -2680,7 +2680,7 @@
     "reviews": 125,
     "stock": 31,
     "sku": "LUW-POL-059",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 59
@@ -2726,7 +2726,7 @@
     "reviews": 91,
     "stock": 27,
     "sku": "LUW-SLI-060",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 60
@@ -2772,7 +2772,7 @@
     "reviews": 78,
     "stock": 14,
     "sku": "LUW-SLI-061",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 61
@@ -2817,7 +2817,7 @@
     "reviews": 47,
     "stock": 13,
     "sku": "LUW-DOU-062",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 62
@@ -2863,7 +2863,7 @@
     "reviews": 99,
     "stock": 5,
     "sku": "LUW-JEA-063",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 63
@@ -2909,7 +2909,7 @@
     "reviews": 9,
     "stock": 5,
     "sku": "LUW-DOU-064",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 64
@@ -2955,7 +2955,7 @@
     "reviews": 54,
     "stock": 20,
     "sku": "LUW-TUX-065",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 65
@@ -3001,7 +3001,7 @@
     "reviews": 74,
     "stock": 10,
     "sku": "LUW-JEA-066",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 66
@@ -3047,7 +3047,7 @@
     "reviews": 120,
     "stock": 26,
     "sku": "LUW-CHI-067",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 67
@@ -3093,7 +3093,7 @@
     "reviews": 23,
     "stock": 19,
     "sku": "LUW-CAS-068",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 68
@@ -3138,7 +3138,7 @@
     "reviews": 53,
     "stock": 19,
     "sku": "LUW-JEA-069",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 69
@@ -3183,7 +3183,7 @@
     "reviews": 30,
     "stock": 26,
     "sku": "LUW-DOU-070",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 70
@@ -3230,7 +3230,7 @@
     "reviews": 78,
     "stock": 14,
     "sku": "LUW-SNE-071",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 71
@@ -3275,7 +3275,7 @@
     "reviews": 96,
     "stock": 32,
     "sku": "LUW-CHI-072",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 72
@@ -3321,7 +3321,7 @@
     "reviews": 24,
     "stock": 20,
     "sku": "LUW-SLI-073",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 73
@@ -3366,7 +3366,7 @@
     "reviews": 72,
     "stock": 8,
     "sku": "LUW-DOU-074",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 74
@@ -3412,7 +3412,7 @@
     "reviews": 69,
     "stock": 5,
     "sku": "LUW-JAC-075",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 75
@@ -3458,7 +3458,7 @@
     "reviews": 30,
     "stock": 26,
     "sku": "LUW-COR-076",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 76
@@ -3504,7 +3504,7 @@
     "reviews": 113,
     "stock": 19,
     "sku": "LUW-T-S-077",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 77
@@ -3549,7 +3549,7 @@
     "reviews": 49,
     "stock": 15,
     "sku": "LUW-JEA-078",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 78
@@ -3594,7 +3594,7 @@
     "reviews": 86,
     "stock": 22,
     "sku": "LUW-CHI-079",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 79
@@ -3640,7 +3640,7 @@
     "reviews": 40,
     "stock": 6,
     "sku": "LUW-POL-080",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 80
@@ -3686,7 +3686,7 @@
     "reviews": 117,
     "stock": 23,
     "sku": "LUW-T-S-081",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 81
@@ -3731,7 +3731,7 @@
     "reviews": 114,
     "stock": 20,
     "sku": "LUW-DOU-082",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 82
@@ -3776,7 +3776,7 @@
     "reviews": 68,
     "stock": 4,
     "sku": "LUW-JEA-083",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 83
@@ -3822,7 +3822,7 @@
     "reviews": 100,
     "stock": 6,
     "sku": "LUW-SUI-084",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 84
@@ -3868,7 +3868,7 @@
     "reviews": 124,
     "stock": 30,
     "sku": "LUW-JEA-085",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 85
@@ -3913,7 +3913,7 @@
     "reviews": 38,
     "stock": 4,
     "sku": "LUW-DOU-086",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 86
@@ -3959,7 +3959,7 @@
     "reviews": 122,
     "stock": 28,
     "sku": "LUW-JAC-087",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 87
@@ -4004,7 +4004,7 @@
     "reviews": 105,
     "stock": 11,
     "sku": "LUW-DOU-088",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 88
@@ -4050,7 +4050,7 @@
     "reviews": 110,
     "stock": 16,
     "sku": "LUW-CHI-089",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 89
@@ -4096,7 +4096,7 @@
     "reviews": 11,
     "stock": 7,
     "sku": "LUW-JAC-090",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 90
@@ -4142,7 +4142,7 @@
     "reviews": 65,
     "stock": 31,
     "sku": "LUW-JEA-091",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 91
@@ -4188,7 +4188,7 @@
     "reviews": 88,
     "stock": 24,
     "sku": "LUW-JEA-092",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 92
@@ -4233,7 +4233,7 @@
     "reviews": 65,
     "stock": 31,
     "sku": "LUW-SHI-093",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 93
@@ -4278,7 +4278,7 @@
     "reviews": 21,
     "stock": 17,
     "sku": "LUW-JEA-094",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 94
@@ -4319,7 +4319,7 @@
     "reviews": 13,
     "stock": 9,
     "sku": "LUW-CAP-095",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 95
@@ -4361,7 +4361,7 @@
     "reviews": 12,
     "stock": 8,
     "sku": "LUW-CAP-096",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 96
@@ -4406,7 +4406,7 @@
     "reviews": 10,
     "stock": 6,
     "sku": "LUW-POL-097",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 97
@@ -4452,7 +4452,7 @@
     "reviews": 118,
     "stock": 24,
     "sku": "LUW-CHI-098",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 98
@@ -4497,7 +4497,7 @@
     "reviews": 63,
     "stock": 29,
     "sku": "LUW-JEA-099",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 99
@@ -4542,7 +4542,7 @@
     "reviews": 71,
     "stock": 7,
     "sku": "LUW-SUI-100",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 100
@@ -4587,7 +4587,7 @@
     "reviews": 54,
     "stock": 20,
     "sku": "LUW-DOU-101",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 101
@@ -4633,7 +4633,7 @@
     "reviews": 46,
     "stock": 12,
     "sku": "LUW-JAC-102",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 102
@@ -4679,7 +4679,7 @@
     "reviews": 99,
     "stock": 5,
     "sku": "LUW-SNE-103",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 103
@@ -4727,7 +4727,7 @@
     "reviews": 33,
     "stock": 29,
     "sku": "LUW-JEA-104",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 104
@@ -4773,7 +4773,7 @@
     "reviews": 66,
     "stock": 32,
     "sku": "LUW-JEA-105",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 105
@@ -4819,7 +4819,7 @@
     "reviews": 24,
     "stock": 20,
     "sku": "LUW-JEA-106",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 106
@@ -4864,7 +4864,7 @@
     "reviews": 8,
     "stock": 4,
     "sku": "LUW-JEA-107",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 107
@@ -4909,7 +4909,7 @@
     "reviews": 11,
     "stock": 7,
     "sku": "LUW-JEA-108",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 108
@@ -4955,7 +4955,7 @@
     "reviews": 31,
     "stock": 27,
     "sku": "LUW-DOU-109",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 109
@@ -5001,7 +5001,7 @@
     "reviews": 31,
     "stock": 27,
     "sku": "LUW-JEA-110",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 110
@@ -5046,7 +5046,7 @@
     "reviews": 125,
     "stock": 31,
     "sku": "LUW-JEA-111",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 111
@@ -5087,7 +5087,7 @@
     "reviews": 124,
     "stock": 30,
     "sku": "LUW-CAP-112",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 112
@@ -5133,7 +5133,7 @@
     "reviews": 102,
     "stock": 8,
     "sku": "LUW-POL-113",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 113
@@ -5179,7 +5179,7 @@
     "reviews": 122,
     "stock": 28,
     "sku": "LUW-SLI-114",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 114
@@ -5225,7 +5225,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-115",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 115
@@ -5274,7 +5274,7 @@
     "reviews": 113,
     "stock": 19,
     "sku": "LUW-SLI-116",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 116
@@ -5319,7 +5319,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-117",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 117
@@ -5365,7 +5365,7 @@
     "reviews": 18,
     "stock": 14,
     "sku": "LUW-JEA-118",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 118
@@ -5411,7 +5411,7 @@
     "reviews": 77,
     "stock": 13,
     "sku": "LUW-POL-119",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 119
@@ -5458,7 +5458,7 @@
     "reviews": 86,
     "stock": 22,
     "sku": "LUW-COR-120",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 120
@@ -5503,7 +5503,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-121",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 121
@@ -5548,7 +5548,7 @@
     "reviews": 126,
     "stock": 32,
     "sku": "LUW-JAC-122",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 122
@@ -5593,7 +5593,7 @@
     "reviews": 84,
     "stock": 20,
     "sku": "LUW-JEA-123",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 123
@@ -5639,7 +5639,7 @@
     "reviews": 68,
     "stock": 4,
     "sku": "LUW-CHI-124",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 124
@@ -5684,7 +5684,7 @@
     "reviews": 31,
     "stock": 27,
     "sku": "LUW-POL-125",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 125
@@ -5730,7 +5730,7 @@
     "reviews": 75,
     "stock": 11,
     "sku": "LUW-JEA-126",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 126
@@ -5775,7 +5775,7 @@
     "reviews": 43,
     "stock": 9,
     "sku": "LUW-JEA-127",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 127
@@ -5823,7 +5823,7 @@
     "reviews": 120,
     "stock": 26,
     "sku": "LUW-SLI-128",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 128
@@ -5870,7 +5870,7 @@
     "reviews": 89,
     "stock": 25,
     "sku": "LUW-SHI-129",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 129
@@ -5915,7 +5915,7 @@
     "reviews": 46,
     "stock": 12,
     "sku": "LUW-JEA-130",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 130
@@ -5960,7 +5960,7 @@
     "reviews": 125,
     "stock": 31,
     "sku": "LUW-JAC-131",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 131
@@ -6005,7 +6005,7 @@
     "reviews": 29,
     "stock": 25,
     "sku": "LUW-JEA-132",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 132
@@ -6051,7 +6051,7 @@
     "reviews": 74,
     "stock": 10,
     "sku": "LUW-JEA-133",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 133
@@ -6098,7 +6098,7 @@
     "reviews": 88,
     "stock": 24,
     "sku": "LUW-SLI-134",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 134
@@ -6144,7 +6144,7 @@
     "reviews": 16,
     "stock": 12,
     "sku": "LUW-POL-135",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 135
@@ -6191,7 +6191,7 @@
     "reviews": 17,
     "stock": 13,
     "sku": "LUW-JEA-136",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 136
@@ -6232,7 +6232,7 @@
     "reviews": 123,
     "stock": 29,
     "sku": "LUW-CAP-137",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 137
@@ -6278,7 +6278,7 @@
     "reviews": 16,
     "stock": 12,
     "sku": "LUW-POL-138",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 138
@@ -6324,7 +6324,7 @@
     "reviews": 110,
     "stock": 16,
     "sku": "LUW-POL-139",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 139
@@ -6371,7 +6371,7 @@
     "reviews": 67,
     "stock": 33,
     "sku": "LUW-SLI-140",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 140
@@ -6421,7 +6421,7 @@
     "reviews": 34,
     "stock": 30,
     "sku": "LUW-SNE-141",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 141
@@ -6467,7 +6467,7 @@
     "reviews": 57,
     "stock": 23,
     "sku": "LUW-JEA-142",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 142
@@ -6516,7 +6516,7 @@
     "reviews": 69,
     "stock": 5,
     "sku": "LUW-SLI-143",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 143
@@ -6563,7 +6563,7 @@
     "reviews": 20,
     "stock": 16,
     "sku": "LUW-CHI-144",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 144
@@ -6608,7 +6608,7 @@
     "reviews": 59,
     "stock": 25,
     "sku": "LUW-SUI-145",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 145
@@ -6654,7 +6654,7 @@
     "reviews": 33,
     "stock": 29,
     "sku": "LUW-SLI-146",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 146
@@ -6699,7 +6699,7 @@
     "reviews": 59,
     "stock": 25,
     "sku": "LUW-POL-147",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 147
@@ -6746,7 +6746,7 @@
     "reviews": 9,
     "stock": 5,
     "sku": "LUW-CHI-148",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 148
@@ -6792,7 +6792,7 @@
     "reviews": 21,
     "stock": 17,
     "sku": "LUW-CHI-149",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 149
@@ -6838,7 +6838,7 @@
     "reviews": 47,
     "stock": 13,
     "sku": "LUW-SNE-150",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 150
@@ -6885,7 +6885,7 @@
     "reviews": 8,
     "stock": 4,
     "sku": "LUW-POL-151",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 151
@@ -6931,7 +6931,7 @@
     "reviews": 65,
     "stock": 31,
     "sku": "LUW-POL-152",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 152
@@ -6977,7 +6977,7 @@
     "reviews": 121,
     "stock": 27,
     "sku": "LUW-POL-153",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 153
@@ -7023,7 +7023,7 @@
     "reviews": 19,
     "stock": 15,
     "sku": "LUW-JEA-154",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 154
@@ -7069,7 +7069,7 @@
     "reviews": 68,
     "stock": 4,
     "sku": "LUW-JEA-155",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 155
@@ -7115,7 +7115,7 @@
     "reviews": 106,
     "stock": 12,
     "sku": "LUW-SUI-156",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 156
@@ -7161,7 +7161,7 @@
     "reviews": 34,
     "stock": 30,
     "sku": "LUW-JEA-157",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 157
@@ -7202,7 +7202,7 @@
     "reviews": 72,
     "stock": 8,
     "sku": "LUW-CAP-158",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 158
@@ -7248,7 +7248,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-159",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 159
@@ -7294,7 +7294,7 @@
     "reviews": 61,
     "stock": 27,
     "sku": "LUW-JEA-160",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 160
@@ -7339,7 +7339,7 @@
     "reviews": 45,
     "stock": 11,
     "sku": "LUW-JEA-161",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 161
@@ -7384,7 +7384,7 @@
     "reviews": 17,
     "stock": 13,
     "sku": "LUW-POL-162",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 162
@@ -7429,7 +7429,7 @@
     "reviews": 18,
     "stock": 14,
     "sku": "LUW-CHI-163",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 163
@@ -7476,7 +7476,7 @@
     "reviews": 44,
     "stock": 10,
     "sku": "LUW-JEA-164",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 164
@@ -7521,7 +7521,7 @@
     "reviews": 91,
     "stock": 27,
     "sku": "LUW-JEA-165",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 165
@@ -7566,7 +7566,7 @@
     "reviews": 18,
     "stock": 14,
     "sku": "LUW-JEA-166",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 166
@@ -7613,7 +7613,7 @@
     "reviews": 29,
     "stock": 25,
     "sku": "LUW-SNE-167",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 167
@@ -7659,7 +7659,7 @@
     "reviews": 68,
     "stock": 4,
     "sku": "LUW-CAS-168",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 168
@@ -7705,7 +7705,7 @@
     "reviews": 81,
     "stock": 17,
     "sku": "LUW-CHI-169",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 169
@@ -7751,7 +7751,7 @@
     "reviews": 103,
     "stock": 9,
     "sku": "LUW-BLA-170",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 170
@@ -7796,7 +7796,7 @@
     "reviews": 66,
     "stock": 32,
     "sku": "LUW-JEA-171",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 171
@@ -7841,7 +7841,7 @@
     "reviews": 102,
     "stock": 8,
     "sku": "LUW-JEA-172",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 172
@@ -7886,7 +7886,7 @@
     "reviews": 86,
     "stock": 22,
     "sku": "LUW-JEA-173",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 173
@@ -7931,7 +7931,7 @@
     "reviews": 73,
     "stock": 9,
     "sku": "LUW-CHI-174",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 174
@@ -7976,7 +7976,7 @@
     "reviews": 108,
     "stock": 14,
     "sku": "LUW-DOU-175",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 175
@@ -8022,7 +8022,7 @@
     "reviews": 82,
     "stock": 18,
     "sku": "LUW-POL-176",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 176
@@ -8067,7 +8067,7 @@
     "reviews": 106,
     "stock": 12,
     "sku": "LUW-JEA-177",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 177
@@ -8113,7 +8113,7 @@
     "reviews": 90,
     "stock": 26,
     "sku": "LUW-SNE-178",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 178
@@ -8159,7 +8159,7 @@
     "reviews": 109,
     "stock": 15,
     "sku": "LUW-CAS-179",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 179
@@ -8204,7 +8204,7 @@
     "reviews": 72,
     "stock": 8,
     "sku": "LUW-T-S-180",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 180
@@ -8249,7 +8249,7 @@
     "reviews": 22,
     "stock": 18,
     "sku": "LUW-JEA-181",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 181
@@ -8290,7 +8290,7 @@
     "reviews": 111,
     "stock": 17,
     "sku": "LUW-CAP-182",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 182
@@ -8336,7 +8336,7 @@
     "reviews": 28,
     "stock": 24,
     "sku": "LUW-JEA-183",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 183
@@ -8381,7 +8381,7 @@
     "reviews": 117,
     "stock": 23,
     "sku": "LUW-DOU-184",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 184
@@ -8427,7 +8427,7 @@
     "reviews": 109,
     "stock": 15,
     "sku": "LUW-JAC-185",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 185
@@ -8472,7 +8472,7 @@
     "reviews": 92,
     "stock": 28,
     "sku": "LUW-JEA-186",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 186
@@ -8518,7 +8518,7 @@
     "reviews": 91,
     "stock": 27,
     "sku": "LUW-T-S-187",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 187
@@ -8558,7 +8558,7 @@
     "reviews": 69,
     "stock": 5,
     "sku": "LUW-CAP-188",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 188
@@ -8603,7 +8603,7 @@
     "reviews": 22,
     "stock": 18,
     "sku": "LUW-JEA-189",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 189
@@ -8649,7 +8649,7 @@
     "reviews": 120,
     "stock": 26,
     "sku": "LUW-SLI-190",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 190
@@ -8695,7 +8695,7 @@
     "reviews": 53,
     "stock": 19,
     "sku": "LUW-SHI-191",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 191
@@ -8741,7 +8741,7 @@
     "reviews": 39,
     "stock": 5,
     "sku": "LUW-COR-192",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 192
@@ -8787,7 +8787,7 @@
     "reviews": 105,
     "stock": 11,
     "sku": "LUW-SUI-193",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 193
@@ -8833,7 +8833,7 @@
     "reviews": 108,
     "stock": 14,
     "sku": "LUW-SLI-194",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 194
@@ -8880,7 +8880,7 @@
     "reviews": 123,
     "stock": 29,
     "sku": "LUW-DOU-195",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 195
@@ -8926,7 +8926,7 @@
     "reviews": 27,
     "stock": 23,
     "sku": "LUW-POL-196",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 196
@@ -8972,7 +8972,7 @@
     "reviews": 11,
     "stock": 7,
     "sku": "LUW-JEA-197",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 197
@@ -9019,7 +9019,7 @@
     "reviews": 122,
     "stock": 28,
     "sku": "LUW-CHI-198",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 198
@@ -9066,7 +9066,7 @@
     "reviews": 39,
     "stock": 5,
     "sku": "LUW-CAS-199",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 199
@@ -9112,7 +9112,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-200",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 200
@@ -9159,7 +9159,7 @@
     "reviews": 78,
     "stock": 14,
     "sku": "LUW-COR-201",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 201
@@ -9206,7 +9206,7 @@
     "reviews": 126,
     "stock": 32,
     "sku": "LUW-JEA-202",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 202
@@ -9252,7 +9252,7 @@
     "reviews": 80,
     "stock": 16,
     "sku": "LUW-JEA-203",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 203
@@ -9298,7 +9298,7 @@
     "reviews": 87,
     "stock": 23,
     "sku": "LUW-JEA-204",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 204
@@ -9345,7 +9345,7 @@
     "reviews": 121,
     "stock": 27,
     "sku": "LUW-POL-205",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 205
@@ -9392,7 +9392,7 @@
     "reviews": 55,
     "stock": 21,
     "sku": "LUW-JAC-206",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 206
@@ -9438,7 +9438,7 @@
     "reviews": 73,
     "stock": 9,
     "sku": "LUW-SUI-207",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 207
@@ -9485,7 +9485,7 @@
     "reviews": 50,
     "stock": 16,
     "sku": "LUW-POL-208",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 208
@@ -9531,7 +9531,7 @@
     "reviews": 43,
     "stock": 9,
     "sku": "LUW-JEA-209",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 209
@@ -9577,7 +9577,7 @@
     "reviews": 45,
     "stock": 11,
     "sku": "LUW-JEA-210",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 210
@@ -9623,7 +9623,7 @@
     "reviews": 86,
     "stock": 22,
     "sku": "LUW-JEA-211",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 211
@@ -9669,7 +9669,7 @@
     "reviews": 40,
     "stock": 6,
     "sku": "LUW-JEA-212",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 212
@@ -9715,7 +9715,7 @@
     "reviews": 25,
     "stock": 21,
     "sku": "LUW-POL-213",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 213
@@ -9762,7 +9762,7 @@
     "reviews": 69,
     "stock": 5,
     "sku": "LUW-SHI-214",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 214
@@ -9809,7 +9809,7 @@
     "reviews": 78,
     "stock": 14,
     "sku": "LUW-JAC-215",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 215
@@ -9856,7 +9856,7 @@
     "reviews": 88,
     "stock": 24,
     "sku": "LUW-JEA-216",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 216
@@ -9903,7 +9903,7 @@
     "reviews": 27,
     "stock": 23,
     "sku": "LUW-POL-217",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 217
@@ -9949,7 +9949,7 @@
     "reviews": 58,
     "stock": 24,
     "sku": "LUW-JEA-218",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 218
@@ -9995,7 +9995,7 @@
     "reviews": 110,
     "stock": 16,
     "sku": "LUW-SHI-219",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 219
@@ -10042,7 +10042,7 @@
     "reviews": 37,
     "stock": 33,
     "sku": "LUW-SHI-220",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 220
@@ -10090,7 +10090,7 @@
     "reviews": 102,
     "stock": 8,
     "sku": "LUW-CAS-221",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 221
@@ -10136,7 +10136,7 @@
     "reviews": 30,
     "stock": 26,
     "sku": "LUW-JEA-222",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 222
@@ -10184,7 +10184,7 @@
     "reviews": 9,
     "stock": 5,
     "sku": "LUW-TUX-223",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 223
@@ -10232,7 +10232,7 @@
     "reviews": 87,
     "stock": 23,
     "sku": "LUW-CAS-224",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 224
@@ -10278,7 +10278,7 @@
     "reviews": 101,
     "stock": 7,
     "sku": "LUW-CAS-225",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 225
@@ -10324,7 +10324,7 @@
     "reviews": 106,
     "stock": 12,
     "sku": "LUW-CHI-226",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 226
@@ -10370,7 +10370,7 @@
     "reviews": 74,
     "stock": 10,
     "sku": "LUW-CHI-227",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 227
@@ -10417,7 +10417,7 @@
     "reviews": 102,
     "stock": 8,
     "sku": "LUW-SLI-228",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 228
@@ -10458,7 +10458,7 @@
     "reviews": 10,
     "stock": 6,
     "sku": "LUW-CAP-229",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 229
@@ -10504,7 +10504,7 @@
     "reviews": 72,
     "stock": 8,
     "sku": "LUW-JEA-230",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 230
@@ -10550,7 +10550,7 @@
     "reviews": 46,
     "stock": 12,
     "sku": "LUW-JAC-231",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 231
@@ -10595,7 +10595,7 @@
     "reviews": 76,
     "stock": 12,
     "sku": "LUW-JEA-232",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 232
@@ -10640,7 +10640,7 @@
     "reviews": 56,
     "stock": 22,
     "sku": "LUW-CHI-233",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 233
@@ -10686,7 +10686,7 @@
     "reviews": 12,
     "stock": 8,
     "sku": "LUW-JEA-234",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 234
@@ -10731,7 +10731,7 @@
     "reviews": 48,
     "stock": 14,
     "sku": "LUW-POL-235",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": true,
     "createdIndex": 235
@@ -10776,7 +10776,7 @@
     "reviews": 83,
     "stock": 19,
     "sku": "LUW-JEA-236",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 236
@@ -10822,7 +10822,7 @@
     "reviews": 30,
     "stock": 26,
     "sku": "LUW-JAC-237",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 237
@@ -10869,7 +10869,7 @@
     "reviews": 124,
     "stock": 30,
     "sku": "LUW-COR-238",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 238
@@ -10917,7 +10917,7 @@
     "reviews": 44,
     "stock": 10,
     "sku": "LUW-SNE-239",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 239
@@ -10963,7 +10963,7 @@
     "reviews": 37,
     "stock": 33,
     "sku": "LUW-DOU-240",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 240
@@ -11009,7 +11009,7 @@
     "reviews": 100,
     "stock": 6,
     "sku": "LUW-TUX-241",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 241
@@ -11054,7 +11054,7 @@
     "reviews": 95,
     "stock": 31,
     "sku": "LUW-JEA-242",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 242
@@ -11099,7 +11099,7 @@
     "reviews": 93,
     "stock": 29,
     "sku": "LUW-SHI-243",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 243
@@ -11144,7 +11144,7 @@
     "reviews": 103,
     "stock": 9,
     "sku": "LUW-CHI-244",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 244
@@ -11190,7 +11190,7 @@
     "reviews": 121,
     "stock": 27,
     "sku": "LUW-CHI-245",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 245
@@ -11235,7 +11235,7 @@
     "reviews": 93,
     "stock": 29,
     "sku": "LUW-JEA-246",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": true,
     "createdIndex": 246
@@ -11281,7 +11281,7 @@
     "reviews": 14,
     "stock": 10,
     "sku": "LUW-DOU-247",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 247
@@ -11327,7 +11327,7 @@
     "reviews": 16,
     "stock": 12,
     "sku": "LUW-CHI-248",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": true,
     "isFeatured": false,
     "createdIndex": 248
@@ -11373,7 +11373,7 @@
     "reviews": 50,
     "stock": 16,
     "sku": "LUW-TUX-249",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 249
@@ -11419,9 +11419,2969 @@
     "reviews": 30,
     "stock": 26,
     "sku": "LUW-JAC-250",
-    "isNew": true,
+    "isNew": false,
     "isBestSeller": false,
     "isFeatured": false,
     "createdIndex": 250
+  },
+  {
+    "id": "midnight-meridian-suede-loafer",
+    "slug": "midnight-meridian-suede-loafer",
+    "name": "Midnight Meridian Suede Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "loafers",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A black suede slip-on loafer with a contrasting white cushioned sole for elevated casual luxury.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "black",
+      "white",
+      "loro piana"
+    ],
+    "images": [
+      "/products/midnight-meridian-suede-loafer.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 31,
+    "stock": 25,
+    "sku": "LUW-CAS-251",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 251
+  },
+  {
+    "id": "onyx-summer-walk-loafer",
+    "slug": "onyx-summer-walk-loafer",
+    "name": "Onyx Summer Walk Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "loafers",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "orange",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A pair of black suede summer-walk loafers with a vivid orange leather interior and off-white sole.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "black",
+      "orange",
+      "white",
+      "loro piana"
+    ],
+    "images": [
+      "/products/onyx-summer-walk-loafer.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 82,
+    "stock": 6,
+    "sku": "LUW-CAS-252",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 252
+  },
+  {
+    "id": "sahara-sands-suede-loafer",
+    "slug": "sahara-sands-suede-loafer",
+    "name": "Sahara Sands Suede Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "loafers",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "beige",
+      "taupe"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A soft beige suede slip-on loafer with tonal stitching and a matching suede-wrapped sole.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "beige",
+      "taupe",
+      "loro piana"
+    ],
+    "images": [
+      "/products/sahara-sands-suede-loafer.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 39,
+    "stock": 18,
+    "sku": "LUW-CAS-253",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 253
+  },
+  {
+    "id": "cocoa-charm-suede-loafer",
+    "slug": "cocoa-charm-suede-loafer",
+    "name": "Cocoa Charm Suede Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "loafers",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "taupe",
+      "orange"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A taupe-brown suede loafer accented with a signature metal charm pendant and warm orange lining.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "brown",
+      "taupe",
+      "orange",
+      "loro piana"
+    ],
+    "images": [
+      "/products/cocoa-charm-suede-loafer.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 8,
+    "stock": 22,
+    "sku": "LUW-CAS-254",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 254
+  },
+  {
+    "id": "saffron-charm-suede-loafer",
+    "slug": "saffron-charm-suede-loafer",
+    "name": "Saffron Charm Suede Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "loafers",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": 125000,
+    "currency": "NGN",
+    "colors": [
+      "yellow",
+      "orange"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A bold saffron-yellow suede loafer finished with a metal charm pendant and orange lining.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "yellow",
+      "orange",
+      "loro piana"
+    ],
+    "images": [
+      "/products/saffron-charm-suede-loafer.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 62,
+    "stock": 6,
+    "sku": "LUW-CAS-255",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 255
+  },
+  {
+    "id": "nocturne-charm-suede-mule",
+    "slug": "nocturne-charm-suede-mule",
+    "name": "Nocturne Charm Suede Mule",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "loafer mules",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "navy",
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A backless navy-black suede loafer mule with a metal charm pendant and white sole.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "navy",
+      "black",
+      "white",
+      "loro piana"
+    ],
+    "images": [
+      "/products/nocturne-charm-suede-mule.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 81,
+    "stock": 10,
+    "sku": "LUW-SLI-256",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 256
+  },
+  {
+    "id": "tobacco-charm-suede-mule",
+    "slug": "tobacco-charm-suede-mule",
+    "name": "Tobacco Charm Suede Mule",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "loafer mules",
+    "brand": "Loro Piana",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "tan",
+      "brown",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A tan suede backless loafer mule finished with a metal charm pendant and cream sole.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "tan",
+      "brown",
+      "white",
+      "loro piana"
+    ],
+    "images": [
+      "/products/tobacco-charm-suede-mule.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 24,
+    "stock": 13,
+    "sku": "LUW-SLI-257",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 257
+  },
+  {
+    "id": "executive-onyx-chelsea-boot",
+    "slug": "executive-onyx-chelsea-boot",
+    "name": "Executive Onyx Chelsea Boot",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "chelsea boots",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": 125000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A sleek black leather Chelsea ankle boot with a pointed toe for sharp formal dressing.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/executive-onyx-chelsea-boot.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 42,
+    "stock": 16,
+    "sku": "LUW-COR-258",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 258
+  },
+  {
+    "id": "mahogany-envoy-ankle-boot",
+    "slug": "mahogany-envoy-ankle-boot",
+    "name": "Mahogany Envoy Ankle Boot",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "zip ankle boots",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A polished brown leather ankle boot with a functional side zip and stacked heel.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "brown",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/mahogany-envoy-ankle-boot.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 83,
+    "stock": 12,
+    "sku": "LUW-COR-259",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 259
+  },
+  {
+    "id": "noir-sovereign-ankle-boot",
+    "slug": "noir-sovereign-ankle-boot",
+    "name": "Noir Sovereign Ankle Boot",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "ankle boots",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": 125000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A high-shine black leather ankle boot with an elegant elongated pointed toe.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/noir-sovereign-ankle-boot.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 88,
+    "stock": 17,
+    "sku": "LUW-COR-260",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 260
+  },
+  {
+    "id": "chestnut-regent-double-monk",
+    "slug": "chestnut-regent-double-monk",
+    "name": "Chestnut Regent Double Monk",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "monk strap",
+    "brand": "Luxe Universal",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "tan"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A burnished chestnut-brown double monk strap dress shoe with brogue detailing.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "brown",
+      "tan",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/chestnut-regent-double-monk.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 36,
+    "stock": 10,
+    "sku": "LUW-COR-261",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 261
+  },
+  {
+    "id": "onyx-regent-double-monk",
+    "slug": "onyx-regent-double-monk",
+    "name": "Onyx Regent Double Monk",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "monk strap",
+    "brand": "Luxe Universal",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A classic black leather double monk strap dress shoe with subtle brogue accents.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/onyx-regent-double-monk.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 70,
+    "stock": 19,
+    "sku": "LUW-COR-262",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 262
+  },
+  {
+    "id": "onyx-wholecut-oxford",
+    "slug": "onyx-wholecut-oxford",
+    "name": "Onyx Wholecut Oxford",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "oxford",
+    "brand": "Luxe Universal",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A minimalist black leather wholecut Oxford lace-up with a clean unbroken silhouette.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/onyx-wholecut-oxford.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 21,
+    "stock": 15,
+    "sku": "LUW-COR-263",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 263
+  },
+  {
+    "id": "ivory-sovereign-bit-loafer",
+    "slug": "ivory-sovereign-bit-loafer",
+    "name": "Ivory Sovereign Bit Loafer",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "bit loafers",
+    "brand": "Luxe Universal",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A white croc-embossed leather horsebit loafer with dark metal hardware for a bold dress statement.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-sovereign-bit-loafer.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 30,
+    "stock": 14,
+    "sku": "LUW-COR-264",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 264
+  },
+  {
+    "id": "espresso-sovereign-bit-loafer",
+    "slug": "espresso-sovereign-bit-loafer",
+    "name": "Espresso Sovereign Bit Loafer",
+    "category": "corporate-shoes",
+    "categoryName": "Corporate Shoes",
+    "group": "Footwear",
+    "subcategory": "bit loafers",
+    "brand": "Salvatore Ferragamo",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "A rich brown crocodile-embossed leather horsebit loafer with metal hardware for refined formality.",
+    "fabric": "Full-grain leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "corporate-shoes",
+      "brown",
+      "salvatore ferragamo"
+    ],
+    "images": [
+      "/products/espresso-sovereign-bit-loafer.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 75,
+    "stock": 29,
+    "sku": "LUW-COR-265",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 265
+  },
+  {
+    "id": "noir-croc-bit-driving-loafer",
+    "slug": "noir-croc-bit-driving-loafer",
+    "name": "Noir Croc Bit Driving Loafer",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "driving loafers",
+    "brand": "Salvatore Ferragamo",
+    "price": 90000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black croc-embossed leather driving loafers with a polished silver bit.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "black",
+      "salvatore ferragamo"
+    ],
+    "images": [
+      "/products/noir-croc-bit-driving-loafer.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 56,
+    "stock": 5,
+    "sku": "LUW-CAS-266",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 266
+  },
+  {
+    "id": "signature-noir-slides",
+    "slug": "signature-noir-slides",
+    "name": "Signature Noir Slides",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "pool slides",
+    "brand": "Christian Louboutin",
+    "price": 80000,
+    "comparePrice": 100000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black Christian Louboutin pool slides with signature embossed strap.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "black",
+      "christian louboutin"
+    ],
+    "images": [
+      "/products/signature-noir-slides.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 88,
+    "stock": 7,
+    "sku": "LUW-SLI-267",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 267
+  },
+  {
+    "id": "medusa-noir-slide",
+    "slug": "medusa-noir-slide",
+    "name": "Medusa Noir Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "pool slides",
+    "brand": "Versace",
+    "price": 80000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black rubber pool slides with a white Medusa Baroque emblem on the strap.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "black",
+      "white",
+      "versace"
+    ],
+    "images": [
+      "/products/medusa-noir-slide.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 84,
+    "stock": 28,
+    "sku": "LUW-SLI-268",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 268
+  },
+  {
+    "id": "onyx-stripe-slide",
+    "slug": "onyx-stripe-slide",
+    "name": "Onyx Stripe Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "sport slides",
+    "brand": "Adidas",
+    "price": 80000,
+    "comparePrice": 100000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "All-black sport slides with a tonal embossed logo and signature three-stripe motif on the strap.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "black",
+      "adidas"
+    ],
+    "images": [
+      "/products/onyx-stripe-slide.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 40,
+    "stock": 24,
+    "sku": "LUW-SLI-269",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 269
+  },
+  {
+    "id": "midnight-monogram-slide",
+    "slug": "midnight-monogram-slide",
+    "name": "Midnight Monogram Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "designer slides",
+    "brand": "Amiri",
+    "price": 80000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black leather-look slides with a bold embossed logo and the maison's stacked-initial emblem.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "black",
+      "amiri"
+    ],
+    "images": [
+      "/products/midnight-monogram-slide.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 91,
+    "stock": 15,
+    "sku": "LUW-SLI-270",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 270
+  },
+  {
+    "id": "essential-shadow-slide",
+    "slug": "essential-shadow-slide",
+    "name": "Essential Shadow Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "designer slides",
+    "brand": "Fear of God",
+    "price": 80000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Black slides with a wide strap carrying a tonal embossed logotype for understated streetwear ease.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "black",
+      "fear of god"
+    ],
+    "images": [
+      "/products/essential-shadow-slide.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 79,
+    "stock": 13,
+    "sku": "LUW-SLI-271",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 271
+  },
+  {
+    "id": "coeur-noir-harrington",
+    "slug": "coeur-noir-harrington",
+    "name": "Coeur Noir Harrington",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington jacket",
+    "brand": "Ami Paris",
+    "price": 60000,
+    "comparePrice": 75000,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black zip-up harrington jacket with a spread collar and the signature red Ami de Coeur heart at the chest.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "black",
+      "red",
+      "ami paris"
+    ],
+    "images": [
+      "/products/coeur-noir-harrington.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 92,
+    "stock": 11,
+    "sku": "LUW-JAC-272",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 272
+  },
+  {
+    "id": "coeur-blanc-harrington",
+    "slug": "coeur-blanc-harrington",
+    "name": "Coeur Blanc Harrington",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington jacket",
+    "brand": "Ami Paris",
+    "price": 60000,
+    "comparePrice": 75000,
+    "currency": "NGN",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A crisp white zip-up harrington jacket with a spread collar and the signature red Ami de Coeur heart at the chest.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "white",
+      "red",
+      "ami paris"
+    ],
+    "images": [
+      "/products/coeur-blanc-harrington.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 74,
+    "stock": 8,
+    "sku": "LUW-JAC-273",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 273
+  },
+  {
+    "id": "crimson-coeur-harrington",
+    "slug": "crimson-coeur-harrington",
+    "name": "Crimson Coeur Harrington",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington jacket",
+    "brand": "Ami Paris",
+    "price": 60000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A bold red zip-up harrington jacket with a spread collar and a tonal Ami de Coeur heart at the chest.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "red",
+      "ami paris"
+    ],
+    "images": [
+      "/products/crimson-coeur-harrington.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 55,
+    "stock": 9,
+    "sku": "LUW-JAC-274",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 274
+  },
+  {
+    "id": "monogram-cloud-slide",
+    "slug": "monogram-cloud-slide",
+    "name": "Monogram Cloud Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "designer slides",
+    "brand": "Louis Vuitton",
+    "price": 80000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "White slides with a crossover monogram-canvas strap over a plush contoured footbed.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "white",
+      "grey",
+      "louis vuitton"
+    ],
+    "images": [
+      "/products/monogram-cloud-slide.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 44,
+    "stock": 23,
+    "sku": "LUW-SLI-275",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 275
+  },
+  {
+    "id": "alabaster-cloud-slide",
+    "slug": "alabaster-cloud-slide",
+    "name": "Alabaster Cloud Slide",
+    "category": "slides",
+    "categoryName": "Slides & Sandals",
+    "group": "Footwear",
+    "subcategory": "padded slides",
+    "brand": "Zara",
+    "price": 80000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "All-white slides with a plush ribbed padded strap set on a chunky rubber sole.",
+    "fabric": "Moulded rubber / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "slides",
+      "white",
+      "zara"
+    ],
+    "images": [
+      "/products/alabaster-cloud-slide.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 33,
+    "stock": 27,
+    "sku": "LUW-SLI-276",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 276
+  },
+  {
+    "id": "ivory-grain-mule",
+    "slug": "ivory-grain-mule",
+    "name": "Ivory Grain Mule",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "leather mules",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "White pebbled-leather backless mule loafers with a rounded closed toe and slim black sole.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-grain-mule.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 9,
+    "stock": 28,
+    "sku": "LUW-CAS-277",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 277
+  },
+  {
+    "id": "emerald-estate-shirt",
+    "slug": "emerald-estate-shirt",
+    "name": "Emerald Estate Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": 44000,
+    "currency": "NGN",
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A tailored emerald-green long-sleeve dress shirt with a spread collar and clean button placket.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "green",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/emerald-estate-shirt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 46,
+    "stock": 25,
+    "sku": "LUW-SHI-278",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 278
+  },
+  {
+    "id": "burgundy-baron-shirt",
+    "slug": "burgundy-baron-shirt",
+    "name": "Burgundy Baron Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "burgundy",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A refined burgundy long-sleeve dress shirt with a spread collar and crisp tailored lines.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "burgundy",
+      "red",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/burgundy-baron-shirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 80,
+    "stock": 9,
+    "sku": "LUW-SHI-279",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 279
+  },
+  {
+    "id": "sahara-sand-shirt",
+    "slug": "sahara-sand-shirt",
+    "name": "Sahara Sand Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "beige",
+      "tan"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A warm beige long-sleeve dress shirt with a spread collar and smooth tailored drape.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "beige",
+      "tan",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/sahara-sand-shirt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 76,
+    "stock": 20,
+    "sku": "LUW-SHI-280",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 280
+  },
+  {
+    "id": "camel-court-shirt",
+    "slug": "camel-court-shirt",
+    "name": "Camel Court Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "tan",
+      "brown"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A rich camel-tan long-sleeve dress shirt with a spread collar and clean tailored silhouette.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "tan",
+      "brown",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/camel-court-shirt.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 11,
+    "stock": 20,
+    "sku": "LUW-SHI-281",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 281
+  },
+  {
+    "id": "dune-heritage-shirt",
+    "slug": "dune-heritage-shirt",
+    "name": "Dune Heritage Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "beige",
+      "khaki"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A soft khaki-beige long-sleeve dress shirt with a spread collar, shown with matching tailored trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "beige",
+      "khaki",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/dune-heritage-shirt.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 29,
+    "stock": 18,
+    "sku": "LUW-SHI-282",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 282
+  },
+  {
+    "id": "ivory-meridian-shirt",
+    "slug": "ivory-meridian-shirt",
+    "name": "Ivory Meridian Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "cream",
+      "beige"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A pale cream-beige long-sleeve dress shirt with a spread collar, styled with navy trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "cream",
+      "beige",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-meridian-shirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 80,
+    "stock": 9,
+    "sku": "LUW-SHI-283",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 283
+  },
+  {
+    "id": "azure-meridian-shirt",
+    "slug": "azure-meridian-shirt",
+    "name": "Azure Meridian Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": 44000,
+    "currency": "NGN",
+    "colors": [
+      "light blue",
+      "sky blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A light sky-blue long-sleeve dress shirt with a spread collar and clean tailored fit.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "light blue",
+      "sky blue",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/azure-meridian-shirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 62,
+    "stock": 16,
+    "sku": "LUW-SHI-284",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 284
+  },
+  {
+    "id": "ros-aristocrat-dress-shirt",
+    "slug": "ros-aristocrat-dress-shirt",
+    "name": "Rosé Aristocrat Dress Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "pink"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A refined pink long-sleeve dress shirt paired with tailored grey trousers for a polished formal ensemble.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "pink",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ros-aristocrat-dress-shirt.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 54,
+    "stock": 13,
+    "sku": "LUW-SHI-285",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 285
+  },
+  {
+    "id": "sapphire-nobleman-dress-shirt",
+    "slug": "sapphire-nobleman-dress-shirt",
+    "name": "Sapphire Nobleman Dress Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A sleek navy-blue long-sleeve dress shirt worn with slate-grey trousers for a confident modern look.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "navy",
+      "blue",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/sapphire-nobleman-dress-shirt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 64,
+    "stock": 18,
+    "sku": "LUW-SHI-286",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 286
+  },
+  {
+    "id": "onyx-sovereign-dress-shirt",
+    "slug": "onyx-sovereign-dress-shirt",
+    "name": "Onyx Sovereign Dress Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "dress shirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A crisp black long-sleeve dress shirt tucked into ivory chinos for a striking high-contrast statement.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/onyx-sovereign-dress-shirt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 70,
+    "stock": 29,
+    "sku": "LUW-SHI-287",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 287
+  },
+  {
+    "id": "hellenic-muse-camp-shirt",
+    "slug": "hellenic-muse-camp-shirt",
+    "name": "Hellenic Muse Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp shirt",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": 50000,
+    "currency": "NGN",
+    "colors": [
+      "green",
+      "yellow",
+      "grey",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A short-sleeve camp shirt splashed with Greco-Roman statue and column print, styled with pleated taupe trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "green",
+      "yellow",
+      "grey",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/hellenic-muse-camp-shirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 50,
+    "stock": 14,
+    "sku": "LUW-SHI-288",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 288
+  },
+  {
+    "id": "bronze-odyssey-camp-shirt",
+    "slug": "bronze-odyssey-camp-shirt",
+    "name": "Bronze Odyssey Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp shirt",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "brown",
+      "bronze",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A short-sleeve camp shirt in a bronze-toned vintage graphic print paired with flowing leopard-jacquard trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "brown",
+      "bronze",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/bronze-odyssey-camp-shirt.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 32,
+    "stock": 26,
+    "sku": "LUW-SHI-289",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 289
+  },
+  {
+    "id": "azure-colonnade-camp-shirt",
+    "slug": "azure-colonnade-camp-shirt",
+    "name": "Azure Colonnade Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp shirt",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": 50000,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "gold",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A vivid blue short-sleeve camp shirt printed with golden columns and sky motifs, styled with cream wide-leg trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "blue",
+      "gold",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/azure-colonnade-camp-shirt.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 90,
+    "stock": 9,
+    "sku": "LUW-SHI-290",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 290
+  },
+  {
+    "id": "cobalt-voyage-camp-shirt",
+    "slug": "cobalt-voyage-camp-shirt",
+    "name": "Cobalt Voyage Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp shirt",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A cobalt-blue short-sleeve camp shirt with a white toile cityscape print, styled with wide black trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "blue",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/cobalt-voyage-camp-shirt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 52,
+    "stock": 16,
+    "sku": "LUW-SHI-291",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 291
+  },
+  {
+    "id": "midnight-palms-camp-shirt",
+    "slug": "midnight-palms-camp-shirt",
+    "name": "Midnight Palms Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp shirt",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "cream",
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A short-sleeve camp shirt with a moody black-and-cream tropical palm print, styled with crisp white wide-leg trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "black",
+      "cream",
+      "grey",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/midnight-palms-camp-shirt.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 75,
+    "stock": 29,
+    "sku": "LUW-SHI-292",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 292
+  },
+  {
+    "id": "renaissance-print-camp-shirt",
+    "slug": "renaissance-print-camp-shirt",
+    "name": "Renaissance Print Camp Shirt",
+    "category": "shirts",
+    "categoryName": "Shirts",
+    "group": "Clothing",
+    "subcategory": "camp collar",
+    "brand": "Luxe Universal",
+    "price": 40000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "grey",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A monochrome renaissance-print short-sleeve camp shirt with wide ivory trousers.",
+    "fabric": "Cotton blend",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "shirts",
+      "black",
+      "grey",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/renaissance-print-camp-shirt.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 43,
+    "stock": 7,
+    "sku": "LUW-SHI-293",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 293
+  },
+  {
+    "id": "ivory-crystal-peak-tuxedo",
+    "slug": "ivory-crystal-peak-tuxedo",
+    "name": "Ivory Crystal Peak Tuxedo",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "three-piece",
+    "brand": "Luxe Universal",
+    "price": 180000,
+    "comparePrice": 225000,
+    "currency": "NGN",
+    "colors": [
+      "white",
+      "ivory"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An ivory three-piece tuxedo with crystal-embellished peak lapel and bow tie.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "tuxedos",
+      "white",
+      "ivory",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-crystal-peak-tuxedo.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 42,
+    "stock": 11,
+    "sku": "LUW-TUX-294",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 294
+  },
+  {
+    "id": "ivory-jacquard-shawl-tuxedo",
+    "slug": "ivory-jacquard-shawl-tuxedo",
+    "name": "Ivory Jacquard Shawl Tuxedo",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "shawl",
+    "brand": "Luxe Universal",
+    "price": 180000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "ivory",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An ivory jacquard tuxedo with contrasting black shawl lapel and waistcoat.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "tuxedos",
+      "ivory",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-jacquard-shawl-tuxedo.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 61,
+    "stock": 10,
+    "sku": "LUW-TUX-295",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 295
+  },
+  {
+    "id": "ivory-crystal-grand-tuxedo",
+    "slug": "ivory-crystal-grand-tuxedo",
+    "name": "Ivory Crystal Grand Tuxedo",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "three-piece",
+    "brand": "Luxe Universal",
+    "price": 180000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white",
+      "ivory"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An ivory three-piece tuxedo with jewelled peak lapel.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "tuxedos",
+      "white",
+      "ivory",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-crystal-grand-tuxedo.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 59,
+    "stock": 18,
+    "sku": "LUW-TUX-296",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 296
+  },
+  {
+    "id": "sapphire-studded-dinner-jacket",
+    "slug": "sapphire-studded-dinner-jacket",
+    "name": "Sapphire Studded Dinner Jacket",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "double-breasted dinner jacket",
+    "brand": "Luxe Universal",
+    "price": 180000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "navy",
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A navy double-breasted dinner jacket with studded lapel trim and bow tie.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "tuxedos",
+      "navy",
+      "blue",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/sapphire-studded-dinner-jacket.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 46,
+    "stock": 15,
+    "sku": "LUW-TUX-297",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 297
+  },
+  {
+    "id": "ivory-jacquard-crystal-tuxedo",
+    "slug": "ivory-jacquard-crystal-tuxedo",
+    "name": "Ivory Jacquard Crystal Tuxedo",
+    "category": "tuxedos",
+    "categoryName": "Tuxedos",
+    "group": "Suits",
+    "subcategory": "shawl",
+    "brand": "Luxe Universal",
+    "price": 180000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "ivory",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An ivory jacquard shawl-lapel tuxedo with crystal collar detailing.",
+    "fabric": "Wool with jacquard weave",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "tuxedos",
+      "ivory",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/ivory-jacquard-crystal-tuxedo.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 18,
+    "stock": 12,
+    "sku": "LUW-TUX-298",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": true,
+    "createdIndex": 298
+  },
+  {
+    "id": "olive-varsity-crest-sweatshirt",
+    "slug": "olive-varsity-crest-sweatshirt",
+    "name": "Olive Varsity Crest Sweatshirt",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "sweatshirt",
+    "brand": "Balmain",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "olive",
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "An olive crewneck sweatshirt with a small varsity crest logo.",
+    "fabric": "Heavyweight cotton fleece",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "t-shirts",
+      "olive",
+      "grey",
+      "balmain"
+    ],
+    "images": [
+      "/products/olive-varsity-crest-sweatshirt.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 57,
+    "stock": 16,
+    "sku": "LUW-T-S-299",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 299
+  },
+  {
+    "id": "racer-graphic-sweatshirt",
+    "slug": "racer-graphic-sweatshirt",
+    "name": "Racer Graphic Sweatshirt",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "sweatshirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black crewneck sweatshirt with a bold racer graphic print.",
+    "fabric": "Heavyweight cotton fleece",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "t-shirts",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/racer-graphic-sweatshirt.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 27,
+    "stock": 6,
+    "sku": "LUW-T-S-300",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 300
+  },
+  {
+    "id": "leto-splatter-sweatshirt",
+    "slug": "leto-splatter-sweatshirt",
+    "name": "Leto Splatter Sweatshirt",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "sweatshirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A washed-black sweatshirt with LETO print and paint-splatter detailing.",
+    "fabric": "Heavyweight cotton fleece",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "t-shirts",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/leto-splatter-sweatshirt.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 83,
+    "stock": 12,
+    "sku": "LUW-T-S-301",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 301
+  },
+  {
+    "id": "bordeaux-atelier-crewneck",
+    "slug": "bordeaux-atelier-crewneck",
+    "name": "Bordeaux Atelier Crewneck",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "sweatshirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": 44000,
+    "currency": "NGN",
+    "colors": [
+      "burgundy",
+      "maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A deep burgundy crewneck sweatshirt with a subtle multicolor embroidered chest motif.",
+    "fabric": "Heavyweight cotton fleece",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "t-shirts",
+      "burgundy",
+      "maroon",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/bordeaux-atelier-crewneck.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 26,
+    "stock": 20,
+    "sku": "LUW-T-S-302",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 302
+  },
+  {
+    "id": "zarathustra-statement-crewneck",
+    "slug": "zarathustra-statement-crewneck",
+    "name": "Zarathustra Statement Crewneck",
+    "category": "t-shirts",
+    "categoryName": "T-Shirts",
+    "group": "Clothing",
+    "subcategory": "sweatshirt",
+    "brand": "Luxe Universal",
+    "price": 35000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black crewneck sweatshirt featuring a bold red and white portrait graphic with philosophical script.",
+    "fabric": "Heavyweight cotton fleece",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "t-shirts",
+      "black",
+      "red",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/zarathustra-statement-crewneck.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 76,
+    "stock": 10,
+    "sku": "LUW-T-S-303",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 303
+  },
+  {
+    "id": "midnight-trucker-denim-jacket",
+    "slug": "midnight-trucker-denim-jacket",
+    "name": "Midnight Trucker Denim Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "denim jacket",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A washed black denim trucker jacket with chest flap pockets and antique-tone buttons.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/midnight-trucker-denim-jacket.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 32,
+    "stock": 11,
+    "sku": "LUW-JAC-304",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 304
+  },
+  {
+    "id": "onyx-distressed-trucker-jacket",
+    "slug": "onyx-distressed-trucker-jacket",
+    "name": "Onyx Distressed Trucker Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "denim jacket",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black",
+      "charcoal"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A charcoal-black denim trucker jacket with subtle distressing and burnished metal buttons.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "black",
+      "charcoal",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/onyx-distressed-trucker-jacket.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 19,
+    "stock": 28,
+    "sku": "LUW-JAC-305",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 305
+  },
+  {
+    "id": "crimson-aviator-blouson",
+    "slug": "crimson-aviator-blouson",
+    "name": "Crimson Aviator Blouson",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington jacket",
+    "brand": "Luxe Universal",
+    "price": 60000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A vivid red zip-front harrington blouson jacket with a ribbed collar for polished casual wear.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "red",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/crimson-aviator-blouson.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 47,
+    "stock": 11,
+    "sku": "LUW-JAC-306",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 306
+  },
+  {
+    "id": "dove-grey-suede-tassel-loafers",
+    "slug": "dove-grey-suede-tassel-loafers",
+    "name": "Dove Grey Suede Tassel Loafers",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "tassel loafer",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Grey suede tassel loafers set on a clean white cup sole for relaxed refinement.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "grey",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/dove-grey-suede-tassel-loafers.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 19,
+    "stock": 13,
+    "sku": "LUW-CAS-307",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 307
+  },
+  {
+    "id": "navy-suede-penny-loafers",
+    "slug": "navy-suede-penny-loafers",
+    "name": "Navy Suede Penny Loafers",
+    "category": "casual-shoes",
+    "categoryName": "Casual Shoes",
+    "group": "Footwear",
+    "subcategory": "penny loafer",
+    "brand": "Luxe Universal",
+    "price": 100000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "navy",
+      "white"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "description": "Navy suede penny loafers on a white cup sole blending smart and casual ease.",
+    "fabric": "Premium suede / leather",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "casual-shoes",
+      "navy",
+      "white",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/navy-suede-penny-loafers.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 83,
+    "stock": 22,
+    "sku": "LUW-CAS-308",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 308
+  },
+  {
+    "id": "rouge-ami-harrington-jacket",
+    "slug": "rouge-ami-harrington-jacket",
+    "name": "Rouge Ami Harrington Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington",
+    "brand": "Ami",
+    "price": 60000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A red Ami harrington jacket with signature heart-A crest.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "red",
+      "ami"
+    ],
+    "images": [
+      "/products/rouge-ami-harrington-jacket.jpeg"
+    ],
+    "rating": 4.6,
+    "reviews": 8,
+    "stock": 7,
+    "sku": "LUW-JAC-309",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 309
+  },
+  {
+    "id": "ivory-ami-harrington-jacket",
+    "slug": "ivory-ami-harrington-jacket",
+    "name": "Ivory Ami Harrington Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington",
+    "brand": "Ami",
+    "price": 60000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "white",
+      "cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A white Ami harrington jacket styled with matching trousers.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "white",
+      "cream",
+      "ami"
+    ],
+    "images": [
+      "/products/ivory-ami-harrington-jacket.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 31,
+    "stock": 5,
+    "sku": "LUW-JAC-310",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": false,
+    "createdIndex": 310
+  },
+  {
+    "id": "noir-ami-harrington-jacket",
+    "slug": "noir-ami-harrington-jacket",
+    "name": "Noir Ami Harrington Jacket",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "harrington",
+    "brand": "Ami",
+    "price": 60000,
+    "comparePrice": 75000,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A black Ami harrington jacket styled over a white shirt.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "black",
+      "ami"
+    ],
+    "images": [
+      "/products/noir-ami-harrington-jacket.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 82,
+    "stock": 26,
+    "sku": "LUW-JAC-311",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 311
+  },
+  {
+    "id": "vintage-wash-denim-trucker",
+    "slug": "vintage-wash-denim-trucker",
+    "name": "Vintage Wash Denim Trucker",
+    "category": "jackets",
+    "categoryName": "Jackets",
+    "group": "Clothing",
+    "subcategory": "denim trucker",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "A vintage-wash blue denim trucker jacket with subtle distressing.",
+    "fabric": "Premium cotton twill",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jackets",
+      "blue",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/vintage-wash-denim-trucker.jpeg"
+    ],
+    "rating": 4.7,
+    "reviews": 9,
+    "stock": 18,
+    "sku": "LUW-JAC-312",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 312
+  },
+  {
+    "id": "azure-flared-jeans",
+    "slug": "azure-flared-jeans",
+    "name": "Azure Flared Jeans",
+    "category": "jeans",
+    "categoryName": "Jeans",
+    "group": "Clothing",
+    "subcategory": "flared",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": 63000,
+    "currency": "NGN",
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Mid-blue flared jeans with light knee distressing.",
+    "fabric": "Premium stretch denim",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jeans",
+      "blue",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/azure-flared-jeans.jpeg"
+    ],
+    "rating": 4.8,
+    "reviews": 88,
+    "stock": 22,
+    "sku": "LUW-JEA-313",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 313
+  },
+  {
+    "id": "onyx-distressed-baggy-jeans",
+    "slug": "onyx-distressed-baggy-jeans",
+    "name": "Onyx Distressed Baggy Jeans",
+    "category": "jeans",
+    "categoryName": "Jeans",
+    "group": "Clothing",
+    "subcategory": "baggy",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Black baggy jeans with all-over distressing and cross stitch detail.",
+    "fabric": "Premium stretch denim",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jeans",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/onyx-distressed-baggy-jeans.jpeg"
+    ],
+    "rating": 4.4,
+    "reviews": 36,
+    "stock": 10,
+    "sku": "LUW-JEA-314",
+    "isNew": true,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "createdIndex": 314
+  },
+  {
+    "id": "shadow-baggy-jeans",
+    "slug": "shadow-baggy-jeans",
+    "name": "Shadow Baggy Jeans",
+    "category": "jeans",
+    "categoryName": "Jeans",
+    "group": "Clothing",
+    "subcategory": "baggy",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Washed-black baggy jeans with a relaxed leg and tag.",
+    "fabric": "Premium stretch denim",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jeans",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/shadow-baggy-jeans.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 83,
+    "stock": 17,
+    "sku": "LUW-JEA-315",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 315
+  },
+  {
+    "id": "midnight-straight-jeans",
+    "slug": "midnight-straight-jeans",
+    "name": "Midnight Straight Jeans",
+    "category": "jeans",
+    "categoryName": "Jeans",
+    "group": "Clothing",
+    "subcategory": "straight",
+    "brand": "Luxe Universal",
+    "price": 50000,
+    "comparePrice": null,
+    "currency": "NGN",
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "Faded-black straight-leg jeans for effortless everyday wear.",
+    "fabric": "Premium stretch denim",
+    "care": "Professional care recommended. Store away from direct sunlight.",
+    "tags": [
+      "jeans",
+      "black",
+      "luxe universal"
+    ],
+    "images": [
+      "/products/midnight-straight-jeans.jpeg"
+    ],
+    "rating": 4.5,
+    "reviews": 7,
+    "stock": 21,
+    "sku": "LUW-JEA-316",
+    "isNew": true,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "createdIndex": 316
   }
 ]
