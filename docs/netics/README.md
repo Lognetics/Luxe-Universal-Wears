@@ -14,7 +14,9 @@ This directory is the operational source of truth for onboarding Luxe Universal 
 ## Files in this pack
 
 - `OWNER-SIGN-OFF.md` — every decision or fact that must be confirmed before launch.
+- `ONBOARDING-ANSWERS.md` — field-by-field values for the signup wizard, HQ verification and client handover.
 - `KNOWLEDGE-BASE.md` — the draft customer-facing knowledge source and safe-answer rules.
+- `LUXE-NETICS-KNOWLEDGE.txt` — the safe baseline file that can be uploaded directly during onboarding.
 - `AGENT-RUNBOOK.md` — build, test, launch, monitoring and incident procedures.
 - `onboarding-manifest.json` — machine-readable draft configuration and readiness gates.
 - `scripts/export-netics-catalog.mjs` — validates the local catalogue and exports NETICS-ready product batches of at most 100 items.
