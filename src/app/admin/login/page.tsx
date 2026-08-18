@@ -27,7 +27,7 @@ export default function AdminLogin() {
         <button
           type="submit"
           disabled={pending}
-          className="mt-6 w-full rounded-lg bg-[var(--color-blue,#0098d8)] py-2.5 text-sm font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
+          className="mt-6 w-full rounded-lg bg-[var(--color-blue-deep,#006b9b)] py-2.5 text-sm font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
         >
           {pending ? "Signing in…" : "Sign in"}
         </button>

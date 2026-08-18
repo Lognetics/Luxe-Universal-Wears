@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local NETICS export bundles (may contain current operational catalogue data)
+.netics
+.tmp-netics-qa
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

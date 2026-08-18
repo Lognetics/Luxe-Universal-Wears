@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import { SlidersHorizontal, X, Check, ChevronDown } from "lucide-react";
 import { clsx } from "clsx";
 import type { Product, Category } from "@/lib/types";

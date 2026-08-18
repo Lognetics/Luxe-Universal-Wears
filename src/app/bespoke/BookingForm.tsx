@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Check, Calendar, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { openWhatsApp } from "@/lib/whatsapp";
 
 const SERVICES = [
   "Bespoke Suit",
@@ -45,6 +46,19 @@ export function BookingForm() {
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    openWhatsApp(
+      [
+        "Hello Luxe Universal Wears, I would like to request a bespoke consultation.",
+        "",
+        `Name: ${form.name}`,
+        `Phone: ${form.phone}`,
+        `Email: ${form.email}`,
+        `Service: ${form.service}`,
+        `Preferred date: ${form.date}`,
+        `City: ${form.city}`,
+        `Notes: ${form.notes || "Not provided"}`,
+      ].join("\n"),
+    );
     setSubmitted(true);
   }
 
@@ -54,12 +68,12 @@ export function BookingForm() {
         <span className="flex h-16 w-16 items-center justify-center rounded-full border border-blue/50 text-blue-deep">
           <Check size={28} strokeWidth={1.5} />
         </span>
-        <p className="eyebrow mt-6">Consultation Requested</p>
+        <p className="eyebrow mt-6">WhatsApp handoff ready</p>
         <h3 className="mt-3 font-serif text-3xl text-ink">Thank you, {form.name.split(" ")[0] || "friend"}.</h3>
         <p className="mt-4 max-w-md text-stone leading-relaxed">
-          Your request for a <span className="text-ink">{form.service}</span> consultation in{" "}
-          <span className="text-ink">{form.city}</span> has been received. A member of our atelier
-          will reach out within 24 hours to confirm your appointment and discuss the finer details.
+          Your <span className="text-ink">{form.service}</span> request for{" "}
+          <span className="text-ink">{form.city}</span> has been prepared in WhatsApp. Press{" "}
+          <strong>Send</strong> there to deliver it to the atelier and arrange the appointment.
         </p>
         <button
           type="button"
@@ -77,7 +91,7 @@ export function BookingForm() {
           }}
           className="mt-8 border-b border-blue pb-1 text-[0.72rem] uppercase tracking-[0.2em] text-blue-deep transition hover:text-ink"
         >
-          Book another appointment
+          Prepare another request
         </button>
       </div>
     );
@@ -205,7 +219,7 @@ export function BookingForm() {
           required to book.
         </p>
         <Button type="submit" variant="gold" size="lg" className="w-full sm:w-auto">
-          Request Consultation <ArrowRight size={15} />
+          Continue in WhatsApp <ArrowRight size={15} />
         </Button>
       </div>
     </form>

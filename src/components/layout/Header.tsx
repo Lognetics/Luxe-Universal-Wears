@@ -22,13 +22,16 @@ export function Header() {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     onScroll();
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   useEffect(() => {
-    setMobileOpen(false);
-    setOpenMega(null);
+    const resetId = window.setTimeout(() => {
+      setMobileOpen(false);
+      setOpenMega(null);
+    }, 0);
+    return () => window.clearTimeout(resetId);
   }, [pathname]);
 
   return (

@@ -3,7 +3,8 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { FOOTER_LINKS } from "@/lib/nav";
 import { NewsletterForm } from "./NewsletterForm";
 import { Logo } from "@/components/ui/Logo";
-import { InstagramIcon, FacebookIcon, XIcon, WhatsAppIcon } from "@/components/ui/SocialIcons";
+import { WhatsAppIcon } from "@/components/ui/SocialIcons";
+import { createWhatsAppLink } from "@/lib/whatsapp";
 
 export function Footer() {
   return (
@@ -36,11 +37,15 @@ export function Footer() {
             Crafted with intention, delivered with care — across Nigeria & worldwide.
           </p>
           <div className="mt-6 flex gap-3">
-            {[InstagramIcon, FacebookIcon, XIcon, WhatsAppIcon].map((Icon, i) => (
-              <a key={i} href="#" aria-label="Social" className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 transition hover:border-blue hover:text-blue-soft">
-                <Icon width={17} height={17} />
-              </a>
-            ))}
+            <a
+              href={createWhatsAppLink("Hello Luxe Universal Wears! I'd like assistance.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact Luxe Universal Wears on WhatsApp"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 transition hover:border-blue hover:text-blue-soft"
+            >
+              <WhatsAppIcon width={17} height={17} />
+            </a>
           </div>
         </div>
 
@@ -79,7 +84,7 @@ export function Footer() {
             <span>Privacy</span>
             <span>Terms</span>
           </div>
-          <p className="text-ivory/40">Secure payments · Paystack · Flutterwave · Stripe</p>
+          <p className="text-ivory/70">Orders are confirmed with the Luxe team before payment.</p>
         </div>
       </div>
     </footer>

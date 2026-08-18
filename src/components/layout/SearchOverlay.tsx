@@ -11,12 +11,21 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
   const [query, setQuery] = useState("");
   const results = useMemo(() => searchProducts(query).slice(0, 6), [query]);
 
+  function handleClose() {
+    setQuery("");
+    onClose();
+  }
+
   useEffect(() => {
-    if (!open) setQuery("");
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setQuery("");
+        onClose();
+      }
+    };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [open, onClose]);
+  }, [onClose]);
 
   return (
     <div
@@ -24,7 +33,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
         open ? "opacity-100" : "pointer-events-none opacity-0"
       }`}
     >
-      <div className="absolute inset-0 bg-ink/50 backdrop-blur-sm" onClick={onClose} />
+      <div className="absolute inset-0 bg-ink/50 backdrop-blur-sm" onClick={handleClose} />
       <div
         className={`relative mx-auto mt-0 w-full bg-ivory shadow-card transition-transform duration-300 ${
           open ? "translate-y-0" : "-translate-y-full"
@@ -40,7 +49,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
               placeholder="Search for suits, sneakers, watches…"
               className="flex-1 bg-transparent font-serif text-2xl text-ink outline-none placeholder:text-mist"
             />
-            <button onClick={onClose} aria-label="Close search" className="text-stone hover:text-ink">
+            <button onClick={handleClose} aria-label="Close search" className="text-stone hover:text-ink">
               <X size={24} />
             </button>
           </div>
@@ -55,7 +64,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
                     <Link
                       key={p.id}
                       href={`/product/${p.slug}`}
-                      onClick={onClose}
+                      onClick={handleClose}
                       className="flex items-center gap-4 rounded-sm p-2 transition hover:bg-cream"
                     >
                       <div className="relative h-16 w-12 shrink-0 overflow-hidden rounded-2xl bg-cream">

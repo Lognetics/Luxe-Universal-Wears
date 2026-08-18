@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Check, Send } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { formValue, openWhatsApp } from "@/lib/whatsapp";
 
 const SUBJECTS = [
   "General Enquiry",
@@ -22,6 +23,18 @@ export function ContactForm() {
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    openWhatsApp(
+      [
+        "Hello Luxe Universal Wears, I am contacting you from the website.",
+        "",
+        `Name: ${formValue(data, "name")}`,
+        `Email: ${formValue(data, "email")}`,
+        `Phone: ${formValue(data, "phone")}`,
+        `Subject: ${formValue(data, "subject")}`,
+        `Message: ${formValue(data, "message")}`,
+      ].join("\n"),
+    );
     setSent(true);
   }
 
@@ -31,13 +44,13 @@ export function ContactForm() {
         <div className="flex h-14 w-14 items-center justify-center rounded-full bg-emerald text-ivory">
           <Check size={26} />
         </div>
-        <h3 className="mt-6 text-2xl text-ink">Message Received</h3>
+        <h3 className="mt-6 text-2xl text-ink">Continue in WhatsApp</h3>
         <p className="mt-3 max-w-sm text-sm leading-relaxed text-stone">
-          Thank you for reaching out to Luxe Universal Wears. A member of our team will respond within
-          one business day.
+          Your enquiry has been prepared in WhatsApp. Press <strong>Send</strong> there to deliver it
+          to the Luxe team; this website does not silently claim it was received.
         </p>
         <Button variant="outline" size="sm" className="mt-8" onClick={() => setSent(false)}>
-          Send Another Message
+          Prepare Another Message
         </Button>
       </div>
     );
@@ -106,7 +119,7 @@ export function ContactForm() {
       </div>
 
       <Button type="submit" variant="primary" size="lg" className="w-full sm:w-auto">
-        <Send size={15} /> Send Message
+        <Send size={15} /> Continue in WhatsApp
       </Button>
     </form>
   );
