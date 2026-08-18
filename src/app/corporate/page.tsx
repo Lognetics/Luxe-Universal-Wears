@@ -155,7 +155,7 @@ export default function CorporatePage() {
         <Container>
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-16">
             <div className="lg:col-span-2">
-              <p className="eyebrow mb-3">Let's Talk</p>
+              <p className="eyebrow mb-3">Let&apos;s Talk</p>
               <h2 className="text-3xl text-ink sm:text-4xl">Request a Quotation</h2>
               <p className="mt-5 text-stone leading-relaxed">
                 Tell us about your project and a dedicated account manager will prepare a tailored

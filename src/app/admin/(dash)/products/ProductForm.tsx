@@ -209,7 +209,7 @@ export function ProductForm({
           <button
             type="submit"
             disabled={pending}
-            className="rounded-lg bg-[var(--color-blue,#0098d8)] px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-60"
+            className="rounded-lg bg-[var(--color-blue-deep,#006b9b)] px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-60"
           >
             {pending ? "Saving…" : "Save product"}
           </button>

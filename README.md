@@ -29,7 +29,7 @@ npm run build        # production build (97 routes)
 - Collections (`/collections/corporate|casual|luxury`) and an Accessories hub
 - Cart + slide-out mini-cart, coupon (`LUXE10`), free-shipping progress
 - Wishlist
-- Checkout — shipping, delivery options, payment selector (Paystack / Flutterwave / Bank Transfer / Stripe / PayPal), order confirmation
+- Checkout — shipping and delivery preferences with a real WhatsApp order-review handoff; the site never claims an order or payment was confirmed
 
 **Accounts** (`/login`, `/register`, `/account`)
 - Auth via Supabase (demo mode when not configured)
@@ -86,5 +86,5 @@ The schema ships with **Row Level Security** enabled on every table, owner-scope
 
 Tailwind v4 tokens (in `globals.css`): an ivory/cream/ink palette with a gold accent, **Cormorant Garamond** display serif + **Jost** sans. Sharp-edged, editorial, generous whitespace — styled after Mr Porter / Zegna / SuitSupply.
 
-## Payments & i18n (next steps)
-Payment selectors are wired as UI; integrate Paystack/Flutterwave/Stripe SDKs at checkout. Pricing is in NGN (`formatNaira`). Multi-currency/language, AR try-on, and the AI stylist from the brief are scoped for future phases.
+## Payments, NETICS & i18n (next steps)
+Checkout currently sends a reviewable order request to the published Luxe WhatsApp number. It deliberately does not collect payment or clear the cart until a real gateway and verified webhook are connected. NETICS storefront integration and the guarded onboarding runbook live in `docs/netics/`. Pricing is in NGN (`formatNaira`). Multi-currency/language and AR try-on are future phases.

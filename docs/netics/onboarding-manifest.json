@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "draft_owner_approval_required",
+  "business": {
+    "display_name": "Luxe Universal Wears",
+    "website": "https://www.luxeuniversalwears.com",
+    "currency": "NGN",
+    "public_email_from_website": "info@luxeuniversalwears.com",
+    "public_phone_from_website": "+2348173938770",
+    "whatsapp_e164": "+2348173938770"
+  },
+  "agent": {
+    "name": "Luxe Concierge",
+    "channel_launch_order": ["website_chat", "whatsapp"],
+    "allowed_origins": [
+      "https://www.luxeuniversalwears.com",
+      "https://luxeuniversalwears.com"
+    ],
+    "primary_color": "#0098d8",
+    "human_fallback": "whatsapp"
+  },
+  "catalogue": {
+    "source": "src/data/products.json",
+    "expected_product_count_at_audit": 316,
+    "batch_size": 100,
+    "owner_approval_required": true,
+    "live_inventory_connected": false
+  },
+  "knowledge_documents": [
+    "business_and_contact",
+    "catalogue_and_sizing",
+    "orders_and_payments",
+    "delivery_and_returns",
+    "bespoke_weddings_and_corporate",
+    "whatsapp_and_human_escalation"
+  ],
+  "launch_blockers": [
+    "authorised_workspace_owner_email",
+    "owner_policy_sign_off",
+    "catalogue_price_and_stock_sign_off",
+    "published_luxe_agent_id",
+    "whatsapp_owner_verification",
+    "real_payment_and_fulfilment_process",
+    "privacy_and_terms_pages"
+  ]
+}

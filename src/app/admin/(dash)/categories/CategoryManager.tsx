@@ -70,7 +70,7 @@ export function CategoryManager({ categories }: { categories: Cat[] }) {
         <button
           type="submit"
           disabled={pending}
-          className="mt-4 w-full rounded-lg bg-[var(--color-blue,#0098d8)] py-2 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-60"
+          className="mt-4 w-full rounded-lg bg-[var(--color-blue-deep,#006b9b)] py-2 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-60"
         >
           Add category
         </button>

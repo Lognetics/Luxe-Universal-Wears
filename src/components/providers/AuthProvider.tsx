@@ -33,14 +33,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const supabase = getSupabase();
     if (!supabase) {
       // Demo mode: restore a locally-stored demo user if present.
-      try {
-        const demo = localStorage.getItem("luxe.demoUser");
-        if (demo) setUser(JSON.parse(demo));
-      } catch {
-        /* ignore */
-      }
-      setLoading(false);
-      return;
+      const restoreId = window.setTimeout(() => {
+        try {
+          const demo = localStorage.getItem("luxe.demoUser");
+          if (demo) setUser(JSON.parse(demo));
+        } catch {
+          /* ignore */
+        }
+        setLoading(false);
+      }, 0);
+      return () => window.clearTimeout(restoreId);
     }
     supabase.auth.getSession().then(({ data }) => {
       const u = data.session?.user;

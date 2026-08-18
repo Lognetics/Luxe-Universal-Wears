@@ -29,7 +29,7 @@ export default async function AdminProducts({
         <h1 className="font-serif text-3xl font-semibold">Products</h1>
         <Link
           href="/admin/products/new"
-          className="rounded-lg bg-[var(--color-blue,#0098d8)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
+          className="rounded-lg bg-[var(--color-blue-deep,#006b9b)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
         >
           + Add product
         </Link>

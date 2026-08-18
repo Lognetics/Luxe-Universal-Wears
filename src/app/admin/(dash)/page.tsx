@@ -32,7 +32,7 @@ export default async function AdminDashboard() {
       <div className="mt-8 flex flex-wrap gap-3">
         <Link
           href="/admin/products/new"
-          className="rounded-lg bg-[var(--color-blue,#0098d8)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
+          className="rounded-lg bg-[var(--color-blue-deep,#006b9b)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
         >
           + Add product
         </Link>

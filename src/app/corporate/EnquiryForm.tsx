@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Check, Send } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { formValue, openWhatsApp } from "@/lib/whatsapp";
 
 const ORDER_TYPES = [
   "Corporate Uniforms",
@@ -22,6 +23,20 @@ export function EnquiryForm() {
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    openWhatsApp(
+      [
+        "Hello Luxe Universal Wears, I would like to discuss a corporate or bulk order.",
+        "",
+        `Company: ${formValue(data, "company")}`,
+        `Contact: ${formValue(data, "contact")}`,
+        `Email: ${formValue(data, "email")}`,
+        `Phone: ${formValue(data, "phone")}`,
+        `Order type: ${formValue(data, "orderType")}`,
+        `Estimated quantity: ${formValue(data, "quantity")}`,
+        `Project details: ${formValue(data, "details")}`,
+      ].join("\n"),
+    );
     setSent(true);
   }
 
@@ -31,13 +46,13 @@ export function EnquiryForm() {
         <div className="flex h-14 w-14 items-center justify-center rounded-full bg-emerald text-ivory">
           <Check size={26} />
         </div>
-        <h3 className="mt-6 text-2xl text-ink">Enquiry Received</h3>
+        <h3 className="mt-6 text-2xl text-ink">Continue in WhatsApp</h3>
         <p className="mt-3 max-w-sm text-sm leading-relaxed text-stone">
-          Thank you. A dedicated account manager will be in touch within one business day to discuss
-          your requirements and prepare a tailored quotation.
+          Your corporate enquiry is ready in WhatsApp. Press <strong>Send</strong> there to deliver
+          it before the team can review your requirements and prepare a quotation.
         </p>
         <Button variant="outline" size="sm" className="mt-8" onClick={() => setSent(false)}>
-          Submit Another Enquiry
+          Prepare Another Enquiry
         </Button>
       </div>
     );
@@ -128,7 +143,7 @@ export function EnquiryForm() {
       </div>
 
       <Button type="submit" variant="primary" size="lg" className="w-full sm:w-auto">
-        <Send size={15} /> Submit Enquiry
+        <Send size={15} /> Continue in WhatsApp
       </Button>
     </form>
   );

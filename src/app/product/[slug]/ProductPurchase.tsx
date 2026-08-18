@@ -30,7 +30,7 @@ const COLOR_HEX: Record<string, string> = {
 
 export function ProductPurchase({ product }: { product: Product }) {
   const router = useRouter();
-  const { addToCart, setCartOpen, toggleWishlist, isWishlisted, notify } = useStore();
+  const { addToCart, setCartOpen, toggleWishlist, isWishlisted } = useStore();
 
   const [size, setSize] = useState<string>(product.sizes[0] ?? "One Size");
   const [color, setColor] = useState<string>(product.colors[0] ?? "Default");

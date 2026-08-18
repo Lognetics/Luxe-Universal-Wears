@@ -6,6 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -42,18 +43,22 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [toast, setToast] = useState<string | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const toastTimerRef = useRef<number | undefined>(undefined);
 
   // Load from localStorage once
   useEffect(() => {
-    try {
-      const c = localStorage.getItem(CART_KEY);
-      const w = localStorage.getItem(WISH_KEY);
-      if (c) setCart(JSON.parse(c));
-      if (w) setWishlist(JSON.parse(w));
-    } catch {
-      /* ignore */
-    }
-    setHydrated(true);
+    const restoreId = window.setTimeout(() => {
+      try {
+        const c = localStorage.getItem(CART_KEY);
+        const w = localStorage.getItem(WISH_KEY);
+        if (c) setCart(JSON.parse(c));
+        if (w) setWishlist(JSON.parse(w));
+      } catch {
+        /* ignore */
+      }
+      setHydrated(true);
+    }, 0);
+    return () => window.clearTimeout(restoreId);
   }, []);
 
   useEffect(() => {
@@ -66,8 +71,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const notify = useCallback((msg: string) => {
     setToast(msg);
-    window.clearTimeout((notify as unknown as { _t?: number })._t);
-    (notify as unknown as { _t?: number })._t = window.setTimeout(() => setToast(null), 2600);
+    window.clearTimeout(toastTimerRef.current);
+    toastTimerRef.current = window.setTimeout(() => setToast(null), 2600);
   }, []);
 
   const addToCart = useCallback<StoreContextValue["addToCart"]>(

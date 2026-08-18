@@ -1,13 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Image from "next/image";
 import {
   Lock,
   ShieldCheck,
   CreditCard,
-  Landmark,
-  Wallet,
   Globe,
   Check,
   ShoppingBag,
@@ -18,10 +16,7 @@ import { useAuth } from "@/components/providers/AuthProvider";
 import { formatNaira } from "@/lib/format";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { OrderConfirmation, type ConfirmationData } from "./OrderConfirmation";
-
-const FREE_SHIPPING_THRESHOLD = 150000;
-const COUPON_RATE = 0.1;
+import { openWhatsApp } from "@/lib/whatsapp";
 
 const NIGERIAN_STATES = [
   "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue",
@@ -35,34 +30,15 @@ type DeliveryOption = {
   id: string;
   label: string;
   description: string;
-  price: number;
   eta: string;
-  domesticOnly?: boolean;
-  lagosOnly?: boolean;
 };
 
 const DELIVERY_OPTIONS: DeliveryOption[] = [
   {
-    id: "standard",
-    label: "Standard Delivery",
-    description: "Free over ₦150,000",
-    price: 3500,
-    eta: "3 – 5 business days",
-  },
-  {
-    id: "express",
-    label: "Express Delivery",
-    description: "Priority dispatch & tracking",
-    price: 7500,
-    eta: "1 – 2 business days",
-  },
-  {
-    id: "sameday",
-    label: "Same-Day (Abuja)",
-    description: "Order before 12pm, within Abuja",
-    price: 5000,
-    eta: "Today",
-    lagosOnly: true,
+    id: "confirm-with-team",
+    label: "Delivery confirmed by the Luxe team",
+    description: "Share your destination for an accurate quote",
+    eta: "Cost and timing confirmed on WhatsApp",
   },
 ];
 
@@ -76,64 +52,32 @@ type PaymentOption = {
 
 const PAYMENT_OPTIONS: PaymentOption[] = [
   {
-    id: "paystack",
-    label: "Paystack",
-    description: "Cards, bank & USSD — instant confirmation",
+    id: "confirm-domestic",
+    label: "Confirm with the Luxe team",
+    description: "Stock, delivery and a verified payment method will be confirmed on WhatsApp",
     icon: CreditCard,
     scope: "domestic",
   },
   {
-    id: "flutterwave",
-    label: "Flutterwave",
-    description: "Pay with card, transfer or mobile money",
-    icon: Wallet,
-    scope: "domestic",
-  },
-  {
-    id: "bank",
-    label: "Bank Transfer",
-    description: "Direct transfer to our account",
-    icon: Landmark,
-    scope: "domestic",
-  },
-  {
-    id: "stripe",
-    label: "Stripe",
-    description: "Secure international card payments",
-    icon: CreditCard,
-    scope: "international",
-  },
-  {
-    id: "paypal",
-    label: "PayPal",
-    description: "Pay with your PayPal balance or card",
+    id: "confirm-international",
+    label: "Confirm with the Luxe team",
+    description: "International delivery and payment will be confirmed on WhatsApp",
     icon: Globe,
     scope: "international",
   },
 ];
 
-function deliveryEstimate(option: DeliveryOption): string {
-  const today = new Date("2026-06-03");
-  let days = 4;
-  if (option.id === "express") days = 2;
-  if (option.id === "sameday") days = 0;
-  const target = new Date(today);
-  target.setDate(target.getDate() + days);
-  return target.toLocaleDateString("en-NG", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-  });
+function FieldError({ message }: { message?: string }) {
+  return message ? <p className="mt-1.5 text-xs text-danger">{message}</p> : null;
 }
 
 export default function CheckoutPage() {
-  const { cart, cartSubtotal, clearCart } = useStore();
+  const { cart, cartSubtotal } = useStore();
   const { user } = useAuth();
 
-  const [confirmation, setConfirmation] = useState<ConfirmationData | null>(null);
-
   // Form state
-  const [email, setEmail] = useState("");
+  const [emailInput, setEmailInput] = useState<string | null>(null);
+  const email = emailInput ?? user?.email ?? "";
   const [intl, setIntl] = useState(false);
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
@@ -141,32 +85,10 @@ export default function CheckoutPage() {
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const [intlCountry, setIntlCountry] = useState("");
-  const [delivery, setDelivery] = useState("standard");
-  const [payment, setPayment] = useState("paystack");
-  const [coupon, setCoupon] = useState("");
-  const [appliedCoupon, setAppliedCoupon] = useState<string | null>(null);
-  const [couponError, setCouponError] = useState<string | null>(null);
-  const [submitting, setSubmitting] = useState(false);
+  const [delivery, setDelivery] = useState("confirm-with-team");
+  const [payment, setPayment] = useState("confirm-domestic");
+  const [handoffReady, setHandoffReady] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
-
-  useEffect(() => {
-    if (user?.email && !email) setEmail(user.email);
-  }, [user, email]);
-
-  // When switching scope, reset payment to a valid option for that scope.
-  useEffect(() => {
-    const valid = PAYMENT_OPTIONS.some(
-      (p) => p.id === payment && p.scope === (intl ? "international" : "domestic")
-    );
-    if (!valid) setPayment(intl ? "stripe" : "paystack");
-    // sameday is Nigeria-only
-    if (intl && delivery === "sameday") setDelivery("standard");
-  }, [intl, payment, delivery]);
-
-  const availableDelivery = useMemo(
-    () => DELIVERY_OPTIONS.filter((o) => !(o.lagosOnly && (intl || state !== "FCT - Abuja"))),
-    [intl, state]
-  );
 
   const availablePayments = useMemo(
     () => PAYMENT_OPTIONS.filter((p) => p.scope === (intl ? "international" : "domestic")),
@@ -174,36 +96,7 @@ export default function CheckoutPage() {
   );
 
   const selectedDelivery =
-    availableDelivery.find((o) => o.id === delivery) ?? availableDelivery[0];
-
-  const discount = appliedCoupon ? Math.round(cartSubtotal * COUPON_RATE) : 0;
-  const subtotalAfterDiscount = cartSubtotal - discount;
-
-  const shipping = useMemo(() => {
-    if (!selectedDelivery) return 0;
-    if (
-      selectedDelivery.id === "standard" &&
-      subtotalAfterDiscount >= FREE_SHIPPING_THRESHOLD &&
-      !intl
-    ) {
-      return 0;
-    }
-    return selectedDelivery.price;
-  }, [selectedDelivery, subtotalAfterDiscount, intl]);
-
-  const total = subtotalAfterDiscount + shipping;
-
-  function applyCoupon() {
-    const code = coupon.trim().toUpperCase();
-    if (!code) return;
-    if (code === "LUXE10") {
-      setAppliedCoupon(code);
-      setCouponError(null);
-    } else {
-      setAppliedCoupon(null);
-      setCouponError("Invalid promo code.");
-    }
-  }
+    DELIVERY_OPTIONS.find((option) => option.id === delivery) ?? DELIVERY_OPTIONS[0];
 
   function validate(): boolean {
     const next: Record<string, string> = {};
@@ -229,45 +122,38 @@ export default function CheckoutPage() {
       window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
-    setSubmitting(true);
-
-    const orderNumber = `LUX-${String(Date.now()).slice(-6)}`;
-    const lines = cart.map((item) => ({
-      key: `${item.productId}-${item.size}-${item.color}`,
-      name: item.name,
-      color: item.color,
-      size: item.size,
-      quantity: item.quantity,
-      price: item.price,
-    }));
+    const lines = cart.map(
+      (item) =>
+        `- ${item.name} — ${item.color}, ${item.size}, qty ${item.quantity}: ${formatNaira(
+          item.price * item.quantity,
+        )}`,
+    );
     const paymentLabel =
-      PAYMENT_OPTIONS.find((p) => p.id === payment)?.label ?? "Card";
+      PAYMENT_OPTIONS.find((p) => p.id === payment)?.label ?? "Confirm with the Luxe team";
+    const destination = intl
+      ? `${address}, ${city}, ${intlCountry}`
+      : `${address}, ${city}, ${state}, Nigeria`;
 
-    // Simulate payment processing.
-    setTimeout(() => {
-      setConfirmation({
-        orderNumber,
-        email,
-        total,
-        lines,
-        deliveryLabel: selectedDelivery
-          ? `${selectedDelivery.label} — ${
-              shipping === 0 ? "Free" : formatNaira(shipping)
-            }`
-          : "Standard Delivery",
-        estimatedDelivery: selectedDelivery
-          ? deliveryEstimate(selectedDelivery)
-          : "3 – 5 business days",
-        paymentLabel,
-      });
-      clearCart();
-      setSubmitting(false);
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }, 1200);
-  }
-
-  if (confirmation) {
-    return <OrderConfirmation data={confirmation} />;
+    openWhatsApp(
+      [
+        "Hello Luxe Universal Wears, I would like the team to review this website order request.",
+        "",
+        ...lines,
+        "",
+        `Items subtotal (delivery excluded): ${formatNaira(cartSubtotal)}`,
+        "Delivery cost and timing: To be confirmed by the Luxe team",
+        `Delivery preference: ${selectedDelivery?.label || "Confirm with the Luxe team"}`,
+        `Payment: ${paymentLabel}`,
+        "",
+        `Name: ${fullName}`,
+        `Phone: ${phone}`,
+        `Email: ${email}`,
+        `Destination: ${destination}`,
+        "",
+        "Please confirm stock, delivery cost and a verified payment method before I pay.",
+      ].join("\n"),
+    );
+    setHandoffReady(true);
   }
 
   if (cart.length === 0) {
@@ -295,20 +181,19 @@ export default function CheckoutPage() {
   const labelClass =
     "mb-2 block text-xs uppercase tracking-[0.16em] text-stone";
 
-  function FieldError({ name }: { name: string }) {
-    return errors[name] ? (
-      <p className="mt-1.5 text-xs text-danger">{errors[name]}</p>
-    ) : null;
+  function selectRegion(nextInternational: boolean) {
+    setIntl(nextInternational);
+    setPayment(nextInternational ? "confirm-international" : "confirm-domestic");
   }
 
   return (
     <Container className="py-14 sm:py-20">
       <div className="border-b border-sand pb-8">
-        <p className="eyebrow">Secure Checkout</p>
-        <h1 className="mt-3 text-4xl text-ink sm:text-5xl">Checkout</h1>
+        <p className="eyebrow">Order Request</p>
+        <h1 className="mt-3 text-4xl text-ink sm:text-5xl">Prepare your order</h1>
         <p className="mt-3 flex items-center gap-2 text-sm text-stone">
           <Lock size={14} className="text-blue-deep" />
-          Your details are encrypted and processed securely.
+          Review your details, then send the request to the Luxe team in WhatsApp.
         </p>
       </div>
 
@@ -328,11 +213,11 @@ export default function CheckoutPage() {
                 id="email"
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => setEmailInput(e.target.value)}
                 placeholder="you@example.com"
                 className={inputClass}
               />
-              <FieldError name="email" />
+              <FieldError message={errors.email} />
               <p className="mt-2 text-xs text-mist">
                 Order confirmation and tracking will be sent here.
               </p>
@@ -348,7 +233,7 @@ export default function CheckoutPage() {
               <div className="flex border border-sand">
                 <button
                   type="button"
-                  onClick={() => setIntl(false)}
+                  onClick={() => selectRegion(false)}
                   className={clsx(
                     "px-4 py-2 text-xs uppercase tracking-[0.14em] transition",
                     !intl ? "bg-ink text-ivory" : "text-stone hover:text-ink"
@@ -358,7 +243,7 @@ export default function CheckoutPage() {
                 </button>
                 <button
                   type="button"
-                  onClick={() => setIntl(true)}
+                  onClick={() => selectRegion(true)}
                   className={clsx(
                     "px-4 py-2 text-xs uppercase tracking-[0.14em] transition",
                     intl ? "bg-ink text-ivory" : "text-stone hover:text-ink"
@@ -381,7 +266,7 @@ export default function CheckoutPage() {
                   placeholder="Adewale Okonkwo"
                   className={inputClass}
                 />
-                <FieldError name="fullName" />
+                <FieldError message={errors.fullName} />
               </div>
               <div>
                 <label htmlFor="phone" className={labelClass}>
@@ -395,7 +280,7 @@ export default function CheckoutPage() {
                   placeholder="+234 800 000 0000"
                   className={inputClass}
                 />
-                <FieldError name="phone" />
+                <FieldError message={errors.phone} />
               </div>
               <div>
                 <label htmlFor="city" className={labelClass}>
@@ -408,7 +293,7 @@ export default function CheckoutPage() {
                   placeholder="Utako"
                   className={inputClass}
                 />
-                <FieldError name="city" />
+                <FieldError message={errors.city} />
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="address" className={labelClass}>
@@ -421,7 +306,7 @@ export default function CheckoutPage() {
                   placeholder="12 Bourdillon Road"
                   className={inputClass}
                 />
-                <FieldError name="address" />
+                <FieldError message={errors.address} />
               </div>
 
               {intl ? (
@@ -436,7 +321,7 @@ export default function CheckoutPage() {
                     placeholder="United Kingdom"
                     className={inputClass}
                   />
-                  <FieldError name="country" />
+                  <FieldError message={errors.country} />
                 </div>
               ) : (
                 <>
@@ -457,7 +342,7 @@ export default function CheckoutPage() {
                         </option>
                       ))}
                     </select>
-                    <FieldError name="state" />
+                    <FieldError message={errors.state} />
                   </div>
                   <div>
                     <label className={labelClass}>Country</label>
@@ -476,11 +361,7 @@ export default function CheckoutPage() {
               <span className="mr-3 text-blue-deep">03</span>Delivery Method
             </h2>
             <div className="mt-5 space-y-3">
-              {availableDelivery.map((option) => {
-                const free =
-                  option.id === "standard" &&
-                  subtotalAfterDiscount >= FREE_SHIPPING_THRESHOLD &&
-                  !intl;
+              {DELIVERY_OPTIONS.map((option) => {
                 const active = delivery === option.id;
                 return (
                   <button
@@ -510,12 +391,8 @@ export default function CheckoutPage() {
                         </p>
                       </div>
                     </div>
-                    <span className="text-sm font-medium text-ink">
-                      {free ? (
-                        <span className="text-emerald">Free</span>
-                      ) : (
-                        formatNaira(option.price)
-                      )}
+                    <span className="text-right text-xs font-medium text-ink">
+                      To be confirmed
                     </span>
                   </button>
                 );
@@ -526,7 +403,7 @@ export default function CheckoutPage() {
           {/* Payment */}
           <section>
             <h2 className="text-2xl text-ink">
-              <span className="mr-3 text-blue-deep">04</span>Payment Method
+              <span className="mr-3 text-blue-deep">04</span>Payment
             </h2>
             <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
               {availablePayments.map((option) => {
@@ -552,33 +429,10 @@ export default function CheckoutPage() {
               })}
             </div>
 
-            {payment === "bank" && (
-              <div className="mt-5 border border-sand bg-cream p-5">
-                <p className="flex items-center gap-2 text-xs uppercase tracking-[0.16em] text-stone">
-                  <Landmark size={14} /> Bank Transfer Details
-                </p>
-                <dl className="mt-4 space-y-2 text-sm">
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-stone">Account Name</dt>
-                    <dd className="text-right font-medium text-ink">
-                      Luxe Universal Wears Ltd
-                    </dd>
-                  </div>
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-stone">Bank</dt>
-                    <dd className="font-medium text-ink">GTBank</dd>
-                  </div>
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-stone">Account Number</dt>
-                    <dd className="font-medium text-ink">0123456789</dd>
-                  </div>
-                </dl>
-                <p className="mt-4 text-xs text-mist">
-                  Use your order number as the transfer reference. Your order ships once
-                  payment is confirmed.
-                </p>
-              </div>
-            )}
+            <p className="mt-4 text-xs leading-relaxed text-mist">
+              This page does not take payment. The team must confirm stock, delivery and a real
+              payment method before you pay.
+            </p>
           </section>
         </div>
 
@@ -620,87 +474,43 @@ export default function CheckoutPage() {
               ))}
             </ul>
 
-            {/* Coupon */}
-            <div className="border-b border-sand py-6">
-              {appliedCoupon ? (
-                <div className="flex items-center justify-between text-sm text-emerald">
-                  <span>
-                    <span className="font-medium">{appliedCoupon}</span> — 10% off applied
-                  </span>
-                  <button
-                    onClick={() => {
-                      setAppliedCoupon(null);
-                      setCoupon("");
-                    }}
-                    className="text-xs uppercase tracking-[0.14em] text-stone underline hover:text-danger"
-                  >
-                    Remove
-                  </button>
-                </div>
-              ) : (
-                <>
-                  <div className="flex gap-2">
-                    <input
-                      value={coupon}
-                      onChange={(e) => setCoupon(e.target.value)}
-                      onKeyDown={(e) => e.key === "Enter" && applyCoupon()}
-                      placeholder="Promo code"
-                      className="min-w-0 flex-1 border border-sand bg-ivory px-4 py-2.5 text-sm text-ink outline-none transition focus:border-ink"
-                    />
-                    <Button variant="dark" size="sm" onClick={applyCoupon}>
-                      Apply
-                    </Button>
-                  </div>
-                  {couponError && (
-                    <p className="mt-2 text-xs text-danger">{couponError}</p>
-                  )}
-                </>
-              )}
-            </div>
-
             <dl className="space-y-3 py-6 text-sm">
               <div className="flex justify-between">
-                <dt className="text-stone">Subtotal</dt>
+                <dt className="text-stone">Items subtotal</dt>
                 <dd className="text-ink">{formatNaira(cartSubtotal)}</dd>
               </div>
-              {discount > 0 && (
-                <div className="flex justify-between text-emerald">
-                  <dt>Discount</dt>
-                  <dd>−{formatNaira(discount)}</dd>
-                </div>
-              )}
               <div className="flex justify-between">
-                <dt className="text-stone">Shipping</dt>
-                <dd className="text-ink">
-                  {shipping === 0 ? (
-                    <span className="text-emerald">Free</span>
-                  ) : (
-                    formatNaira(shipping)
-                  )}
-                </dd>
+                <dt className="text-stone">Delivery</dt>
+                <dd className="text-ink">To be confirmed</dd>
               </div>
             </dl>
 
             <div className="flex items-center justify-between border-t border-sand pt-5">
-              <span className="text-sm uppercase tracking-[0.18em] text-stone">
-                Total
+              <span className="max-w-[12rem] text-xs uppercase tracking-[0.16em] text-stone">
+                Estimated items total (delivery excluded)
               </span>
-              <span className="text-2xl text-ink">{formatNaira(total)}</span>
+              <span className="text-2xl text-ink">{formatNaira(cartSubtotal)}</span>
             </div>
 
             <Button
               variant="primary"
               size="lg"
               onClick={placeOrder}
-              disabled={submitting}
               className="mt-6 w-full"
             >
-              {submitting ? "Processing…" : "Place Order"}
+              Continue Order in WhatsApp
             </Button>
+
+            {handoffReady && (
+              <p className="mt-3 border border-emerald/30 bg-emerald/5 p-3 text-xs leading-relaxed text-emerald">
+                WhatsApp opened with your order request. Press Send there to deliver it. Your cart
+                remains here until the Luxe team confirms the order.
+              </p>
+            )}
 
             <p className="mt-4 flex items-center justify-center gap-2 text-xs text-stone">
               <ShieldCheck size={14} className="text-blue-deep" />
-              Encrypted &amp; secure · 14-day returns
+              No payment is collected on this page
             </p>
           </div>
         </aside>
