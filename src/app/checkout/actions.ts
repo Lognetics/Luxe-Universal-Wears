@@ -18,7 +18,7 @@ const API_BASE = (
   process.env.NEXT_PUBLIC_NETICS_API_BASE?.trim() || "https://business.neticsai.com"
 ).replace(/\/+$/, "");
 const SITE_ORIGIN = (
-  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://luxeuniversalwears.com"
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://www.luxeuniversalwears.com"
 ).replace(/\/+$/, "");
 
 export type CheckoutLine = {

@@ -16,7 +16,7 @@ import type { Product } from "@/lib/types";
  * skipped silently and the site behaves exactly as before.
  */
 
-const SITE_ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://luxeuniversalwears.com").replace(
+const SITE_ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://www.luxeuniversalwears.com").replace(
   /\/+$/,
   ""
 );
