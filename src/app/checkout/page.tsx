@@ -18,6 +18,10 @@ import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { openWhatsApp } from "@/lib/whatsapp";
 
+const CONCIERGE_ENABLED = Boolean(process.env.NEXT_PUBLIC_NETICS_AGENT_ID?.trim());
+
+type ConciergeElement = HTMLElement & { ask?: (question: string) => Promise<void> };
+
 const NIGERIAN_STATES = [
   "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue",
   "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu",
@@ -88,6 +92,7 @@ export default function CheckoutPage() {
   const [delivery, setDelivery] = useState("confirm-with-team");
   const [payment, setPayment] = useState("confirm-domestic");
   const [handoffReady, setHandoffReady] = useState(false);
+  const [conciergeReady, setConciergeReady] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const availablePayments = useMemo(
@@ -114,6 +119,35 @@ export default function CheckoutPage() {
     }
     setErrors(next);
     return Object.keys(next).length === 0;
+  }
+
+  function orderWithConcierge() {
+    if (!validate()) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    const concierge = document.querySelector("netics-agent") as ConciergeElement | null;
+    if (!concierge?.ask) {
+      placeOrder();
+      return;
+    }
+    const destination = intl
+      ? `${address}, ${city}, ${intlCountry}`
+      : `${address}, ${city}, ${state}, Nigeria`;
+    const items = cart.map(
+      (item) =>
+        `${item.quantity} x ${item.name} (${item.color}, ${item.size}) at ${formatNaira(item.price)} each`,
+    );
+    void concierge.ask(
+      [
+        "I would like to order these items from the website and pay online:",
+        ...items,
+        `Deliver to: ${destination}.`,
+        `My name is ${fullName}, phone ${phone}, email ${email}.`,
+        "Please take the order and send me the secure payment link.",
+      ].join(" "),
+    );
+    setConciergeReady(true);
   }
 
   function placeOrder() {
@@ -492,11 +526,34 @@ export default function CheckoutPage() {
               <span className="text-2xl text-ink">{formatNaira(cartSubtotal)}</span>
             </div>
 
+            {CONCIERGE_ENABLED && (
+              <>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  onClick={orderWithConcierge}
+                  className="mt-6 w-full"
+                >
+                  Order and Pay Online
+                </Button>
+                <p className="mt-2 text-center text-xs leading-relaxed text-stone">
+                  The Luxe Concierge confirms stock and delivery, then sends a secure payment
+                  link.
+                </p>
+                {conciergeReady && (
+                  <p className="mt-3 border border-emerald/30 bg-emerald/5 p-3 text-xs leading-relaxed text-emerald">
+                    Your order is with the Luxe Concierge in the chat at the corner of the page.
+                    Your cart stays here until the order is confirmed.
+                  </p>
+                )}
+              </>
+            )}
+
             <Button
-              variant="primary"
+              variant={CONCIERGE_ENABLED ? "outline" : "primary"}
               size="lg"
               onClick={placeOrder}
-              className="mt-6 w-full"
+              className={CONCIERGE_ENABLED ? "mt-3 w-full" : "mt-6 w-full"}
             >
               Continue Order in WhatsApp
             </Button>

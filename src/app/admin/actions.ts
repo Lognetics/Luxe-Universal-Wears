@@ -3,7 +3,8 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { getServiceSupabase } from "@/lib/supabase/server";
-import { productToRow } from "@/lib/supabase/mappers";
+import { productToRow, rowToProduct } from "@/lib/supabase/mappers";
+import { pushProductsToNetics, toNeticsProduct } from "@/lib/netics";
 import { isAdminRequest, setAdminCookie, clearAdminCookie, checkPassword } from "@/lib/admin/auth";
 import type { Product } from "@/lib/types";
 
@@ -75,6 +76,10 @@ export async function saveProduct(input: SaveProductInput) {
   const { error } = await sb.from("products").upsert(row, { onConflict: "id" });
   if (error) throw new Error(error.message);
 
+  // The NETICS concierge learns the change now, not at the next publish.
+  const { data: saved } = await sb.from("products").select("*").eq("id", id).maybeSingle();
+  if (saved) await pushProductsToNetics([toNeticsProduct(rowToProduct(saved))], "merge");
+
   revalidatePath("/admin/products");
   revalidatePath(`/admin/products/${id}`);
   return { id, slug };
@@ -82,8 +87,16 @@ export async function saveProduct(input: SaveProductInput) {
 
 export async function deleteProduct(id: string) {
   const sb = await admin();
+  const { data: existing } = await sb.from("products").select("*").eq("id", id).maybeSingle();
   const { error } = await sb.from("products").delete().eq("id", id);
   if (error) throw new Error(error.message);
+  // NETICS keeps the record (past orders point at it) but stops recommending it.
+  if (existing) {
+    await pushProductsToNetics(
+      [{ ...toNeticsProduct(rowToProduct(existing)), in_stock: false }],
+      "merge"
+    );
+  }
   revalidatePath("/admin/products");
 }
 

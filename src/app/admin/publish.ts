@@ -3,6 +3,7 @@
 import { getServiceSupabase } from "@/lib/supabase/server";
 import { isAdminRequest } from "@/lib/admin/auth";
 import { rowToProduct, rowToCategory } from "@/lib/supabase/mappers";
+import { pushProductsToNetics, toNeticsProduct } from "@/lib/netics";
 
 const REPO = process.env.GITHUB_REPO || "Lognetics/Luxe-Universal-Wears";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
@@ -69,5 +70,10 @@ export async function publishToLive() {
   await ghUpdateFile(`${BASE}/products.json`, JSON.stringify(products, null, 2), `admin: publish catalog (${products.length} products) ${stamp}`);
   await ghUpdateFile(`${BASE}/categories.json`, JSON.stringify(categories, null, 2), `admin: publish categories ${stamp}`);
 
-  return { products: products.length, categories: categories.length };
+  // The NETICS concierge gets the same catalogue the site is about to show:
+  // the published list is the whole truth, so anything it no longer contains
+  // goes out of stock there. Never blocks publishing.
+  const netics = await pushProductsToNetics(products.map(toNeticsProduct), "replace");
+
+  return { products: products.length, categories: categories.length, netics };
 }

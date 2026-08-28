@@ -47,3 +47,12 @@ The export is a snapshot. It must not be imported until the owner confirms the c
 ## Non-negotiable launch gate
 
 Do not set `NEXT_PUBLIC_NETICS_AGENT_ID` in Vercel Production until all required boxes in `OWNER-SIGN-OFF.md` are complete, test orders are clearly labelled, and the owner has approved the AI's escalation wording.
+
+## Catalogue sync (added 2026-08-28)
+
+The concierge sells from NETICS's copy of the catalogue, so that copy follows this site in two ways:
+
+- **Push, immediate.** `src/lib/netics.ts` maps a `Product` to what NETICS understands (name, SKU, category, description with fabric, colours and sizes, price, product page link, first image, in stock). `saveProduct` and `deleteProduct` in `src/app/admin/actions.ts` push the single product (`merge`; a deleted product is marked out of stock, never removed), and `publishToLive` pushes the whole published list (`replace`). Requires `NETICS_API_KEY` on the server. A failed push is logged and never blocks the admin panel.
+- **Feed, nightly.** `GET /api/netics/products` serves the published catalogue with absolute page and image links. Save `https://luxeuniversalwears.com/api/netics/products` under Products, Catalogue feed in the NETICS console; it is read every night and on "Check now".
+
+Checkout gains **Order and Pay Online** when the concierge is configured: the cart, delivery address and contact details are handed to the concierge (`netics-agent.ask()`), which takes the order in NETICS and sends the customer a secure payment link once the business's bank account is connected under Integrations. The WhatsApp route stays as the second button.
