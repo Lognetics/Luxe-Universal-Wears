@@ -17,6 +17,9 @@
 const API_BASE = (
   process.env.NEXT_PUBLIC_NETICS_API_BASE?.trim() || "https://business.neticsai.com"
 ).replace(/\/+$/, "");
+const SITE_ORIGIN = (
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://luxeuniversalwears.com"
+).replace(/\/+$/, "");
 
 export type CheckoutLine = {
   name: string;
@@ -107,7 +110,14 @@ export async function createNeticsCheckout(input: CheckoutInput): Promise<Checko
     }
     const order = (await created.json()) as { id: string; reference: string };
 
-    const checkout = await neticsFetch(`/orders/${order.id}/checkout`, key, { method: "POST" });
+    // After paying, NETICS sends the customer back here; the success page
+    // clears the bag and shows the reference.
+    const checkout = await neticsFetch(`/orders/${order.id}/checkout`, key, {
+      method: "POST",
+      body: JSON.stringify({
+        return_url: `${SITE_ORIGIN}/checkout/success?order=${encodeURIComponent(order.reference)}`,
+      }),
+    });
     if (!checkout.ok) {
       console.error("[netics] checkout failed", checkout.status, (await checkout.text()).slice(0, 300));
       return {
