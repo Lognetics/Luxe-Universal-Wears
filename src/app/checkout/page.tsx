@@ -75,7 +75,7 @@ const PAYMENT_OPTIONS: PaymentOption[] = [
 ];
 
 function FieldError({ message }: { message?: string }) {
-  return message ? <p className="mt-1.5 text-xs text-danger">{message}</p> : null;
+  return message ? <p className="mt-1.5 text-xs text-danger" data-field-error="">{message}</p> : null;
 }
 
 export default function CheckoutPage() {
@@ -148,7 +148,14 @@ export default function CheckoutPage() {
 
   async function payOnline() {
     if (!validate()) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      // Say so next to the button and take them to the first missing field:
+      // a silent scroll to the top reads as "the button does nothing".
+      setPayError("Fill in your email, name, phone and delivery address first, then press Pay Online again.");
+      window.setTimeout(() => {
+        const first = document.querySelector("[data-field-error]");
+        if (first) first.scrollIntoView({ behavior: "smooth", block: "center" });
+        else window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 0);
       return;
     }
     const destination = intl
