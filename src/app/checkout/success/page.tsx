@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { CheckCircle2 } from "lucide-react";
 import { useStore } from "@/components/providers/StoreProvider";
@@ -26,12 +26,16 @@ function CheckoutSuccess() {
   const params = useSearchParams();
   const reference = params.get("order") || "";
   const { cart, clearCart } = useStore();
+  const cleared = useRef(false);
 
+  // The bag is loaded from storage after the first render, so clearing it on
+  // mount would be undone a moment later. Clear it once, when it has loaded.
   useEffect(() => {
-    if (cart.length > 0) clearCart();
-    // Clear once, when the page is reached; the bag stays empty afterwards.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    if (cart.length > 0 && !cleared.current) {
+      cleared.current = true;
+      clearCart();
+    }
+  }, [cart.length, clearCart]);
 
   return (
     <Container className="py-24 sm:py-32">
@@ -50,8 +54,8 @@ function CheckoutSuccess() {
           ) : (
             "Your payment is confirmed. "
           )}
-          A receipt is on its way to your email, and the Luxe team will confirm your delivery
-          cost and timing on WhatsApp.
+          A receipt is on its way to your email, and you will hear from us by email as the
+          Luxe team confirms delivery and prepares your order.
         </p>
         <ButtonLink href="/shop" variant="primary" size="lg" className="mt-8">
           Continue Shopping
