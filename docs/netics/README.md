@@ -6,7 +6,7 @@ This directory is the operational source of truth for onboarding Luxe Universal 
 
 - The NETICS SDK is loaded with Next.js `Script` using `lazyOnload`, which is appropriate for a support widget that must not block the storefront.
 - The concierge appears only when `NEXT_PUBLIC_NETICS_AGENT_ID` is configured. A missing or failed widget never removes the direct WhatsApp route.
-- The NETICS widget uses the bottom-right corner; the WhatsApp action is stacked above that launcher, so the two do not overlap or cover left-aligned form actions.
+- The floating WhatsApp button was removed on 2026-08-28: the NETICS concierge is the one launcher on the page. WhatsApp remains in the footer and as the checkout fallback.
 - Contact, bespoke, corporate and newsletter forms no longer claim that data was received when no backend accepted it. They prepare the completed request in WhatsApp and require the customer to press **Send**.
 - The floating WhatsApp action and footer WhatsApp link use the published business number: `+234 817 393 8770`.
 - No secret, admin credential, payment key or WhatsApp verification code is stored in this repository.
