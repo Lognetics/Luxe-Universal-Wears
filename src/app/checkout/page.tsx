@@ -17,8 +17,11 @@ import { formatNaira } from "@/lib/format";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { openWhatsApp } from "@/lib/whatsapp";
+import { createNeticsCheckout } from "./actions";
 
 const CONCIERGE_ENABLED = Boolean(process.env.NEXT_PUBLIC_NETICS_AGENT_ID?.trim());
+const ONLINE_PAYMENT_ENABLED =
+  process.env.NEXT_PUBLIC_NETICS_PAYMENTS?.trim() === "1" || CONCIERGE_ENABLED;
 
 type ConciergeElement = HTMLElement & { ask?: (question: string) => Promise<void> };
 
@@ -93,6 +96,8 @@ export default function CheckoutPage() {
   const [payment, setPayment] = useState("confirm-domestic");
   const [handoffReady, setHandoffReady] = useState(false);
   const [conciergeReady, setConciergeReady] = useState(false);
+  const [paying, setPaying] = useState(false);
+  const [payError, setPayError] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const availablePayments = useMemo(
@@ -121,19 +126,9 @@ export default function CheckoutPage() {
     return Object.keys(next).length === 0;
   }
 
-  function orderWithConcierge() {
-    if (!validate()) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      return;
-    }
+  function handToConcierge(destination: string): boolean {
     const concierge = document.querySelector("netics-agent") as ConciergeElement | null;
-    if (!concierge?.ask) {
-      placeOrder();
-      return;
-    }
-    const destination = intl
-      ? `${address}, ${city}, ${intlCountry}`
-      : `${address}, ${city}, ${state}, Nigeria`;
+    if (!concierge?.ask) return false;
     const items = cart.map(
       (item) =>
         `${item.quantity} x ${item.name} (${item.color}, ${item.size}) at ${formatNaira(item.price)} each`,
@@ -148,6 +143,47 @@ export default function CheckoutPage() {
       ].join(" "),
     );
     setConciergeReady(true);
+    return true;
+  }
+
+  async function payOnline() {
+    if (!validate()) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    const destination = intl
+      ? `${address}, ${city}, ${intlCountry}`
+      : `${address}, ${city}, ${state}, Nigeria`;
+    setPaying(true);
+    setPayError("");
+    try {
+      // NETICS records the order and returns the hosted payment link (card,
+      // bank transfer, USSD), settled to the Luxe account. The cart is kept
+      // until the customer is back from a confirmed payment.
+      const result = await createNeticsCheckout({
+        email: email.trim(),
+        fullName: fullName.trim(),
+        phone: phone.trim(),
+        destination,
+        international: intl,
+        deliveryPreference: selectedDelivery?.label || "",
+        lines: cart.map((item) => ({
+          name: item.name,
+          color: item.color,
+          size: item.size,
+          quantity: item.quantity,
+          price: item.price,
+        })),
+      });
+      if (result.ok) {
+        window.location.assign(result.checkoutUrl);
+        return;
+      }
+      if (result.reason === "unavailable" && handToConcierge(destination)) return;
+      setPayError(result.message);
+    } finally {
+      setPaying(false);
+    }
   }
 
   function placeOrder() {
@@ -526,20 +562,26 @@ export default function CheckoutPage() {
               <span className="text-2xl text-ink">{formatNaira(cartSubtotal)}</span>
             </div>
 
-            {CONCIERGE_ENABLED && (
+            {ONLINE_PAYMENT_ENABLED && (
               <>
                 <Button
                   variant="primary"
                   size="lg"
-                  onClick={orderWithConcierge}
+                  onClick={() => void payOnline()}
+                  disabled={paying}
                   className="mt-6 w-full"
                 >
-                  Order and Pay Online
+                  {paying ? "Preparing secure payment…" : "Pay Online"}
                 </Button>
                 <p className="mt-2 text-center text-xs leading-relaxed text-stone">
-                  The Luxe Concierge confirms stock and delivery, then sends a secure payment
-                  link.
+                  Card, bank transfer or USSD on a secure payment page. Delivery cost is
+                  confirmed separately.
                 </p>
+                {payError && (
+                  <p className="mt-3 border border-red-500/30 bg-red-500/5 p-3 text-xs leading-relaxed text-red-700">
+                    {payError}
+                  </p>
+                )}
                 {conciergeReady && (
                   <p className="mt-3 border border-emerald/30 bg-emerald/5 p-3 text-xs leading-relaxed text-emerald">
                     Your order is with the Luxe Concierge in the chat at the corner of the page.
@@ -550,10 +592,10 @@ export default function CheckoutPage() {
             )}
 
             <Button
-              variant={CONCIERGE_ENABLED ? "outline" : "primary"}
+              variant={ONLINE_PAYMENT_ENABLED ? "outline" : "primary"}
               size="lg"
               onClick={placeOrder}
-              className={CONCIERGE_ENABLED ? "mt-3 w-full" : "mt-6 w-full"}
+              className={ONLINE_PAYMENT_ENABLED ? "mt-3 w-full" : "mt-6 w-full"}
             >
               Continue Order in WhatsApp
             </Button>

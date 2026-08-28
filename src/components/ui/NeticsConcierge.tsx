@@ -25,10 +25,6 @@ export function NeticsConcierge() {
       {createElement("netics-agent", {
         "agent-id": agentId,
         "api-base": apiBase,
-        position: "bottom-right",
-        "primary-color": "#0098d8",
-        title: "Luxe Concierge",
-        placeholder: "Ask about styles, sizing or delivery…",
         "aria-label": "Open the Luxe AI concierge",
       })}
     </>
