@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MiniCart } from "@/components/cart/MiniCart";
-import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { NeticsConcierge } from "@/components/ui/NeticsConcierge";
 
 /** Storefront header — hidden on the /admin panel. */
@@ -23,7 +22,6 @@ export function ChromeFooter() {
       <Footer />
       <MiniCart />
       <NeticsConcierge />
-      <WhatsAppButton />
     </>
   );
 }
