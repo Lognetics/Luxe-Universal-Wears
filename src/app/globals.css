@@ -141,3 +141,8 @@ input[type="range"].luxe-range::-webkit-slider-thumb {
   border: 2px solid var(--color-ivory);
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
+
+/* The NETICS concierge steps aside while the bag drawer is open. */
+body[data-cart-open] netics-agent {
+  display: none !important;
+}

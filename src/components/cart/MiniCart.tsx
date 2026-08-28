@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { X, Minus, Plus, ShoppingBag } from "lucide-react";
@@ -12,6 +13,13 @@ const FREE_SHIPPING_THRESHOLD = 150000;
 export function MiniCart() {
   const { cart, cartOpen, setCartOpen, cartSubtotal, updateQuantity, removeFromCart, cartCount } =
     useStore();
+
+  // While the bag is open, the NETICS concierge orb steps aside: on a phone
+  // it sits exactly where the drawer's buttons are.
+  useEffect(() => {
+    document.body.toggleAttribute("data-cart-open", cartOpen);
+    return () => document.body.removeAttribute("data-cart-open");
+  }, [cartOpen]);
 
   const remaining = Math.max(0, FREE_SHIPPING_THRESHOLD - cartSubtotal);
   const progress = Math.min(100, (cartSubtotal / FREE_SHIPPING_THRESHOLD) * 100);
