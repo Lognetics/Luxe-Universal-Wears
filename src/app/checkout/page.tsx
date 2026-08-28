@@ -292,7 +292,7 @@ export default function CheckoutPage() {
                 value={email}
                 onChange={(e) => setEmailInput(e.target.value)}
                 placeholder="you@example.com"
-                className={inputClass}
+                className={clsx(inputClass, errors.email && "border-danger ring-1 ring-danger/40")}
               />
               <FieldError message={errors.email} />
               <p className="mt-2 text-xs text-mist">
@@ -341,7 +341,7 @@ export default function CheckoutPage() {
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
                   placeholder="Adewale Okonkwo"
-                  className={inputClass}
+                  className={clsx(inputClass, errors.fullName && "border-danger ring-1 ring-danger/40")}
                 />
                 <FieldError message={errors.fullName} />
               </div>
@@ -355,7 +355,7 @@ export default function CheckoutPage() {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   placeholder="+234 800 000 0000"
-                  className={inputClass}
+                  className={clsx(inputClass, errors.phone && "border-danger ring-1 ring-danger/40")}
                 />
                 <FieldError message={errors.phone} />
               </div>
@@ -368,7 +368,7 @@ export default function CheckoutPage() {
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
                   placeholder="Utako"
-                  className={inputClass}
+                  className={clsx(inputClass, errors.city && "border-danger ring-1 ring-danger/40")}
                 />
                 <FieldError message={errors.city} />
               </div>
@@ -381,7 +381,7 @@ export default function CheckoutPage() {
                   value={address}
                   onChange={(e) => setAddress(e.target.value)}
                   placeholder="12 Bourdillon Road"
-                  className={inputClass}
+                  className={clsx(inputClass, errors.address && "border-danger ring-1 ring-danger/40")}
                 />
                 <FieldError message={errors.address} />
               </div>
@@ -396,7 +396,7 @@ export default function CheckoutPage() {
                     value={intlCountry}
                     onChange={(e) => setIntlCountry(e.target.value)}
                     placeholder="United Kingdom"
-                    className={inputClass}
+                    className={clsx(inputClass, errors.country && "border-danger ring-1 ring-danger/40")}
                   />
                   <FieldError message={errors.country} />
                 </div>
