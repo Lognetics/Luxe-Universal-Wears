@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { CheckCircle2 } from "lucide-react";
 import { useStore } from "@/components/providers/StoreProvider";
@@ -14,6 +14,15 @@ import { ButtonLink } from "@/components/ui/Button";
  * has to clear the bag and say what happens next.
  */
 export default function CheckoutSuccessPage() {
+  // useSearchParams needs a Suspense boundary for prerendering (Next.js 16).
+  return (
+    <Suspense fallback={null}>
+      <CheckoutSuccess />
+    </Suspense>
+  );
+}
+
+function CheckoutSuccess() {
   const params = useSearchParams();
   const reference = params.get("order") || "";
   const { cart, clearCart } = useStore();
