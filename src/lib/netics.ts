@@ -207,7 +207,7 @@ export function fromNeticsProduct(
   };
 }
 
-/** The site's product list from NETICS, oldest first so "new arrivals" still means new. */
+/** The site's product list from NETICS, in the order the shop has always shown it. */
 export function catalogueFromNetics(
   items: NeticsCatalogueProduct[],
   categories: CategoryLookup[]
@@ -218,7 +218,13 @@ export function catalogueFromNetics(
       (a, b) =>
         (a.created_at ?? "").localeCompare(b.created_at ?? "") || a.name.localeCompare(b.name)
     );
-  return ordered.map((item, index) => fromNeticsProduct(item, categories, index + 1));
+  // A product carries its original position (created_index) through NETICS;
+  // one added there gets the next position, so it still counts as newest.
+  const known = ordered.map((item) => Number(item.details?.created_index) || 0);
+  let next = Math.max(0, ...known);
+  return ordered
+    .map((item) => fromNeticsProduct(item, categories, ++next))
+    .sort((a, b) => a.createdIndex - b.createdIndex);
 }
 
 export type SyncResult =
