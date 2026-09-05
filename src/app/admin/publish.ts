@@ -1,20 +1,22 @@
 "use server";
 
+import { revalidatePath, revalidateTag } from "next/cache";
 import { isAdminRequest } from "@/lib/admin/auth";
+import { CATALOGUE_TAG } from "@/lib/catalogue-data";
 import { pushProductsToNetics, toNeticsProduct, type SyncResult } from "@/lib/netics";
-import { triggerRebuild, type RebuildResult } from "@/lib/rebuild";
 import { rowToProduct } from "@/lib/supabase/mappers";
 import { getServiceSupabase } from "@/lib/supabase/server";
 
 /**
- * Publish now: ask Vercel to build the site again, which pulls the catalogue
- * from NETICS. NETICS triggers the same rebuild itself whenever the catalogue
- * changes; the button is for "I want to see it now" and after editing
- * categories.
+ * Refresh now: drop the cached catalogue so the next page view reads NETICS
+ * again. NETICS does this itself whenever the catalogue changes; the button
+ * is for "I want to see it this second" and after editing categories.
  */
-export async function publishToLive(): Promise<RebuildResult> {
+export async function publishToLive(): Promise<{ refreshed: true }> {
   if (!(await isAdminRequest())) throw new Error("Not authorised.");
-  return triggerRebuild("admin publish");
+  revalidateTag(CATALOGUE_TAG, "max");
+  revalidatePath("/", "layout");
+  return { refreshed: true };
 }
 
 /**

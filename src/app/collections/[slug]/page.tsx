@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Container, Divider } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { ProductGrid } from "@/components/product/ProductGrid";
-import { products } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 
 type Collection = {
   name: string;
@@ -66,6 +66,7 @@ export default async function CollectionPage({
   const collection = COLLECTIONS[slug];
   if (!collection) notFound();
 
+  const { products } = await loadCatalogue();
   const catSet = new Set(collection.categories);
   const items = products
     .filter((p) => catSet.has(p.category))

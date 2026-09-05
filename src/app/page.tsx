@@ -13,7 +13,8 @@ import { ProductRail } from "@/components/home/ProductRail";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Container, SectionHeading, Divider } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
-import { newArrivals, bestSellers, populatedCategories, products } from "@/lib/catalog";
+import { newArrivals, bestSellers, populatedCategories } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 
 const COLLECTIONS = [
   {
@@ -45,10 +46,11 @@ const WHY = [
   { icon: HeartHandshake, title: "Customer Care", text: "Personal styling & dedicated support." },
 ];
 
-export default function HomePage() {
-  const arrivals = newArrivals(8);
-  const sellers = bestSellers(8);
-  const cats = populatedCategories();
+export default async function HomePage() {
+  const { products, categories } = await loadCatalogue();
+  const arrivals = newArrivals(products, 8);
+  const sellers = bestSellers(products, 8);
+  const cats = populatedCategories(categories);
   const gallery = products.slice(6, 12);
 
   return (

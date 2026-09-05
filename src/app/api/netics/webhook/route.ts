@@ -1,6 +1,7 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { NextResponse } from "next/server";
-import { triggerRebuild } from "@/lib/rebuild";
+import { CATALOGUE_TAG } from "@/lib/catalogue-data";
 
 /**
  * Where NETICS tells this site what happened.
@@ -12,11 +13,10 @@ import { triggerRebuild } from "@/lib/rebuild";
  *
  * What it does: on `catalogue.updated` (a product, price, picture or stock
  * count changed in NETICS, including pieces taken off stock by a paid order)
- * the site asks Vercel to build again, and the build pulls the catalogue from
- * NETICS. NETICS coalesces a burst of edits into one event, so a busy
- * afternoon in the console is a handful of builds, not fifty. Order events
- * are acknowledged: NETICS keeps the stock itself now, and the order board
- * there shows every one of them.
+ * the cached catalogue is dropped, so the next visit to any page reads the
+ * fresh list from NETICS. No build, no commit. Order events are
+ * acknowledged: NETICS keeps the stock itself, and the order board there
+ * shows every one of them.
  */
 
 export const runtime = "nodejs";
@@ -66,28 +66,17 @@ export async function POST(request: Request) {
   }
 
   if (delivery.event === "catalogue.updated") {
-    try {
-      const result = await triggerRebuild(`catalogue.updated ${delivery.id}`);
-      return NextResponse.json({ received: true, event: delivery.event, ...result });
-    } catch (error) {
-      // Worth a retry from NETICS: say so with a 500, and say why, since
-      // NETICS keeps the receiver's answer in its delivery log.
-      const reason = error instanceof Error ? error.message : String(error);
-      console.error("[netics webhook] rebuild failed", reason);
-      return NextResponse.json({ error: "rebuild failed", detail: reason.slice(0, 400) }, { status: 500 });
-    }
+    revalidateTag(CATALOGUE_TAG, "max");
+    revalidatePath("/", "layout");
+    console.info("[netics webhook] catalogue refreshed", delivery.id);
+    return NextResponse.json({ received: true, event: delivery.event, refreshed: true });
   }
   return NextResponse.json({ received: true, event: delivery.event });
 }
 
 export function GET() {
   return NextResponse.json(
-    {
-      ok: true,
-      receiver: "netics-webhook",
-      configured: Boolean(process.env.NETICS_WEBHOOK_SECRET),
-      rebuild: Boolean(process.env.VERCEL_DEPLOY_HOOK_URL),
-    },
+    { ok: true, receiver: "netics-webhook", configured: Boolean(process.env.NETICS_WEBHOOK_SECRET) },
     { status: 200 },
   );
 }

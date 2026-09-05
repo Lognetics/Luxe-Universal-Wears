@@ -22,8 +22,8 @@ export default async function AdminDashboard() {
     <div>
       <h1 className="font-serif text-3xl font-semibold">Dashboard</h1>
       <p className="mt-1 text-sm text-neutral-500">
-        Products live in NETICS. Add or edit them there and the live store republishes itself
-        within a couple of minutes. Categories are still curated here.
+        Products live in NETICS. Add or edit them there and the live store shows the change on
+        its next page view. Categories are still curated here.
       </p>
 
       <div className="mt-6 grid grid-cols-2 gap-4 sm:max-w-md">
@@ -51,10 +51,10 @@ export default async function AdminDashboard() {
       </div>
 
       <div className="mt-10 rounded-2xl bg-white p-6 shadow-sm">
-        <h2 className="font-serif text-xl font-semibold">Publish</h2>
+        <h2 className="font-serif text-xl font-semibold">Refresh</h2>
         <p className="mb-4 mt-1 text-sm text-neutral-500">
-          NETICS publishes to the live site on its own whenever a product changes. Press this to
-          publish right now, or after editing categories.
+          The live site reads NETICS and refreshes itself whenever a product changes. Press this
+          to refresh right now, for example after editing categories.
         </p>
         <PublishButton />
       </div>

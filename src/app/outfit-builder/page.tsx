@@ -7,7 +7,7 @@ import { clsx } from "clsx";
 import { ArrowRight, Check, Shuffle, ShoppingBag, X } from "lucide-react";
 import { Container, SectionHeading } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { products } from "@/lib/catalog";
+import { useCatalogue } from "@/lib/use-catalogue";
 import { formatNaira } from "@/lib/format";
 import type { Product } from "@/lib/types";
 import { useStore } from "@/components/providers/StoreProvider";
@@ -22,7 +22,7 @@ const SLOTS: { key: SlotKey; label: string; categories: string[] }[] = [
   { key: "accessory", label: "Accessory", categories: ["slides", "t-shirts", "polo-shirts"] },
 ];
 
-function groupForSlot(categories: string[]): Product[] {
+function groupForSlot(products: Product[], categories: string[]): Product[] {
   return products.filter((p) => categories.includes(p.category));
 }
 
@@ -32,14 +32,15 @@ function randomFrom<T>(arr: T[]): T | null {
 
 export default function OutfitBuilderPage() {
   const { addToCart } = useStore();
+  const { products, ready } = useCatalogue();
 
   const slotProducts = useMemo(() => {
     const map = {} as Record<SlotKey, Product[]>;
     SLOTS.forEach((s) => {
-      map[s.key] = groupForSlot(s.categories);
+      map[s.key] = groupForSlot(products, s.categories);
     });
     return map;
-  }, []);
+  }, [products]);
 
   const [selection, setSelection] = useState<Record<SlotKey, Product | null>>({
     top: null,
@@ -283,7 +284,9 @@ export default function OutfitBuilderPage() {
               </div>
 
               {activeList.length === 0 && (
-                <p className="mt-10 text-sm text-stone">No items available for this slot.</p>
+                <p className="mt-10 text-sm text-stone">
+                  {ready ? "No items available for this slot." : "Loading the collection…"}
+                </p>
               )}
             </div>
           </div>

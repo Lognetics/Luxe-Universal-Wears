@@ -5,7 +5,8 @@ import { ArrowUpRight, Watch, Gem } from "lucide-react";
 import { Container, SectionHeading, Divider } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { ProductGrid } from "@/components/product/ProductGrid";
-import { getCategory, products } from "@/lib/catalog";
+import { getCategory } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 
 export const metadata: Metadata = {
   title: "Accessories — Luxe Universal Wears",
@@ -23,8 +24,9 @@ const COPY: Record<string, string> = {
   belts: "Full-grain leather, lasting form.",
 };
 
-export default function AccessoriesPage() {
-  const cats = ACCESSORY_SLUGS.map((slug) => getCategory(slug)).filter(
+export default async function AccessoriesPage() {
+  const { products, categories } = await loadCatalogue();
+  const cats = ACCESSORY_SLUGS.map((slug) => getCategory(categories, slug)).filter(
     (c): c is NonNullable<typeof c> => Boolean(c)
   );
 

@@ -32,7 +32,7 @@ export function PublishButton() {
             setErr(null);
             try {
               await publishToLive();
-              setMsg("Rebuild started. The live site shows the NETICS catalogue in about 2 minutes.");
+              setMsg("Refreshed. The live site now reads the NETICS catalogue again.");
             } catch (e) {
               setErr(e instanceof Error ? e.message : "Publish failed.");
             }
@@ -40,7 +40,7 @@ export function PublishButton() {
         }
         className="rounded-lg bg-ink px-4 py-2 text-sm font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
       >
-        {pending ? "Publishing…" : "Publish from NETICS now"}
+        {pending ? "Refreshing…" : "Refresh the live site now"}
       </button>
       {msg && <span className="text-sm text-green-600">{msg}</span>}
       {err && <span className="text-sm text-red-600">{err}</span>}

@@ -27,6 +27,7 @@ import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { getProduct } from "@/lib/catalog";
+import { useCatalogue } from "@/lib/use-catalogue";
 import { formatNaira } from "@/lib/format";
 import type { Product } from "@/lib/types";
 
@@ -92,6 +93,7 @@ function AccountInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const wishlistStore = useStore().wishlist;
+  const { products: catalogue } = useCatalogue();
 
   const initialTab = (searchParams.get("tab") as TabId) || "overview";
   const [tab, setTab] = useState<TabId>(
@@ -101,9 +103,9 @@ function AccountInner() {
   const wishlistProducts = useMemo<Product[]>(
     () =>
       wishlistStore
-        .map((id) => getProduct(id))
+        .map((id) => getProduct(catalogue, id))
         .filter((p): p is Product => Boolean(p)),
-    [wishlistStore]
+    [wishlistStore, catalogue]
   );
 
   async function handleSignOut() {
@@ -339,6 +341,7 @@ function ProfileSection({ email, name }: { email: string; name: string }) {
 
 function OrdersSection() {
   const { addToCart, notify } = useStore();
+  const { products: catalogue } = useCatalogue();
   const [expanded, setExpanded] = useState<string | null>(MOCK_ORDERS[0]?.id ?? null);
 
   function reorder(orderId: string) {
@@ -347,7 +350,7 @@ function OrdersSection() {
     let added = 0;
     order.items.forEach((it) => {
       if (it.slug) {
-        const product = getProduct(it.slug);
+        const product = getProduct(catalogue, it.slug);
         if (product) {
           addToCart(product, { quantity: it.qty });
           added += 1;

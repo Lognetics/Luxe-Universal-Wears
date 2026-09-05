@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import meta from "@/data/catalogue-meta.json";
-import { products } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 import { toNeticsProduct } from "@/lib/netics";
 
 /**
@@ -8,21 +7,21 @@ import { toNeticsProduct } from "@/lib/netics";
  *
  * NETICS reads this link every night (and on "Check now" in its console) as
  * a safety net. Public by design: it carries nothing the storefront does not
- * already show. `catalogue_source` says whether the build that produced this
- * site pulled its catalogue from NETICS or fell back to the committed files.
+ * already show. `catalogue_source` says whether this answer was rendered from
+ * NETICS or from the committed fallback files.
  */
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
-export function GET() {
+export async function GET() {
+  const { products, source } = await loadCatalogue();
   const items = products.map(toNeticsProduct);
   return NextResponse.json(
     {
       generated_at: new Date().toISOString(),
-      catalogue_source: meta.source,
-      catalogue_pulled_at: meta.pulled_at,
+      catalogue_source: source,
       count: items.length,
       products: items,
     },
-    { headers: { "Cache-Control": "public, max-age=3600" } }
+    { headers: { "Cache-Control": "public, max-age=300" } }
   );
 }

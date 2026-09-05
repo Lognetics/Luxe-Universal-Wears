@@ -2,13 +2,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import {
-  products,
   populatedCategories,
   allColors,
   allBrands,
   allSizes,
   priceRange,
 } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 import { ShopClient } from "./ShopClient";
 
 export const metadata: Metadata = {
@@ -34,7 +34,8 @@ export default async function ShopPage({
   const q = asString(sp.q);
   const category = asString(sp.category);
 
-  const { max } = priceRange();
+  const { products, categories } = await loadCatalogue();
+  const { max } = priceRange(products);
   const priceMax = Math.ceil(max / 5000) * 5000;
 
   // Group acts as a pre-filter on the dataset passed to the client.
@@ -87,10 +88,10 @@ export default async function ShopPage({
       <Container>
         <ShopClient
           products={dataset}
-          populatedCats={populatedCategories()}
+          populatedCats={populatedCategories(categories)}
           allSizes={allSizes()}
-          allColors={allColors()}
-          allBrands={allBrands()}
+          allColors={allColors(products)}
+          allBrands={allBrands(products)}
           priceMax={priceMax}
           initial={{
             categories: initialCategory,

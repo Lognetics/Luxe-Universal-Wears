@@ -5,9 +5,13 @@ import { notFound } from "next/navigation";
 import { Container, Divider } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { ProductGrid } from "@/components/product/ProductGrid";
-import { categories, getCategory, productsInCategory } from "@/lib/catalog";
+import { getCategory, productsInCategory } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 
-export function generateStaticParams() {
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const { categories } = await loadCatalogue();
   return categories.map((c) => ({ slug: c.slug }));
 }
 
@@ -17,7 +21,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const category = getCategory(slug);
+  const { categories } = await loadCatalogue();
+  const category = getCategory(categories, slug);
   if (!category) return { title: "Category Not Found — Luxe Universal Wears" };
   return {
     title: `${category.name} — Luxe Universal Wears`,
@@ -31,10 +36,11 @@ export default async function CategoryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const category = getCategory(slug);
+  const { products, categories } = await loadCatalogue();
+  const category = getCategory(categories, slug);
   if (!category) notFound();
 
-  const items = productsInCategory(slug);
+  const items = productsInCategory(products, slug);
   const heroImage = items[0]?.images[0] ?? category.image ?? null;
 
   return (

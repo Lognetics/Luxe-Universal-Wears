@@ -5,14 +5,20 @@ import { Star } from "lucide-react";
 import { clsx } from "clsx";
 import { Container, SectionHeading } from "@/components/ui/Container";
 import { ProductRail } from "@/components/home/ProductRail";
-import { products, getProduct, relatedProducts } from "@/lib/catalog";
+import { getProduct, relatedProducts } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 import { formatNaira, discountPercent } from "@/lib/format";
 import { ProductGallery } from "./ProductGallery";
 import { ProductPurchase } from "./ProductPurchase";
 import { ProductAccordion } from "./ProductAccordion";
 import { FrequentlyBought } from "./FrequentlyBought";
 
-export function generateStaticParams() {
+// Known products are pre-rendered; one added in NETICS after the build is
+// rendered on its first visit and cached from then on.
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const { products } = await loadCatalogue();
   return products.map((p) => ({ slug: p.slug }));
 }
 
@@ -22,7 +28,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const { products } = await loadCatalogue();
+  const product = getProduct(products, slug);
   if (!product) return { title: "Product Not Found — Luxe Universal Wears" };
   return {
     title: `${product.name} — Luxe Universal Wears`,
@@ -41,11 +48,12 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const { products } = await loadCatalogue();
+  const product = getProduct(products, slug);
   if (!product) notFound();
 
   const discount = discountPercent(product.price, product.comparePrice);
-  const related = relatedProducts(product, 8);
+  const related = relatedProducts(products, product, 8);
   const fbt = [product, ...related].slice(0, 3);
 
   return (

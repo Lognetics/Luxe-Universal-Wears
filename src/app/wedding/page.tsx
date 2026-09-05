@@ -5,6 +5,7 @@ import { Container, SectionHeading, Divider } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { productsInCategory } from "@/lib/catalog";
+import { loadCatalogue } from "@/lib/catalogue-data";
 import type { Product } from "@/lib/types";
 
 export const metadata: Metadata = {
@@ -13,10 +14,10 @@ export const metadata: Metadata = {
     "Tuxedos, double-breasted suits, fine shoes and accessories for the modern groom and his party — with bespoke styling from our Utako atelier.",
 };
 
-function pick(cats: string[], limit: number): Product[] {
+function pick(products: Product[], cats: string[], limit: number): Product[] {
   const out: Product[] = [];
   for (const c of cats) {
-    for (const p of productsInCategory(c)) {
+    for (const p of productsInCategory(products, c)) {
       if (out.length >= limit) break;
       if (!out.some((x) => x.id === p.id)) out.push(p);
     }
@@ -54,11 +55,12 @@ const TIMELINE = [
   { step: "04", title: "Final Pressing", desc: "Garments are pressed, accessorised and delivered ahead of the celebration." },
 ];
 
-export default function WeddingPage() {
-  const tuxedos = pick(["tuxedos", "blazers"], 4);
-  const suits = pick(["suits", "blazers"], 4);
-  const shoes = pick(["corporate-shoes", "casual-shoes"], 4);
-  const accessories = pick(["polo-shirts", "jackets"], 4);
+export default async function WeddingPage() {
+  const { products } = await loadCatalogue();
+  const tuxedos = pick(products, ["tuxedos", "blazers"], 4);
+  const suits = pick(products, ["suits", "blazers"], 4);
+  const shoes = pick(products, ["corporate-shoes", "casual-shoes"], 4);
+  const accessories = pick(products, ["polo-shirts", "jackets"], 4);
 
   return (
     <main className="bg-ivory">

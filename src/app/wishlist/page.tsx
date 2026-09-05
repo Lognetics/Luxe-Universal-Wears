@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { Heart, ShoppingBag } from "lucide-react";
 import { useStore } from "@/components/providers/StoreProvider";
 import { getProduct } from "@/lib/catalog";
+import { useCatalogue } from "@/lib/use-catalogue";
 import { Container } from "@/components/ui/Container";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { ProductGrid } from "@/components/product/ProductGrid";
@@ -11,19 +12,28 @@ import type { Product } from "@/lib/types";
 
 export default function WishlistPage() {
   const { wishlist, addToCart, notify } = useStore();
+  const { products: catalogue, ready } = useCatalogue();
 
   const products = useMemo<Product[]>(
     () =>
       wishlist
-        .map((id) => getProduct(id))
+        .map((id) => getProduct(catalogue, id))
         .filter((p): p is Product => Boolean(p)),
-    [wishlist]
+    [wishlist, catalogue]
   );
 
   function addAllToBag() {
     if (products.length === 0) return;
     products.forEach((p) => addToCart(p, { quantity: 1 }));
     notify(`${products.length} item${products.length === 1 ? "" : "s"} added to bag`);
+  }
+
+  if (!ready && wishlist.length > 0) {
+    return (
+      <Container className="flex min-h-[50vh] items-center justify-center">
+        <p className="eyebrow text-mist">Loading your wishlist…</p>
+      </Container>
+    );
   }
 
   if (products.length === 0) {

@@ -5,11 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, X } from "lucide-react";
 import { searchProducts } from "@/lib/catalog";
+import { useCatalogue } from "@/lib/use-catalogue";
 import { formatNaira } from "@/lib/format";
 
 export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [query, setQuery] = useState("");
-  const results = useMemo(() => searchProducts(query).slice(0, 6), [query]);
+  const { products } = useCatalogue();
+  const results = useMemo(() => searchProducts(products, query).slice(0, 6), [products, query]);
 
   function handleClose() {
     setQuery("");

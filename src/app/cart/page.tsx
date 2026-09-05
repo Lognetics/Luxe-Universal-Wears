@@ -20,6 +20,7 @@ import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container, SectionHeading } from "@/components/ui/Container";
 import { ProductRail } from "@/components/home/ProductRail";
 import { bestSellers } from "@/lib/catalog";
+import { useCatalogue } from "@/lib/use-catalogue";
 
 const FREE_SHIPPING_THRESHOLD = 150000;
 const FLAT_SHIPPING = 3500;
@@ -33,7 +34,8 @@ export default function CartPage() {
   const [appliedCoupon, setAppliedCoupon] = useState<string | null>(null);
   const [couponError, setCouponError] = useState<string | null>(null);
 
-  const recommended = useMemo(() => bestSellers(8), []);
+  const { products } = useCatalogue();
+  const recommended = useMemo(() => bestSellers(products, 8), [products]);
 
   const discount = appliedCoupon ? Math.round(cartSubtotal * COUPON_RATE) : 0;
   const subtotalAfterDiscount = cartSubtotal - discount;
