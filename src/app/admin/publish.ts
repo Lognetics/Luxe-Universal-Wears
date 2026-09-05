@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { isAdminRequest } from "@/lib/admin/auth";
 import { CATALOGUE_TAG } from "@/lib/catalogue-data";
 import { pushProductsToNetics, toNeticsProduct, type SyncResult } from "@/lib/netics";
@@ -14,7 +14,8 @@ import { getServiceSupabase } from "@/lib/supabase/server";
  */
 export async function publishToLive(): Promise<{ refreshed: true }> {
   if (!(await isAdminRequest())) throw new Error("Not authorised.");
-  revalidateTag(CATALOGUE_TAG, "max");
+  // A server action may use updateTag: the tag expires at once.
+  updateTag(CATALOGUE_TAG);
   revalidatePath("/", "layout");
   return { refreshed: true };
 }

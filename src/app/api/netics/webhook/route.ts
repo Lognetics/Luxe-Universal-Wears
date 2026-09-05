@@ -66,7 +66,12 @@ export async function POST(request: Request) {
   }
 
   if (delivery.event === "catalogue.updated") {
-    revalidateTag(CATALOGUE_TAG, "max");
+    // Expire, do not "stale-while-revalidate": the next page view must show
+    // the new price, not the old one while a refresh runs behind it. Without
+    // a profile Next 16 expires the tag at once (the same path updateTag
+    // takes; it only logs a deprecation note), and the path purge drops
+    // every rendered page.
+    (revalidateTag as (tag: string, profile?: string) => void)(CATALOGUE_TAG);
     revalidatePath("/", "layout");
     console.info("[netics webhook] catalogue refreshed", delivery.id);
     return NextResponse.json({ received: true, event: delivery.event, refreshed: true });
