@@ -75,9 +75,12 @@ export async function POST(request: Request) {
       );
       return NextResponse.json({ received: true, event: delivery.event, ...result });
     } catch (error) {
-      // A failed publish is worth a retry from NETICS: say so with a 500.
-      console.error("[netics webhook] publish failed", error);
-      return NextResponse.json({ error: "publish failed" }, { status: 500 });
+      // A failed publish is worth a retry from NETICS: say so with a 500, and
+      // say why, since NETICS keeps the receiver's answer in its delivery log
+      // and that is where whoever debugs this will look first.
+      const reason = error instanceof Error ? error.message : String(error);
+      console.error("[netics webhook] publish failed", reason);
+      return NextResponse.json({ error: "publish failed", detail: reason.slice(0, 400) }, { status: 500 });
     }
   }
   return NextResponse.json({ received: true, event: delivery.event });
