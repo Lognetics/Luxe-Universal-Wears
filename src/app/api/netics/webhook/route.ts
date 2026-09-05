@@ -1,6 +1,6 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
-import { publishFromNetics } from "@/lib/publish-from-netics";
+import { triggerRebuild } from "@/lib/rebuild";
 
 /**
  * Where NETICS tells this site what happened.
@@ -12,16 +12,15 @@ import { publishFromNetics } from "@/lib/publish-from-netics";
  *
  * What it does: on `catalogue.updated` (a product, price, picture or stock
  * count changed in NETICS, including pieces taken off stock by a paid order)
- * the site republishes itself from the NETICS catalogue. NETICS coalesces a
- * burst of edits into one event, and publishing commits only when the files
- * actually changed, so a busy afternoon in the console is a handful of
- * builds, not fifty. Order events are acknowledged: NETICS keeps the stock
- * itself now, and the order board there shows every one of them.
+ * the site asks Vercel to build again, and the build pulls the catalogue from
+ * NETICS. NETICS coalesces a burst of edits into one event, so a busy
+ * afternoon in the console is a handful of builds, not fifty. Order events
+ * are acknowledged: NETICS keeps the stock itself now, and the order board
+ * there shows every one of them.
  */
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 60;
 
 const MAX_SKEW_SECONDS = 300;
 
@@ -68,19 +67,14 @@ export async function POST(request: Request) {
 
   if (delivery.event === "catalogue.updated") {
     try {
-      const result = await publishFromNetics();
-      console.info(
-        "[netics webhook] catalogue updated:",
-        result.changed ? `published ${result.products} products` : "already up to date",
-      );
+      const result = await triggerRebuild(`catalogue.updated ${delivery.id}`);
       return NextResponse.json({ received: true, event: delivery.event, ...result });
     } catch (error) {
-      // A failed publish is worth a retry from NETICS: say so with a 500, and
-      // say why, since NETICS keeps the receiver's answer in its delivery log
-      // and that is where whoever debugs this will look first.
+      // Worth a retry from NETICS: say so with a 500, and say why, since
+      // NETICS keeps the receiver's answer in its delivery log.
       const reason = error instanceof Error ? error.message : String(error);
-      console.error("[netics webhook] publish failed", reason);
-      return NextResponse.json({ error: "publish failed", detail: reason.slice(0, 400) }, { status: 500 });
+      console.error("[netics webhook] rebuild failed", reason);
+      return NextResponse.json({ error: "rebuild failed", detail: reason.slice(0, 400) }, { status: 500 });
     }
   }
   return NextResponse.json({ received: true, event: delivery.event });
@@ -88,7 +82,12 @@ export async function POST(request: Request) {
 
 export function GET() {
   return NextResponse.json(
-    { ok: true, receiver: "netics-webhook", configured: Boolean(process.env.NETICS_WEBHOOK_SECRET) },
+    {
+      ok: true,
+      receiver: "netics-webhook",
+      configured: Boolean(process.env.NETICS_WEBHOOK_SECRET),
+      rebuild: Boolean(process.env.VERCEL_DEPLOY_HOOK_URL),
+    },
     { status: 200 },
   );
 }

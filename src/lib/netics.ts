@@ -74,13 +74,9 @@ export type NeticsCatalogueProduct = {
 
 export type CategoryLookup = { slug: string; name: string; group: string };
 
-export function slugify(value: string): string {
-  return value
-    .toLowerCase()
-    .replace(/['’`]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
+// The mapping from NETICS's shape to this shop's lives in plain JavaScript so
+// the build step can run it under Node; the app uses the same functions.
+export { catalogueFromNetics, categoriesFor, fromNeticsProduct, siteRelative, slugify } from "@/lib/netics-catalogue.mjs";
 
 export function absoluteUrl(path: string | null | undefined): string {
   if (!path) return "";
@@ -90,11 +86,6 @@ export function absoluteUrl(path: string | null | undefined): string {
 
 export function productPageUrl(slug: string): string {
   return `${SITE_ORIGIN}/product/${slug}`;
-}
-
-/** A picture on this very site comes back as its static path; others stay absolute. */
-export function siteRelative(url: string): string {
-  return url.startsWith(`${SITE_ORIGIN}/`) ? url.slice(SITE_ORIGIN.length) : url;
 }
 
 /** One product as NETICS understands it: every field the storefront has. */
@@ -152,79 +143,6 @@ export async function fetchNeticsCatalogue(): Promise<NeticsCatalogueProduct[]> 
   if (!res.ok) throw new Error(`NETICS answered ${res.status} when asked for the catalogue.`);
   const items = (await res.json()) as NeticsCatalogueProduct[];
   return Array.isArray(items) ? items : [];
-}
-
-/** One NETICS product back in the storefront's shape. */
-export function fromNeticsProduct(
-  item: NeticsCatalogueProduct,
-  categories: CategoryLookup[],
-  fallbackIndex: number
-): Product {
-  const details = item.details ?? {};
-  const options = item.options ?? {};
-  const badges = new Set(item.badges ?? []);
-  const wantedCategory = details.category_slug || "";
-  const category =
-    categories.find((c) => c.slug === wantedCategory) ??
-    categories.find((c) => c.name.toLowerCase() === (item.category || "").trim().toLowerCase()) ??
-    categories.find((c) => c.slug === slugify(item.category || ""));
-  const categorySlug = category?.slug ?? (slugify(item.category || "") || "uncategorised");
-  const images = (item.images?.length ? item.images : item.image_url ? [item.image_url] : []).map(
-    siteRelative
-  );
-  const slug = item.slug || slugify(item.name) || item.id;
-  const price = Number(item.price) || 0;
-  const comparePrice =
-    item.compare_price != null && Number(item.compare_price) > price ? Number(item.compare_price) : null;
-
-  return {
-    id: slug,
-    slug,
-    name: item.name,
-    category: categorySlug,
-    categoryName: category?.name ?? (item.category || "Uncategorised"),
-    group: details.group || category?.group || "Clothing",
-    subcategory: details.subcategory ?? "",
-    brand: details.brand || "Luxe Universal",
-    price,
-    comparePrice,
-    currency: "NGN",
-    colors: options.colours ?? options.colors ?? options.colour ?? [],
-    sizes: options.sizes ?? options.size ?? [],
-    description: item.description ?? "",
-    fabric: details.fabric ?? "",
-    care: details.care ?? "",
-    tags: item.tags ?? [],
-    images,
-    rating: Number(details.rating) || 4.5,
-    reviews: Number(details.reviews) || 0,
-    stock: item.in_stock ? (item.stock_level ?? 12) : 0,
-    sku: item.sku ?? "",
-    isNew: badges.has("new"),
-    isBestSeller: badges.has("best_seller"),
-    isFeatured: badges.has("featured"),
-    createdIndex: Number(details.created_index) || fallbackIndex,
-  };
-}
-
-/** The site's product list from NETICS, in the order the shop has always shown it. */
-export function catalogueFromNetics(
-  items: NeticsCatalogueProduct[],
-  categories: CategoryLookup[]
-): Product[] {
-  const ordered = items
-    .filter((item) => item.is_active)
-    .sort(
-      (a, b) =>
-        (a.created_at ?? "").localeCompare(b.created_at ?? "") || a.name.localeCompare(b.name)
-    );
-  // A product carries its original position (created_index) through NETICS;
-  // one added there gets the next position, so it still counts as newest.
-  const known = ordered.map((item) => Number(item.details?.created_index) || 0);
-  let next = Math.max(0, ...known);
-  return ordered
-    .map((item) => fromNeticsProduct(item, categories, ++next))
-    .sort((a, b) => a.createdIndex - b.createdIndex);
 }
 
 export type SyncResult =

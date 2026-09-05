@@ -31,12 +31,8 @@ export function PublishButton() {
             setMsg(null);
             setErr(null);
             try {
-              const r = await publishToLive();
-              setMsg(
-                r.changed
-                  ? `Published ${r.products} products from NETICS. The live site updates in about 1 to 2 minutes.`
-                  : `Nothing to publish: the live site already matches NETICS (${r.products} products).`
-              );
+              await publishToLive();
+              setMsg("Rebuild started. The live site shows the NETICS catalogue in about 2 minutes.");
             } catch (e) {
               setErr(e instanceof Error ? e.message : "Publish failed.");
             }

@@ -2,18 +2,19 @@
 
 import { isAdminRequest } from "@/lib/admin/auth";
 import { pushProductsToNetics, toNeticsProduct, type SyncResult } from "@/lib/netics";
-import { publishFromNetics, type PublishResult } from "@/lib/publish-from-netics";
+import { triggerRebuild, type RebuildResult } from "@/lib/rebuild";
 import { rowToProduct } from "@/lib/supabase/mappers";
 import { getServiceSupabase } from "@/lib/supabase/server";
 
 /**
- * Publish the NETICS catalogue to the live site now. NETICS also triggers
- * this itself whenever the catalogue changes; the button is for "I want to
- * see it now" and for the first publish after the move.
+ * Publish now: ask Vercel to build the site again, which pulls the catalogue
+ * from NETICS. NETICS triggers the same rebuild itself whenever the catalogue
+ * changes; the button is for "I want to see it now" and after editing
+ * categories.
  */
-export async function publishToLive(): Promise<PublishResult> {
+export async function publishToLive(): Promise<RebuildResult> {
   if (!(await isAdminRequest())) throw new Error("Not authorised.");
-  return publishFromNetics();
+  return triggerRebuild("admin publish");
 }
 
 /**
