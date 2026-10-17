@@ -6,6 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 import { useStore } from "@/components/providers/StoreProvider";
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
+import { forgetBagId } from "@/lib/bag-id";
 
 /**
  * Where NETICS sends the customer after a paid online checkout. The order
@@ -36,6 +37,8 @@ function CheckoutSuccess() {
       clearCart();
     }
   }, [cart.length, clearCart]);
+  // The bag is paid for: the next bag is a new order.
+  useEffect(() => forgetBagId(), []);
 
   return (
     <Container className="py-24 sm:py-32">

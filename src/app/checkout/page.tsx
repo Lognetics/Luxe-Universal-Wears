@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import {
   Lock,
@@ -16,7 +17,8 @@ import { useAuth } from "@/components/providers/AuthProvider";
 import { formatNaira } from "@/lib/format";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { createNeticsCheckout } from "./actions";
+import { bagId, renewBagId } from "@/lib/bag-id";
+import { createNeticsCheckout, type CheckoutInput } from "./actions";
 
 type ConciergeElement = HTMLElement & { ask?: (question: string) => Promise<void> };
 
@@ -76,6 +78,15 @@ function FieldError({ message }: { message?: string }) {
 }
 
 export default function CheckoutPage() {
+  // useSearchParams needs a Suspense boundary for prerendering (Next.js 16).
+  return (
+    <Suspense fallback={null}>
+      <Checkout />
+    </Suspense>
+  );
+}
+
+function Checkout() {
   const { cart, cartSubtotal } = useStore();
   const { user } = useAuth();
 
@@ -95,6 +106,10 @@ export default function CheckoutPage() {
   const [paying, setPaying] = useState(false);
   const [payError, setPayError] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
+  // Back from the payment page without paying (NETICS sends the customer
+  // here with ?payment=cancelled): say so, keep the bag, nothing charged.
+  const params = useSearchParams();
+  const cancelledOrder = params.get("payment") === "cancelled" ? params.get("order") || "" : null;
 
   const availablePayments = useMemo(
     () => PAYMENT_OPTIONS.filter((p) => p.scope === (intl ? "international" : "domestic")),
@@ -163,7 +178,7 @@ export default function CheckoutPage() {
       // NETICS records the order and returns the hosted payment link (card,
       // bank transfer, USSD), settled to the Luxe account. The cart is kept
       // until the customer is back from a confirmed payment.
-      const result = await createNeticsCheckout({
+      const details: Omit<CheckoutInput, "bagId"> = {
         email: email.trim(),
         fullName: fullName.trim(),
         phone: phone.trim(),
@@ -177,9 +192,21 @@ export default function CheckoutPage() {
           quantity: item.quantity,
           price: item.price,
         })),
-      });
+      };
+      // The same bag is the same order (and the same payment link), however
+      // many times this is pressed. Only if the Luxe team closed that order
+      // does the bag start a new one.
+      let result = await createNeticsCheckout({ ...details, bagId: bagId() });
+      if (!result.ok && result.reason === "stale") {
+        result = await createNeticsCheckout({ ...details, bagId: renewBagId() });
+      }
       if (result.ok) {
         window.location.assign(result.checkoutUrl);
+        return;
+      }
+      if (result.reason === "paid") {
+        // Never ask for the money twice.
+        window.location.assign(`/checkout/success?order=${encodeURIComponent(result.reference)}`);
         return;
       }
       if (result.reason === "unavailable" && handToConcierge(destination)) return;
@@ -228,6 +255,12 @@ export default function CheckoutPage() {
           <Lock size={14} className="text-blue-deep" />
           Enter your details, then pay securely online by card, bank transfer or USSD.
         </p>
+        {cancelledOrder !== null && (
+          <p className="mt-5 border border-amber-500/30 bg-amber-500/5 p-4 text-sm leading-relaxed text-ink" role="status">
+            Your payment{cancelledOrder ? ` for order ${cancelledOrder}` : ""} was cancelled. You
+            have not been charged. Your bag is still here; press Pay Online when you are ready.
+          </p>
+        )}
       </div>
 
       <div className="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-[1fr_400px]">
