@@ -87,6 +87,9 @@ export async function createNeticsCheckout(input: CheckoutInput): Promise<Checko
         customer_phone: input.phone.slice(0, 40),
         customer_email: input.email.slice(0, 320),
         order_type: "delivery",
+        // Paid through the NETICS checkout link below: NETICS tells the Luxe
+        // team about the order once it is paid, not when checkout starts.
+        payment_method: "online",
         delivery_address: input.destination.slice(0, 400),
         notes: [
           "Website checkout.",
