@@ -3,8 +3,6 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { FOOTER_LINKS } from "@/lib/nav";
 import { NewsletterForm } from "./NewsletterForm";
 import { Logo } from "@/components/ui/Logo";
-import { WhatsAppIcon } from "@/components/ui/SocialIcons";
-import { createWhatsAppLink } from "@/lib/whatsapp";
 
 export function Footer() {
   return (
@@ -36,17 +34,6 @@ export function Footer() {
             Premium fashion, bespoke tailoring & luxury accessories for the modern gentleman.
             Crafted with intention, delivered with care — across Nigeria & worldwide.
           </p>
-          <div className="mt-6 flex gap-3">
-            <a
-              href={createWhatsAppLink("Hello Luxe Universal Wears! I'd like assistance.")}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Contact Luxe Universal Wears on WhatsApp"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-ivory/20 transition hover:border-blue hover:text-blue-soft"
-            >
-              <WhatsAppIcon width={17} height={17} />
-            </a>
-          </div>
         </div>
 
         {Object.entries(FOOTER_LINKS).map(([heading, links]) => (

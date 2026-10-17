@@ -11,7 +11,7 @@
  * appears on the Luxe team's NETICS order board like any other.
  *
  * Needs NETICS_API_KEY (server only) with the write:orders scope. Without
- * it, the checkout page keeps its WhatsApp route and says so.
+ * it, the checkout page hands the order to the Luxe Concierge chat.
  */
 
 const API_BASE = (
@@ -62,7 +62,7 @@ export async function createNeticsCheckout(input: CheckoutInput): Promise<Checko
     return {
       ok: false,
       reason: "unavailable",
-      message: "Online payment is not switched on yet. Continue in WhatsApp.",
+      message: "Online payment is not available right now. Ask the Luxe Concierge in the chat at the corner of the page.",
     };
   }
   if (!input.lines.length) {
@@ -108,7 +108,7 @@ export async function createNeticsCheckout(input: CheckoutInput): Promise<Checko
       return {
         ok: false,
         reason: "failed",
-        message: "We could not start the online payment. Continue in WhatsApp and we will sort it out.",
+        message: "We could not start the online payment. Please try again in a moment, or ask the Luxe Concierge in the chat at the corner of the page.",
       };
     }
     const order = (await created.json()) as { id: string; reference: string };
@@ -143,7 +143,7 @@ export async function createNeticsCheckout(input: CheckoutInput): Promise<Checko
     return {
       ok: false,
       reason: "failed",
-      message: "We could not reach the payment service. Continue in WhatsApp.",
+      message: "We could not reach the payment service. Please try again in a moment.",
     };
   }
 }

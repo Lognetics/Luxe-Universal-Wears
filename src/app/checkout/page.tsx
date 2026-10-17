@@ -16,12 +16,7 @@ import { useAuth } from "@/components/providers/AuthProvider";
 import { formatNaira } from "@/lib/format";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { openWhatsApp } from "@/lib/whatsapp";
 import { createNeticsCheckout } from "./actions";
-
-const CONCIERGE_ENABLED = Boolean(process.env.NEXT_PUBLIC_NETICS_AGENT_ID?.trim());
-const ONLINE_PAYMENT_ENABLED =
-  process.env.NEXT_PUBLIC_NETICS_PAYMENTS?.trim() === "1" || CONCIERGE_ENABLED;
 
 type ConciergeElement = HTMLElement & { ask?: (question: string) => Promise<void> };
 
@@ -45,7 +40,7 @@ const DELIVERY_OPTIONS: DeliveryOption[] = [
     id: "confirm-with-team",
     label: "Delivery confirmed by the Luxe team",
     description: "Share your destination for an accurate quote",
-    eta: "Cost and timing confirmed on WhatsApp",
+    eta: "The Luxe team confirms the cost and timing after you order",
   },
 ];
 
@@ -57,18 +52,20 @@ type PaymentOption = {
   scope: "domestic" | "international";
 };
 
+// One way to pay: online, on the secure payment page (David, 2026-10-17:
+// no WhatsApp ordering, so no confusion).
 const PAYMENT_OPTIONS: PaymentOption[] = [
   {
-    id: "confirm-domestic",
-    label: "Confirm with the Luxe team",
-    description: "Stock, delivery and a verified payment method will be confirmed on WhatsApp",
+    id: "online-domestic",
+    label: "Pay online",
+    description: "Card, bank transfer or USSD on a secure payment page",
     icon: CreditCard,
     scope: "domestic",
   },
   {
-    id: "confirm-international",
-    label: "Confirm with the Luxe team",
-    description: "International delivery and payment will be confirmed on WhatsApp",
+    id: "online-international",
+    label: "Pay online",
+    description: "Card payment on a secure payment page; international delivery is confirmed after you order",
     icon: Globe,
     scope: "international",
   },
@@ -93,8 +90,7 @@ export default function CheckoutPage() {
   const [state, setState] = useState("");
   const [intlCountry, setIntlCountry] = useState("");
   const [delivery, setDelivery] = useState("confirm-with-team");
-  const [payment, setPayment] = useState("confirm-domestic");
-  const [handoffReady, setHandoffReady] = useState(false);
+  const [payment, setPayment] = useState("online-domestic");
   const [conciergeReady, setConciergeReady] = useState(false);
   const [paying, setPaying] = useState(false);
   const [payError, setPayError] = useState("");
@@ -193,46 +189,6 @@ export default function CheckoutPage() {
     }
   }
 
-  function placeOrder() {
-    if (!validate()) {
-      // Scroll to first error region
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      return;
-    }
-    const lines = cart.map(
-      (item) =>
-        `- ${item.name} — ${item.color}, ${item.size}, qty ${item.quantity}: ${formatNaira(
-          item.price * item.quantity,
-        )}`,
-    );
-    const paymentLabel =
-      PAYMENT_OPTIONS.find((p) => p.id === payment)?.label ?? "Confirm with the Luxe team";
-    const destination = intl
-      ? `${address}, ${city}, ${intlCountry}`
-      : `${address}, ${city}, ${state}, Nigeria`;
-
-    openWhatsApp(
-      [
-        "Hello Luxe Universal Wears, I would like the team to review this website order request.",
-        "",
-        ...lines,
-        "",
-        `Items subtotal (delivery excluded): ${formatNaira(cartSubtotal)}`,
-        "Delivery cost and timing: To be confirmed by the Luxe team",
-        `Delivery preference: ${selectedDelivery?.label || "Confirm with the Luxe team"}`,
-        `Payment: ${paymentLabel}`,
-        "",
-        `Name: ${fullName}`,
-        `Phone: ${phone}`,
-        `Email: ${email}`,
-        `Destination: ${destination}`,
-        "",
-        "Please confirm stock, delivery cost and a verified payment method before I pay.",
-      ].join("\n"),
-    );
-    setHandoffReady(true);
-  }
-
   if (cart.length === 0) {
     return (
       <Container className="py-24 sm:py-32">
@@ -260,17 +216,17 @@ export default function CheckoutPage() {
 
   function selectRegion(nextInternational: boolean) {
     setIntl(nextInternational);
-    setPayment(nextInternational ? "confirm-international" : "confirm-domestic");
+    setPayment(nextInternational ? "online-international" : "online-domestic");
   }
 
   return (
     <Container className="py-14 sm:py-20">
       <div className="border-b border-sand pb-8">
-        <p className="eyebrow">Order Request</p>
-        <h1 className="mt-3 text-4xl text-ink sm:text-5xl">Prepare your order</h1>
+        <p className="eyebrow">Checkout</p>
+        <h1 className="mt-3 text-4xl text-ink sm:text-5xl">Complete your order</h1>
         <p className="mt-3 flex items-center gap-2 text-sm text-stone">
           <Lock size={14} className="text-blue-deep" />
-          Review your details, then send the request to the Luxe team in WhatsApp.
+          Enter your details, then pay securely online by card, bank transfer or USSD.
         </p>
       </div>
 
@@ -507,8 +463,8 @@ export default function CheckoutPage() {
             </div>
 
             <p className="mt-4 text-xs leading-relaxed text-mist">
-              This page does not take payment. The team must confirm stock, delivery and a real
-              payment method before you pay.
+              You pay for your items now on the secure payment page. Delivery is quoted by the
+              Luxe team and confirmed with you after you order.
             </p>
           </section>
         </div>
@@ -569,54 +525,34 @@ export default function CheckoutPage() {
               <span className="text-2xl text-ink">{formatNaira(cartSubtotal)}</span>
             </div>
 
-            {ONLINE_PAYMENT_ENABLED && (
-              <>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  onClick={() => void payOnline()}
-                  disabled={paying}
-                  className="mt-6 w-full"
-                >
-                  {paying ? "Preparing secure payment…" : "Pay Online"}
-                </Button>
-                <p className="mt-2 text-center text-xs leading-relaxed text-stone">
-                  Card, bank transfer or USSD on a secure payment page. Delivery cost is
-                  confirmed separately.
-                </p>
-                {payError && (
-                  <p className="mt-3 border border-red-500/30 bg-red-500/5 p-3 text-xs leading-relaxed text-red-700">
-                    {payError}
-                  </p>
-                )}
-                {conciergeReady && (
-                  <p className="mt-3 border border-emerald/30 bg-emerald/5 p-3 text-xs leading-relaxed text-emerald">
-                    Your order is with the Luxe Concierge in the chat at the corner of the page.
-                    Your cart stays here until the order is confirmed.
-                  </p>
-                )}
-              </>
-            )}
-
             <Button
-              variant={ONLINE_PAYMENT_ENABLED ? "outline" : "primary"}
+              variant="primary"
               size="lg"
-              onClick={placeOrder}
-              className={ONLINE_PAYMENT_ENABLED ? "mt-3 w-full" : "mt-6 w-full"}
+              onClick={() => void payOnline()}
+              disabled={paying}
+              className="mt-6 w-full"
             >
-              Continue Order in WhatsApp
+              {paying ? "Preparing secure payment…" : "Pay Online"}
             </Button>
-
-            {handoffReady && (
+            <p className="mt-2 text-center text-xs leading-relaxed text-stone">
+              Card, bank transfer or USSD on a secure payment page. Delivery cost is
+              confirmed separately.
+            </p>
+            {payError && (
+              <p className="mt-3 border border-red-500/30 bg-red-500/5 p-3 text-xs leading-relaxed text-red-700">
+                {payError}
+              </p>
+            )}
+            {conciergeReady && (
               <p className="mt-3 border border-emerald/30 bg-emerald/5 p-3 text-xs leading-relaxed text-emerald">
-                WhatsApp opened with your order request. Press Send there to deliver it. Your cart
-                remains here until the Luxe team confirms the order.
+                Your order is with the Luxe Concierge in the chat at the corner of the page.
+                Your cart stays here until the order is confirmed.
               </p>
             )}
 
             <p className="mt-4 flex items-center justify-center gap-2 text-xs text-stone">
               <ShieldCheck size={14} className="text-blue-deep" />
-              No payment is collected on this page
+              Payment is taken on a secure payment page, never on this site
             </p>
           </div>
         </aside>
