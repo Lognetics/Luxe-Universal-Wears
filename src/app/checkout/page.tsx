@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import {
@@ -73,6 +73,19 @@ const PAYMENT_OPTIONS: PaymentOption[] = [
   },
 ];
 
+const DETAILS_KEY = "luxe-checkout-details";
+
+type KeptDetails = {
+  email: string;
+  intl: boolean;
+  fullName: string;
+  phone: string;
+  address: string;
+  city: string;
+  state: string;
+  intlCountry: string;
+};
+
 function FieldError({ message }: { message?: string }) {
   return message ? <p className="mt-1.5 text-xs text-danger" data-field-error="">{message}</p> : null;
 }
@@ -110,6 +123,27 @@ function Checkout() {
   // here with ?payment=cancelled): say so, keep the bag, nothing charged.
   const params = useSearchParams();
   const cancelledOrder = params.get("payment") === "cancelled" ? params.get("order") || "" : null;
+  // The details are kept in this tab while the bag is open, so a customer
+  // back from a cancelled payment does not retype them, and the same details
+  // keep the same order (the bag's Idempotency-Key covers them).
+  useEffect(() => {
+    try {
+      const kept = JSON.parse(window.sessionStorage.getItem(DETAILS_KEY) || "null") as KeptDetails | null;
+      if (!kept) return;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- restoring the tab's own copy once, after hydration
+      setEmailInput(kept.email || null);
+      setIntl(Boolean(kept.intl));
+      setFullName(kept.fullName || "");
+      setPhone(kept.phone || "");
+      setAddress(kept.address || "");
+      setCity(kept.city || "");
+      setState(kept.state || "");
+      setIntlCountry(kept.intlCountry || "");
+      setPayment(kept.intl ? "online-international" : "online-domestic");
+    } catch {
+      // Nothing kept, or storage blocked: the form starts empty.
+    }
+  }, []);
 
   const availablePayments = useMemo(
     () => PAYMENT_OPTIONS.filter((p) => p.scope === (intl ? "international" : "domestic")),
@@ -172,6 +206,12 @@ function Checkout() {
     const destination = intl
       ? `${address}, ${city}, ${intlCountry}`
       : `${address}, ${city}, ${state}, Nigeria`;
+    try {
+      const kept: KeptDetails = { email, intl, fullName, phone, address, city, state, intlCountry };
+      window.sessionStorage.setItem(DETAILS_KEY, JSON.stringify(kept));
+    } catch {
+      // Storage blocked: the details are simply not kept.
+    }
     setPaying(true);
     setPayError("");
     try {

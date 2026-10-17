@@ -38,7 +38,14 @@ function CheckoutSuccess() {
     }
   }, [cart.length, clearCart]);
   // The bag is paid for: the next bag is a new order.
-  useEffect(() => forgetBagId(), []);
+  useEffect(() => {
+    forgetBagId();
+    try {
+      window.sessionStorage.removeItem("luxe-checkout-details");
+    } catch {
+      // Nothing kept.
+    }
+  }, []);
 
   return (
     <Container className="py-24 sm:py-32">
